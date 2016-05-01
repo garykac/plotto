@@ -699,13 +699,13 @@ the C Clause numbers in the Classification by Symbols.
 (16) Being delivered from misfortune by one who, in confidence, confesses a secret of transgression,
 (17) Bearing patiently with misfortunes and seeking to attain cherished aims honorably,
 (18) Rebelling against a power that controls personal abilities and holds them in subjection.
-(19) Meeting with rnisfortune and being cast away in a primitive, isolated and savage environment,
+(19) Meeting with misfortune and being cast away in a primitive, isolated and savage environment,
 (20) Becoming involved with conditions in which misfortune is indicated,
 
 (21) Falling into misfortune through mistaken judgment,
-(22) "Following a wrong course through mistaken judgment,
+(22) Following a wrong course through mistaken judgment,
 (23) Becoming involved in a complication that has to do with mistaken judgment and suspicion,
-(24) Becorning the victim of mistaken judgment in carrying out an enterprise,
+(24) Becoming the victim of mistaken judgment in carrying out an enterprise,
 
 (25) Seeking to save a person who is accused of transgression,
 (26) Seeking secretly to preserve another from danger,
@@ -727,7 +727,7 @@ the C Clause numbers in the Classification by Symbols.
 (39) Forsaking cherished ambitions to carry out an obligation,
 (40) Embarking upon an enterprise in which one obligation is opposed by another obligation.
 (41) Finding an obligation at variance with ambition, inclination or necessity,
-(42) Falling into misiortune while seeking honorably to discharge an obligation,
+(42) Falling into misfortune while seeking honorably to discharge an obligation,
 
 (43) Seeking to overcome personal limitations in carrying out an enterprise,
 (44) Seeking by unusual methods to conquer personal limitations.
@@ -749,10 +749,10 @@ the C Clause numbers in the Classification by Symbols.
 (56) Seeking to test the value of a mysterious communication and becoming involved in weird complexities,
 (57) Seeking to unravel a puzzling complication,
 (58) Engaging in an enterprise and then mysteriously disappearing,
-(59) Engaging in an enterprise and becoming involved with the occuh and the fantastic.
+(59) Engaging in an mysterious enterprise and becoming involved with the occult and the fantastic.
 (60) Becoming involved, through curiosity aroused by mystery, in a strange enterprise.
 
-(61) Becoming aware oi an important secret that calls for decisive action,
+(61) Becoming aware of an important secret that calls for decisive action,
 
 (62) Becoming involved in any sort of complication,
 
@@ -943,7 +943,7 @@ X added to any character gives to the character a suggestion of mystery.
 
 -- page 18
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{1}
 
@@ -1144,8 +1144,7 @@ B, who is unworthy, finds that she has won the love of worthy A * B. unworthy,
 seeks to have her lover. A, transfer his affections to B-3, who is worthy ** (263) (324)
 
 
-
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{12}
 
@@ -1200,8 +1199,7 @@ B, plain and humble "slavey," secretly adores A * A does not dream that humble B
 is in love with him ** (87) (270)
 
 
-
-(2) Falling in Love at a- Time When Certain Obligations Forbid Love
+B{2} Falling in Love at a Time When Certain Obligations Forbid Love
 
 Conflict{16}
 
@@ -1234,7 +1232,7 @@ wife whom he considers it his duty to care for (417) (557 ch B to B-3)
 
 -- page 22
 
-(41) Finding an Obligation at Variance With Ambition, Inclination or Necessity
+B{41} Finding an Obligation at Variance With Ambition, Inclination or Necessity
 
 Conflict{19}
 
@@ -1265,8 +1263,7 @@ deceased father, F-B * A and B, during their meetings as lawyer and client, fall
 in love ** (107) (69)
 
 
-
-(23) Becoming Involved in a Complication That Has to do With Mistaken Judgment and Suspicion
+B{23} Becoming Involved in a Complication That Has to do With Mistaken Judgment and Suspicion
 
 Conflict{21}
 
@@ -1302,7 +1299,7 @@ A, wealthy and of high social position, falls in love with humble B (228) (358)
 
 -- page 23
 
-(20) Becoming Involved With Conditions in Which Misfortune is Indicated
+B{20} Becoming Involved With Conditions in Which Misfortune is Indicated
 
 Conflict{24}
 
@@ -1328,21 +1325,17 @@ the hand's shapeliness and beauty, falls in love with the owner, B (27) (2c)
 Conflict{25}
 
 (101b) (24b)
-
 A, falling in love with B (32) (38), whom he does not know, seeks an introduction
-
 (139) (36)
 
 Conflict{26}
 
 (a) (169 tr A & A-2) (6a. b; ch B to B-3)
-
 A and B have never seen each other; but. through their fathers, F-A and F-B. who
 are old friends, it is arranged that A and B shall meet and marry (117 ch BX to B)
 (118)
 
 (b) (72) (1183 ch SR to B)
-
 A and B have never seen each other; but they correspond, and through their correspondence become betrothed (1461c) (31)
 
 Conflict{27}
@@ -1357,7 +1350,6 @@ B, very ill and under the doctor's care, fancies herself in love with the doctor
 (162a) (1462)
 
 (b) (688) (148 tr A & B)
-
 B, suffering misfortune with A, fancies herself in love with him (307) (147)
 
 Conflict{29}
@@ -1429,7 +1421,7 @@ B, unmarried, cherishes motherhood as her ideal (Q8) (90a; 60) (84)
 
 -- page 25
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{40}
 
@@ -1660,7 +1652,7 @@ B out and bluntly tells her of her egotistical self-deception (1067) (679) (88)
 
 -- page 28
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{66}
 
@@ -1913,7 +1905,7 @@ B will lose her lover. A, if she allows A to proceed with an enterprise (225) (1
 (1201) (1267a) (1278a) instigated by herself. To avoid losing A, B defeats
 the enterprise by making a confessioti (50)
 
-(13) Seeking "by Craftiness to Escape Misfortune
+B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{96}
 
@@ -1922,8 +1914,8 @@ A betrays B and does not marry her as he promised (60) (68) (98) (188b ch
 A to A-8)
 
 Conflict{97}
-(260a) (280a) (284)
 
+(260a) (280a) (284)
 A, in love with B, seeks to save B, by secret enterprise and at any cost from threatening misfortune (236) (267) (351a)
 
 Conflict{98}
@@ -1979,8 +1971,7 @@ if she loses the contest, she wins A, a poor lover whom she does love (356) (239
 (933) (355)
 
 
-
-(10) Suffering an Estrangement Due to Mistaken Judgment
+B{10} Suffering an Estrangement Due to Mistaken Judgment
 
 Conflict{105}
 
@@ -1988,8 +1979,7 @@ Conflict{105}
 A believes that his sweetheart, B, is dead; and B, at a distance, learns of this mistaken belief on A's part (82a) (162a) (357)
 
 
-
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{106}
 
@@ -2004,7 +1994,7 @@ Conflict{107}
 (131) (85a) (156)
 A's little world seems to crumble about his ears when he fancies that his sweetheart, B, is false to him * A, discovering that B is still true to him, undergoes a
 character transformation; pep, persistency and eloquence return, and lead him to
-" success and happiness ** (360a) (369) (370)
+success and happiness ** (360a) (369) (370)
 
 Conflict{108}
 
@@ -2022,7 +2012,7 @@ to reach the island where great treasure is buried (1394) (1369) (1403) (1436)
 (1406; 1408) (13S3). And he recovers the treasure (360a) (963; 907)
 
 
-(1) Engaging in a Difficult Enterprise When Promised a Reward for High Achievement
+B{1} Engaging in a Difficult Enterprise When Promised a Reward for High Achievement
 
 Conflict{110}
 
@@ -2067,7 +2057,7 @@ B is in love with A; but, before she will promise to marry him, she stipulates t
 he must do big work, wonderfully big work (1093; 1098) (1073)
 
 
-(9) Being Put to a Test in Which Love Will be Lost if More Material Fortunes are Advanced
+B{9} Being Put to a Test in Which Love Will be Lost if More Material Fortunes are Advanced
 
 Conflict{116}
 
@@ -2076,7 +2066,7 @@ A loses wealth by marrying B against the wishes of a rich relative, who disinher
 him (363a) (366)
 
 
-(8) Confronting a Situation in Which Wealth is Made Conditional Upon a Certain Course of Action in a Love Aflfair
+B{8} Confronting a Situation in Which Wealth is Made Conditional Upon a Certain Course of Action in a Love Aflfair
 
 Conflict{117}
 
@@ -2092,7 +2082,7 @@ act which will prove a grievous injury to F-B (276 ch F-A to GF-A), father of B,
 the wom.an A loves (116) (116; 1041 ch A to GF-A)
 
 
-(2) Falling in Love at a Time When Certain Obligations Forbid Love
+B{2} Falling in Love at a Time When Certain Obligations Forbid Love
 
 Conflict{119}
 
@@ -2113,7 +2103,7 @@ B, unmarried, seeks motherhood because of a lofty ideal that does not shrink fro
 public censure (945) (946)
 
 
-(25) Seeking to Save a Person Who is Accused of Transgression
+B{25} Seeking to Save a Person Who is Accused of Transgression
 
 Conflict{122}
 
@@ -2123,7 +2113,7 @@ from arrest (80a, b) (147)
 
 -- page 34
 
-(39) Forsaking Cherished Ambitions to Carry Out an Obligation
+B{39} Forsaking Cherished Ambitions to Carry Out an Obligation
 
 Conflict{123}
 
@@ -2139,8 +2129,7 @@ she dearly loves him * B suffers rem.orse after rejecting A's love ** (11a ch B 
 & M-B to B) (lib, c) (326-1) (251) (268) (325)
 
 
-
-(28) Facing a Situation in Which the Misfortunes of One Greatly Esteemed Call for Courage and Sagacious Enterprise
+B{28} Facing a Situation in Which the Misfortunes of One Greatly Esteemed Call for Courage and Sagacious Enterprise
 
 Conflict{125}
 
@@ -2165,7 +2154,7 @@ B, sweetheart of A, persuades A to seek wealth by transgression (628) (628 ch B
 to B-3) (637) (296) (701)
 
 
-(41) Finding an Obligation at Variance With Ambition, Inclination or Necessity
+B{41} Finding an Obligation at Variance With Ambition, Inclination or Necessity
 
 Conflict{127}
 
@@ -2306,7 +2295,7 @@ B loves A; but A's rival, A-3, makes a captive of B (81 tr A & A-3) and intends
 compelling her to marry him (352b) (851) (884a ch A to B & A-5 to A-3)
 
 
-(29) Aiding Another to Hide from the World a Fateful Secret
+B{29} Aiding Another to Hide from the World a Fateful Secret
 
 Conflict{147}
 
@@ -2315,7 +2304,7 @@ B shares with her sweetheart, A, an important secret which, if revealed, would
 bring misfortune to B (224 tr B & A) (596) (1408) (1409) (660b)
 
 
-(4) Being Impelled by Inordinate Fancy to Exercise Mistaken Judgment in a Love Affair
+B{4} Being Impelled by Inordinate Fancy to Exercise Mistaken Judgment in a Love Affair
 
 Conflict{148}
 
@@ -2343,7 +2332,7 @@ A, fancying himself in love with B, corrects the error when his fancy is discred
 (314) (865) (880a)
 
 
-(36) Undergoing an Experience that Results in a Remarkable Character Change
+B{36} Undergoing an Experience that Results in a Remarkable Character Change
 
 Conflict{152}
 
@@ -2357,7 +2346,7 @@ confederate of A-5, a crook, falls in love with her employer, A ** (144) (616)
 
 -- page 37
 
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{153}
 
@@ -2477,7 +2466,7 @@ B, failing miserably in her chosen line of work, takes "the easier way" and beco
 the mistress of A (279) (359) (743a)
 
 
-(5) Becoming Involved in a Hopeless love Affair, and Seeking to make the best of a Disheartening Situation
+B{5} Becoming Involved in a Hopeless love Affair, and Seeking to make the best of a Disheartening Situation
 
 Conflict{168}
 
@@ -2522,7 +2511,7 @@ odd conviction thp.t the same misfortune will befall any other woman who wears t
 ornament (238) (849; 1245)
 
 
-(57) Seeking to Unravel a Puzzling Complication
+B{57} Seeking to Unravel a Puzzling Complication
 
 Conflict{174}
 
@@ -2531,7 +2520,7 @@ A and A-3, rivals in love, agree to meet at a certain hour, call on B, and ask h
 to choose between them (183) (810a; 1265b)
 
 
-(3) Seeking to Demonstrate the Pow er of Love by a Test of Courage
+B{3} Seeking to Demonstrate the Power of Love by a Test of Courage
 
 Conflict{175}
 
@@ -2552,7 +2541,7 @@ B promises A that she will marry him if he will successfully carry out a difficu
 enterprise (212a, b)
 
 
-(23) Becoming Involved in a Complication That Has to do With Mistaken Judgment and Suspicion
+B{23} Becoming Involved in a Complication That Has to do With Mistaken Judgment and Suspicion
 
 Conflict{177}
 
@@ -2570,7 +2559,7 @@ and apply for the position of butler (70; 352a) (702 ch A to F-B; 1164 ch A to
 F-B & A-8 to A)
 
 
-(11) Confronting a Situation in Which Courage and Devotion Alone Can Save the Fortunes of One Beloved
+B{11} Confronting a Situation in Which Courage and Devotion Alone Can Save the Fortunes of One Beloved
 
 Conflict{179}
 
@@ -2615,7 +2604,7 @@ flees with them when they effect their escape (157 ch A-3 to A-4) (1395)
 
 -- page 41
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{182}
 
@@ -2642,7 +2631,7 @@ B takes the opposite meaning of an ambiguous sentence and accepts A's statement
 (196) (288) as a proposal of marriage (65) (307)
 
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{185}
 
@@ -2691,7 +2680,7 @@ B, not in love with A, for certain reasons proposes to A, not in love with B (23
 
 -- page 42
 
-(44) Seeking by Unusual Methods to Conquer Personal Limitations
+B{44} Seeking by Unusual Methods to Conquer Personal Limitations
 
 Conflict{191}
 
@@ -2735,7 +2724,7 @@ to see her lover, and scarcely able to hear him, she nevertheless accepts — an
 with a disagreeable surprise (182a) (lS2b tr B & B-3)
 
 
-(20) Becoming Involved With Conditions in Which Misfortune is Indicated
+B{20} Becoming Involved With Conditions in Which Misfortune is Indicated
 
 Conflict{196}
 
@@ -2795,7 +2784,7 @@ A is absent-m.inded * A asks B to marry him and forgets that he has done so **
 
 -- page 44
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{205}
 
@@ -2987,7 +2976,7 @@ B, of an inferior race, in seeking to win the love of A, of a superior lace, lea
 how hopeless is the task of challenging racial conventions (241) (247) (248)
 
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{230}
 
@@ -3094,7 +3083,7 @@ B, in love with A. rejerts nis love when she learns that he jilted B-2 (277) B's
 dearest friend, to pay attentions to her (251) (325)
 
 
-(13) Seeking by Craftiness to Escape Misfortune
+B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{244}
 (687) (688) (937) (942)
@@ -3172,7 +3161,7 @@ B, although she loves A, realizes that she is not the intellectual equal of A, a
 that their marriage would prove a hindrance to him (358) (367b) (680a; 361a, b)
 
 
-(22) Following a Wrong Course through Mistaken Judgment
+B{22} Following a Wrong Course through Mistaken Judgment
 
 Conflict{255}
 
@@ -3256,7 +3245,7 @@ B, in desperation and out of her great love, proposes marriage to A, and is reje
 
 -- page 50
 
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{265}
 
@@ -3300,7 +3289,7 @@ B still finds her happiness in the great, unselfish love she still has for him (
 tr B & B-3; 367b) (555b tr B & B-3) (368e tr B & B-3)
 
 
-(2) Falling in Love at a Time when Certain Obligations Forbid Love
+B{2} Falling in Love at a Time when Certain Obligations Forbid Love
 
 Conflict{271}
 
@@ -3362,7 +3351,7 @@ a solitary spot where she seeks to do penance and obtain a spiritual victory ove
 her evil nature (321) (945) (946) (956)
 
 
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{280}
 
@@ -3390,7 +3379,7 @@ of monev (1354b) (1394) * A renounces his love for B and seeks to win wealthy
 B-3 ** (287) (324)
 
 
-(39) Forsaking Cherished Ambitions to Carry out an Obligation
+B{39} Forsaking Cherished Ambitions to Carry out an Obligation
 
 Conflict{282}
 
@@ -3430,8 +3419,7 @@ governed by filip.l duty when her parents, F-B and M-B, order her to have nothin
 to do with A, the man she loves ♦* (284) (26 n (325)
 
 
-
-(40) Embarking upon an Enterprise in which One Obligation is Opposed by Another Obligation
+B{40} Embarking upon an Enterprise in which One Obligation is Opposed by Another Obligation
 
 Conflict{287}
 
@@ -3465,8 +3453,7 @@ B, accustomed to luxury, shrinks from the idea of poverty, even with love (134a,
 (239 ch A to A-3) (253 ch A to A-3) (341)
 
 
-
-(35) Becoming Involved in a Complication that Challenges the Value of Cherished Ideals
+B{35} Becoming Involved in a Complication that Challenges the Value of Cherished Ideals
 
 Conflict{292}
 
@@ -3483,7 +3470,7 @@ hates the aristocracy (232) (283) (336b)
 
 -- page 53
 
-(41) Finding an Obligation at Variance With Ambition, Inclination or Necessity
+B{41} Finding an Obligation at Variance With Ambition, Inclination or Necessity
 
 Conflict{294}
 
@@ -3638,7 +3625,7 @@ before her which marriage would render impossible (335) (1119)
 
 -- page 55
 
-(5) Becoming Involved in a Hopeless Love Affair, and Seeking to Make the Best of a Disheartening Situation
+B{5} Becoming Involved in a Hopeless Love Affair, and Seeking to Make the Best of a Disheartening Situation
 
 Conflict{313}
 
@@ -3663,7 +3650,6 @@ Conflict{316}
 
 (146) (308a) (40b)
 A, when B fails to keep a tryst with him. considers the failure a rejection of love
-
 (341) (360a)
 
 Conflict{317}
@@ -3675,7 +3661,6 @@ Conflict{318}
 
 (284) (291)
 A sees in a newspaper the announcement of the engagement of B, the woman he
-
 loves, to A-3 (280a; 97) (236)
 
 Conflict{319}
@@ -3749,7 +3734,7 @@ B loves A; and A, who is kind to B but not in love with her, does not even suspe
 that he is the object of her affections (270) (264)
 
 
-(23) Becoming Involved in a Complication that has to do with Mistaken Judgment and Suspicion
+B{23} Becoming Involved in a Complication that has to do with Mistaken Judgment and Suspicion
 
 Conflict{328}
 
@@ -3776,7 +3761,7 @@ proves her charm and worth to A's father, F-A, and he withdraws his objections
 to her marriage with A ** (330a; 135) (347b)
 
 
-(6) Challenging, in a Quest of Love, the Relentless Truth that "East is East, and West is West, and never the twain shall meet"
+B{6} Challenging, in a Quest of Love, the Relentless Truth that "East is East, and West is West, and never the twain shall meet"
 
 Conflict{331}
 
@@ -3791,7 +3776,7 @@ B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom s
 is in love (323) (324) (327b)
 
 
-(7) Becoming Involved in a Love Affair that Encounters Unforeseen Obstacles
+B{7} Becoming Involved in a Love Affair that Encounters Unforeseen Obstacles
 
 Conflict{333}
 
@@ -3836,7 +3821,7 @@ his high estate an obstacle to their love (340) (983 ch A-8 to F-B)
 B, a white woman, is in love with A, also white. B-3, a woman of alien race, seeks
 to win A away from B (238) (688; 31; 244 ch B to B-3)
 
-(12) Falling into Misfortune through Disloyalty in Love
+B{12} Falling into Misfortune through Disloyalty in Love
 
 Conflict{337}
 
@@ -3874,7 +3859,7 @@ rich, B is plunged into unhappiness (373) (376) (393)
 
 -- page 58
 
-(21) Falling into Misfortune through Mistaken Judgment
+B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{342}
 
@@ -3912,7 +3897,7 @@ is engaged to marry B-3, a girl of his own people * A, telling B of an inferior 
 who is in love with him, that he is going away but will soon return, never returns,
 but marries B 3, a girl of his own people ** (261) (264) (323) (325)
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{347}
 
@@ -4031,7 +4016,7 @@ B, unworthy, wins the love of worthy A; and B, by pretjsnding to be worthy, pres
 (401)
 
 
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{360}
 
@@ -4099,7 +4084,7 @@ into love; and. when A is sure he has rehabilitated his character, he proposes m
 
 -- page 61
 
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{365}
 
@@ -4163,7 +4148,7 @@ whom he has long loved ** (241 ch B to B-3) (254 ch B to B-3) (307 ch B to B-3)
 
 -- page 62
 
-(2l) Falling into Misfortune through Mistaken Judgment
+B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{369}
 
@@ -4230,7 +4215,6 @@ heir to a large estate **** (388) (638)
 Conflict{378}
 
 (59) (234a)
-
 A, marrying a widow. B, discovers that he has "caught a tartar" and has wedded a
 domestic tyrant (417) (473) (480)
 
@@ -4531,7 +4515,7 @@ to find peace and contentment * B has an experience with A-3 which proves to her
 that running away from, her husband, A, was a mistake ** (483b) (507b) (583b)
 
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{419}
 
@@ -4847,7 +4831,7 @@ is immured in an insane asylum, and A inherits the money belonging to B **♦*
 (732) (1447a tr A & A-8) (1461a)
 
 
-(13) Seeking by Craftiness to Escape Misfortune
+B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{457}
 
@@ -4957,7 +4941,7 @@ B seeks to escape from her tyrannical husband. A, by running away (400) (418)
 (451) (743b)
 
 
-(14) Falling into Misfortune through the Wiles of a Crafty Schemer
+B{14} Falling into Misfortune through the Wiles of a Crafty Schemer
 
 Conflict{471}
 
@@ -5055,7 +5039,7 @@ ch B to B-8)
 B, wife of A, is bv subtlity made a prisoner by A-3, a rejected lover, in his apartment (411b) (5i9b)
 
 
-(22) Following a Wrong Course through Mistaken Judgment
+B{22} Following a Wrong Course through Mistaken Judgment
 
 Conflict{484}
 
@@ -5106,7 +5090,6 @@ Conflict{489}
 
 (486a) (472)
 A begins divorce proceedings againstliis wife, B * A seeks to divorce B, thinking
-
 to find happiness in a new love ** (496a) (556) (886; 563a)
 
 Conflict{490}
@@ -5167,7 +5150,7 @@ B, wife of A, falls in love with young and reckless A-3 (503b) (505-*) (507a, b)
 
 -- page 75
 
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{496}
 
@@ -5286,8 +5269,7 @@ B, married to A, elopes with A-3 * B's love for her child, CH, left with her hus
 A, when she deserted him, draws her back to CH and A ** (568c, d)
 
 
-
-(39) Forsaking Cherished Ambitions in order to Carry out an Obligation
+B{39} Forsaking Cherished Ambitions in order to Carry out an Obligation
 
 Conflict{508}
 
@@ -5349,7 +5331,7 @@ sacrifises her life at the hands of her husband. A, in order to save their son, 
 who is falsely accused of transgression by A, the real transgressor.
 
 
-(40) Embarking upon an Enterprise in which one Obligation is Opposed by Another ObUgation
+B{40} Embarking upon an Enterprise in which one Obligation is Opposed by Another ObUgation
 
 Conflict{517}
 
@@ -5385,7 +5367,7 @@ man's wife *** (535-* ch B to B-3, A to A-8 & A-3 to A) (1204 ch B to B-3) (115)
 ch B to B-3)
 
 
-(41) Finding an Obligation at Variance with Ambition, Inclination or Necessity
+B{41} Finding an Obligation at Variance with Ambition, Inclination or Necessity
 
 Conflict{521}
 
@@ -5516,7 +5498,7 @@ him, hiding A-3's identity under a fictitious name. But it is enough. A-3 sneaks
 away, and B never sees him again ** (391 tr A & B & ch B-3 to A-3) (396)
 
 
-(29) Aiding Another to Hide from the World a Fateful Secret
+B{29} Aiding Another to Hide from the World a Fateful Secret
 
 Conflict{537}
 
@@ -5528,7 +5510,7 @@ spotless reputation and happily married ** (520) (667 ch B to B-3) (535 ch B
 to B-3, A to A-8 & A-3 to A) (1070 ch B to B-3)
 
 
-(23) Becoming Involved in a Complication that has to do with Mistaken Judgment and Suspicion
+B{23} Becoming Involved in a Complication that has to do with Mistaken Judgment and Suspicion
 
 Conflict{538}
 
@@ -5583,8 +5565,7 @@ B labors under the mistaken belief that her husband. A, receives all the praise 
 her own kindly acts (457) (646; 594d) (644; 594d) (572; 573b) (540; 506a. b)
 
 
-
-(11) Confronting a Situation in which Courage and Devotion Alone can save the Fortunes of One Beloved
+B{11} Confronting a Situation in which Courage and Devotion Alone can save the Fortunes of One Beloved
 
 Conflict{545}
 
@@ -5606,7 +5587,7 @@ whereby A's sight is restored ** (489) (581) (933)
 
 -- page 81
 
-(12) Falling into Misfortune through Disloyalty in Love
+B{12} Falling into Misfortune through Disloyalty in Love
 
 Conflict{547}
 
@@ -5692,7 +5673,7 @@ B and A-3, and B suffers remorse ** (665) (669) (738) (743b) (946) (956)
 friend, A-2 * B, wife of A, and A-2 with whom B is eloping, meet death in an automobile accident **
 
 
-(26) Seeking Secretly to Preserve Another from Danger
+B{26} Seeking Secretly to Preserve Another from Danger
 
 Conflict{558}
 
@@ -5713,8 +5694,7 @@ consider an elopement, or to be a party to any sort of intrigue ** (403 *-**) (4
 (568d)
 
 
-
-(57) Seeking to Unravel a Puzzling Complication
+B{57} Seeking to Unravel a Puzzling Complication
 
 Conflict{560}
 
@@ -5739,8 +5719,7 @@ mails, "poison pen" letters (564b-*) regarding his wife, B *** (377a) (396) (397
 (398b)
 
 
-
-(37) Seeking Against Diflficulties to Realize a Cherished Ideal
+B{37} Seeking Against Difficulties to Realize a Cherished Ideal
 
 Conflict{563}
 
@@ -5791,8 +5770,7 @@ a transgression * B pretends to be a shoplifter, but has honestly purchased the
 goods which her horrified husband. A, finds in her possession ** (504a) (1050)
 
 
-
-(46) Seeking Retaliation for a Grievous Wrong that is Either Real or Fancied
+B{46} Seeking Retaliation for a Grievous Wrong that is Either Real or Fancied
 
 Conflict{567}
 
@@ -5839,7 +5817,7 @@ of her father, A, away from her ** (909 ch BR-B to SM-B) (933)
 
 -- page 84
 
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{571}
 
@@ -6062,7 +6040,7 @@ married and estranged from each other, discovers herself to be in love with A-2 
 
 -- page 87
 
-(21) Falling into Misfortune through Mistaken Judgment
+B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{595}
 
@@ -6477,8 +6455,7 @@ B, sister of BR-B, in order to prevent BR-B from bringing dishonor to their fami
 unintentionally causes his death (746) (909)
 
 
-
-(13) Seeking by Craftiness to Escape Misfortune
+B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{650}
 
@@ -6561,7 +6538,7 @@ to do something, anything, to raise money to help her mother, M-B *** (88) (253)
 (368b) (1293b, c)
 
 
-(14) Falling into Misfortune through the Wiles of a Crafty Schemer
+B{14} Falling into Misfortune through the Wiles of a Crafty Schemer
 
 Conflict{660}
 
@@ -6620,8 +6597,7 @@ fortune in jewels in the safe * Crooks, led by A-5, threaten B with violence in 
 attempt to force her to open the safe ** (144) (885a)
 
 
-
-(29) Aiding Another to Hide from the World a Fateful Secret
+B{29} Aiding Another to Hide from the World a Fateful Secret
 
 Conflict{667}
 
@@ -6652,8 +6628,7 @@ her mother, M-B, hide from the world a terrible secret ** (33) (659) (720 ch
 A to B)
 
 
-
-(26) Seeking Secretly to Preserve Another from Danger
+B{26} Seeking Secretly to Preserve Another from Danger
 
 Conflict{671}
 
@@ -6680,8 +6655,7 @@ seeks to rescue B from her misfortunes ** (817) (869) (1209a)
 
 -- page 95
 
-(18) Rebelling against a Power that Controls Personal Abilities
-and Holds them in Subjection
+B{18} Rebelling against a Power that Controls Personal Abilities and Holds them in Subjection
 
 Conflict{674}
 
@@ -6724,8 +6698,7 @@ against A's method of appropriating as his own the brilliant achievements which
 B accomplishes at his command ** (616) (677)
 
 
-
-(36) Undergoing an Experience which Results in a Remarkable Character Change
+B{36} Undergoing an Experience which Results in a Remarkable Character Change
 
 Conflict{680}
 
@@ -6775,8 +6748,7 @@ to disclose his identity to his daughter, B, and shambles away as an Unknown,
 leaving B happy with her mistaken ideals *** (922a) (681b)
 
 
-
-(19) Meeting with Misfortune, and Being Cast Away in a Primitive, Isolated, and Savage Environment
+B{19} Meeting with Misfortune and Being Cast Away in a Primitive, Isolated, and Savage Environment
 
 Conflict{685}
 
@@ -6842,8 +6814,7 @@ B is riding alone through a wilderness country * B, riding alone through a wilde
 away, and B is left helpless in an uninhabited region ** (31) (179a, c) (885a-*)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{695}
 
@@ -6950,7 +6921,6 @@ his life work * A's life work is threatened with destruction by a mob during a p
 Conflict{707}
 
 (610) (866)
-
 A asks A-4, a stranger, to remove a pair of handcuffs from his wrists (1066) (1311
 ch A to A-4 & A-3 to A)
 
@@ -7273,7 +7243,7 @@ is discovered to have been insane — a condition caused by a great sorrow (766)
 
 -- page 103
 
-(21) Falling into Misfortune through INIistaken Judgment
+B{21} Falling into Misfortune through INIistaken Judgment
 
 Conflict{747}
 
@@ -7424,7 +7394,7 @@ worth ** (642**-***) (918b ch A to B)
 
 -- page 105
 
-(22) Following a Wrong Course through Mistanen Judgment
+B{22} Following a Wrong Course through Mistanen Judgment
 
 Conflict{768}
 
@@ -7562,8 +7532,7 @@ a move which B knows will have unhappy consequences, but B cannot persuade
 M-B against it **(420 ch B to M-B ; 453 ch B to M-B) (892 ch B-3 to A & B to M-B)
 
 
-
-(23) Becoming Involved in a Complication that has to do with Mistaken Judgment and Suspicion
+B{23} Becoming Involved in a Complication that has to do with Mistaken Judgment and Suspicion
 
 Conflict{786}
 
@@ -7626,8 +7595,7 @@ in an unusual manner to another door; and B-8, occupant of the other room, is
 found to have been murdered (645) (1204**-***)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{793}
 
@@ -7642,8 +7610,7 @@ obliging his friend, A-2, by taking charge of some secret docurnents, is arreste
 and accused on the strength of the documents, of having a part in a criminal conspiracy ** (108) (715c)
 
 
-
-(24) Becoming the Victim of Mistaken Judgment in Carrying out an Enterprise
+B{24} Becoming the Victim of Mistaken Judgment in Carrying out an Enterprise
 
 Conflict{794}
 
@@ -7698,8 +7665,7 @@ B wins the respect and protection of A * B reveals herself to A in the character
 a transgressor ** (45a) (61) (69) (147) (648) (665)
 
 
-
-(61) Becoming Aware of an Important Secret that Calls for Decisive Action
+B{61} Becoming Aware of an Important Secret that Calls for Decisive Action
 
 Conflict{802}
 
@@ -7724,7 +7690,7 @@ is in reality genuine and immensely valuable (792a) (1166 ch A to A-8)
 
 -- page 109
 
-(21) Falling into Misfortune through IVIistaken Judgment
+B{21} Falling into Misfortune through IVIistaken Judgment
 
 Conflict{804}
 
@@ -7800,8 +7766,7 @@ befriending a needy stranger, A-4, becomes involved in an unpleasant complicatio
 B's father, F-B, fails in his attempt to subdue and control A, a "wild" and unmanageable youth left in his charge * B, when her father, F-B, fails in an enterprise, takes the enterprise off his hands ** (22a) (115) (367a)
 
 
-
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{813}
 
@@ -7816,8 +7781,7 @@ A succeeds in an enterprise secretly devised by B as a test for his abilities (2
 (367b)
 
 
-
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{815}
 
@@ -7884,8 +7848,7 @@ to save his friend B from disgrace, destroys a letter that would have proved B's
 husband, A-5, a defaulter and a suicide, "blows" a safe and pretends to have committed a robbery *** (1075b; 918b) (922a) (952)
 
 
-
-(25) Seeking to Save a Person who is Accused of Transgression
+B{25} Seeking to Save a Person who is Accused of Transgression
 
 Conflict{820}
 
@@ -7915,8 +7878,7 @@ A-3); and A, by subtlity, takes A-2's place in the prison cell and dies in his s
 (876a)
 
 
-
-(27) Refusing to Betray Another's Secret and Calmly Facing Persecution Because of the Refusal
+B{27} Refusing to Betray Another's Secret and Calmly Facing Persecution Because of the Refusal
 
 Conflict{824}
 
@@ -7925,8 +7887,7 @@ A is a prisoner of A-6, and A-6 seeks to secure from A information inimical to B
 (878c) (943b)
 
 
-
-(26) Seeking Secretly to Preserve Another from Danger
+B{26} Seeking Secretly to Preserve Another from Danger
 
 Conflict{825}
 
@@ -7975,8 +7936,7 @@ of which he has swindled A's friend, A-2 ** (1323c-2 ch A to A-5 & A-8 to A) (13
 ch A-8 to A-5)
 
 
-
-(16) Being Delivered from Misfortune by One who in Confidence Confesses a Secret of Transgression
+B{16} Being Delivered from Misfortune by One who in Confidence Confesses a Secret of Transgression
 
 Conflict{831}
 
@@ -7994,8 +7954,7 @@ on his feet and repays the loan * A tells his friend, A-2, that he has stolen mo
 from A-9 in order to help A-2 ** (601; 631) (601; 654; 628) (730 ch A-3 to A-2)
 
 
-
-(57) Seeking to Unravel a Puzzling Complication
+B{57} Seeking to Unravel a Puzzling Complication
 
 Conflict{833}
 
@@ -8003,8 +7962,7 @@ Conflict{833}
 A sifts the circumstantial evidence of a crime in an attempt to discover the perpetrator (1371) (1413a) (1449)
 
 
-
-(53) Opposing the Plans of a Crafty Schemer
+B{53} Opposing the Plans of a Crafty Schemer
 
 Conflict{834}
 
@@ -8013,8 +7971,7 @@ A, becoming secretly aware of the plans for a holdup, endeavors to prevent it
 (865 ch A to A-8 & A-2 to A) (1227a)
 
 
-
-(43) Seeking to Overcome Personal Limitations in Carrying Out an Enterprise
+B{43} Seeking to Overcome Personal Limitations in Carrying Out an Enterprise
 
 Conflict{835}
 
@@ -8024,7 +7981,7 @@ A, by chance, overhears a conversation that gives him material for a literary ma
 
 -- page 113
 
-(28) Facing a Situation in which the Misfortunes of One Greatly Esteemed Call for Courage and Sagacious Enterprise
+B{28} Facing a Situation in which the Misfortunes of One Greatly Esteemed Call for Courage and Sagacious Enterprise
 
 Conflict{836}
 
@@ -8094,7 +8051,7 @@ b, ch B to B-2)
 
 -- page 114
 
-(30) Enlisting Whole-Heartedly in the Service of a Needy Unfortunate and Conferring Aid of the Utmost Value
+B{30} Enlisting Whole-Heartedly in the Service of a Needy Unfortunate and Conferring Aid of the Utmost Value
 
 Conflict{845}
 
@@ -8144,7 +8101,7 @@ A out of the gutter and gives him employment ** (818b*-**) (1075b)
 
 -- page 115
 
-(21) Falling into IMisfortune through Mistaken Judgment
+B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{851}
 
@@ -8225,7 +8182,7 @@ seeks to emancipate himself from the fear, and from the possibility of doing evi
 
 -- page 116
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{863}
 
@@ -8318,8 +8275,7 @@ B discovers an evil secret of her past * B. discovering an evil secret of her pa
 meditates suicide ** (802a) (870b) (893) (1051) (1055)
 
 
-
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{874}
 
@@ -8445,8 +8401,7 @@ M-B, inherits a large sum of money unexpectedly, and becomes reconciled with B,
 from whom she was estranged ** (785) (1067) (1246)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{887}
 
@@ -8500,8 +8455,7 @@ act of great heroism in rescuing a child, CH, from death, but sacrifises her own
 in making the rescue
 
 
-
-(25) Seeking to Save a Person who is Accused of Transgression
+B{25} Seeking to Save a Person who is Accused of Transgression
 
 Conflict{894}
 
@@ -8526,7 +8480,7 @@ and difficult ** (516 ch CH to SN) (725 ch A to B & A-5 to A) (1291a)
 
 -- page 120
 
-(21) Falling into Misfortune through Mistaken Judgment
+B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{897}
 
@@ -8617,8 +8571,7 @@ enterprise he was attempting to carry out * B dies a broken-hearted victim of he
 own high ideals **
 
 
-
-(31) Living a Lonely, Cheerless Life and Seeking Companionship
+B{31} Living a Lonely, Cheerless Life and Seeking Companionship
 
 Conflict{910}
 
@@ -8667,8 +8620,7 @@ Conflict{916}
 necessary to happiness (88) (143) (414) (694) (765) (844a)
 
 
-
-(32) Seeking to Conceal Identity Because of a Lofty Idealism
+B{32} Seeking to Conceal Identity Because of a Lofty Idealism
 
 Conflict{917}
 
@@ -8726,8 +8678,7 @@ amends for a grievous wrong committed under her real name (279*-**) (743b)
 (665)
 
 
-
-(35) Becoming Involved in a Complication that Challenges the Value of Cherished Ideals
+B{35} Becoming Involved in a Complication that Challenges the Value of Cherished Ideals
 
 Conflict{922}
 
@@ -8808,8 +8759,7 @@ B is compelled to challenge the value of her ideals when she sees her mother, M-
 pursuing them ** (1246)
 
 
-
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{932}
 
@@ -8826,7 +8776,7 @@ by being successful (356) (931)
 
 -- page 124
 
-(17) Bearing Patiently with Misfortunes and Seeking to Attain Cherished Aims Honorably
+B{17} Bearing Patiently with Misfortunes and Seeking to Attain Cherished Aims Honorably
 
 Conflict{934}
 
@@ -8930,8 +8880,7 @@ for an education that will lift her out of her squalid environment (745) (935 ch
 A to B) (993)
 
 
-
-(34) Embarking Upon an Enterprise of Insurrection in the Hope of Ameliorating Certain Evil Conditions
+B{34} Embarking Upon an Enterprise of Insurrection in the Hope of Ameliorating Certain Evil Conditions
 
 Conflict{949}
 
@@ -8993,8 +8942,7 @@ on an altruistic undertaking — all by the way of proving that there "is good i
 the worst of us" ** (817) (869)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{956}
 
@@ -9018,8 +8966,7 @@ the time of the passage * A refuses to delay his important enterprise long enoug
 to rescue A-4, a person in distress and facing death ** (632 tr A & A-4)
 
 
-
-(33) Resisting Secretly and from an Honorable Motive a Mandate Considered Discreditable
+B{33} Resisting Secretly and from an Honorable Motive a Mandate Considered Discreditable
 
 Conflict{958}
 
@@ -9058,7 +9005,7 @@ to be destroyed (737a) (975) (848b; 1445)
 
 -- page 127
 
-(36) Undergoing an Experience that Results in a Remarkable Character Change
+B{36} Undergoing an Experience that Results in a Remarkable Character Change
 
 Conflict{963}
 
@@ -9080,8 +9027,7 @@ thinks he is dead, and that his character was high and noble, does not reveal hi
 identity but leaves D-A happy in her mistaken ideals ** (963) (964a)
 
 
-
-(37) Seeking Against Difficulties to Realize a Cherished Ideal
+B{37} Seeking Against Difficulties to Realize a Cherished Ideal
 
 Conflict{965}
 
@@ -9186,7 +9132,7 @@ her mother, M-B, are penniless, and B has to work to support the two of them **
 
 -- page 129
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{979}
 
@@ -9246,8 +9192,7 @@ A, a detective, returns B, a criminal, to the scene of her crime for trial and p
 woman, is given her liberty by the jury before whom she is tried ** (363a) (359)
 
 
-
-(38) Committing a Grievous Mistake and Seeking in Secret to Live Down Its Evil Results
+B{38} Committing a Grievous Mistake and Seeking in Secret to Live Down Its Evil Results
 
 Conflict{987}
 
@@ -9265,8 +9210,7 @@ care for B as though she were his own child * A is disloyal to B, his ward ** (1
 (1285b)
 
 
-
-(39) Forsaking Cherished Ambitions to Carry Out an Obligation
+B{39} Forsaking Cherished Ambitions to Carry Out an Obligation
 
 Conflict{989}
 
@@ -9323,8 +9267,7 @@ B's mother, M-B, denies herself the necessities of life in fulfilling her duty t
 educate B (659) (670) (785) (1151 ch B to M-B & D-B to B)
 
 
-
-(20) Becoming Involved with Conditions in Which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in Which Misfortune is Indicated
 
 Conflict{997}
 
@@ -9357,8 +9300,7 @@ A-2, who declares that he will either kill NW or tame him ** (793a tr A & A-2) (
 tr A & A-2)
 
 
-
-(41) Finding an Obligation at Variance with Ambition, Inclination or Necessity
+B{41} Finding an Obligation at Variance with Ambition, Inclination or Necessity
 
 Conflict{1000}
 
@@ -9451,8 +9393,7 @@ B, ordered by thieves, A-5, A-5, A-5, to open a safe belonging to A, refuses in
 spite of threats against her life (144) (1309a ch A to A-5)
 
 
-
-(40) Embarking Upon an Enterprise in which One Obligation is Opposed by Another Obligation
+B{40} Embarking Upon an Enterprise in which One Obligation is Opposed by Another Obligation
 
 Conflict{1011}
 
@@ -9515,8 +9456,7 @@ may win. A-5 picks up the water canteen and abandons A to die *** (713 ch A
 to A-5) (91Sb ch A to A-5)
 
 
-
-(42) Falling Into Misfortune While Seeking Honorably to Discharge an Obligation
+B{42} Falling Into Misfortune While Seeking Honorably to Discharge an Obligation
 
 Conflict{1018}
 
@@ -9557,7 +9497,7 @@ agreed to be forfeit to A-3 whenever A-3 so desires ** (136*-**) (280a; 136*-**)
 
 -- page 135
 
-(21) Falling Into Misfortune Throu"!! Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1023}
 
@@ -9581,8 +9521,7 @@ enterprise and falling into danger, appeals for aid to a stranger, A-4;but A-4 i
 wary and refuses assistance ** (933) (1309a) (1417)
 
 
-
-(20) Becoming Involved with Conditions in Which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in Which Misfortune is Indicated
 
 Conflict{1026}
 
@@ -9635,7 +9574,7 @@ Conflict{1033}
 
 -- page 136
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1034}
 
@@ -9651,8 +9590,7 @@ A, thinking he has a robber to deal with, by mistake shoots his friend, A-2 (794
 (786 ch A to A-2)
 
 
-
-(20) Becoming Involved with Conditions in Which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in Which Misfortune is Indicated
 
 Conflict{1036}
 
@@ -9768,8 +9706,7 @@ A is disagreeably surprised when, by chance, he finds stolen jewels in the posse
 of B (69) (566b) (623 ch A to B)
 
 
-
-(15) Finding a Sustaining Power in Misfortune
+B{15} Finding a Sustaining Power in Misfortune
 
 Conflict{1051}
 
@@ -9820,7 +9757,7 @@ to be A's missing son, SN***
 
 -- page 139
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1057}
 
@@ -9922,9 +9859,7 @@ D-B) (945 ch B to D-B), experiences a psychic revelation that transforms her
 whole character (401) (410)
 
 
-
-
-(29) Aiding Another to Hide from the World a Fateful Secret
+B{29} Aiding Another to Hide from the World a Fateful Secret
 
 Conflict{1070}
 
@@ -9934,8 +9869,7 @@ by a dishonorable act * A could save his life by revealing a secret that would c
 (635)
 
 
-
-(43) Seeking to Overcome Personal Limitations in Carrying Out an Enterprise
+B{43} Seeking to Overcome Personal Limitations in Carrying Out an Enterprise
 
 Conflict{1071}
 
@@ -10157,8 +10091,7 @@ impersonating a boy, is subjected to the rough pranks of her male companions,
 who do not suspect her true sex ** (61) (145 i)
 
 
-
-(44) Seeking by Unusual Methods to Conquer Personal Limitations
+B{44} Seeking by Unusual Methods to Conquer Personal Limitations
 
 Conflict{1101}
 
@@ -10201,7 +10134,7 @@ is entertaining a duke, AX** (58a) (642) (931)
 
 -- page 144
 
-(37) Seeking Against Difficulties to Realize a Cherished Ideal
+B{37} Seeking Against Difficulties to Realize a Cherished Ideal
 
 Conflict{1107}
 
@@ -10305,8 +10238,7 @@ B is ambitious to "get ahead," to adva-nce herself in her chosen line of work; b
 she has difficulties that are disheartening (679) (1067) (1100)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{1122}
 
@@ -10447,8 +10379,7 @@ B, city bred, undergoes unpleasant experiences when she goes to the country to
 live ** (916) (962) (1118)
 
 
-
-(45) Seeking to Forward an Enterprise and Encountering Family Sentiment as an Obstacle
+B{45} Seeking to Forward an Enterprise and Encountering Family Sentiment as an Obstacle
 
 Conflict{1138}
 
@@ -10473,7 +10404,7 @@ sentiment, A-8 refuses to sell ** (1220b ch B to A-8) (1260a)
 
 -- page 148
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{1141}
 
@@ -10622,7 +10553,7 @@ from the owner oi the car, A-4 (801 ch A to A-4) (1192) (1192; 224)
 
 -- page 150
 
-(29) Aiding Another to Hide from the World a Fateful Secret
+B{29} Aiding Another to Hide from the World a Fateful Secret
 
 Conflict{1160}
 
@@ -10669,8 +10600,7 @@ A-8 to impersonate A-4 in order that the guests may not be disappointed (603a
 ch A-2 to A-8) (610 ch A to A-8) (717 ch "officer A-6" to "celebrity A-8")
 
 
-
-(47) Finding (Apparently) an Object Greatly Coveted, and Obtaining (Apparently) the Object
+B{47} Finding (Apparently) an Object Greatly Coveted, and Obtaining (Apparently) the Object
 
 Conflict{1165}
 
@@ -10693,7 +10623,7 @@ XI in its place ** (1166*-**) (1343)
 
 -- page 151
 
-(48) Assuming the Character of a Criminal in a Perfectly Honest Enterprise
+B{48} Assuming the Character of a Criminal in a Perfectly Honest Enterprise
 
 Conflict{1167}
 
@@ -10739,8 +10669,7 @@ B's striking physical resemblance to B-5, a criminal, causes her to be suspected
 of a crime (69) (792b) (822) (828) (1154a)
 
 
-
-(49) Assuming a Fictitious Character When Embarking  Upon a Certain Enterprise
+B{49} Assuming a Fictitious Character When Embarking  Upon a Certain Enterprise
 
 Conflict{1173}
 
@@ -10999,7 +10928,7 @@ the incident (1151) (1258).
 
 -- page 155
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{1209}
 
@@ -11340,8 +11269,7 @@ unwisely and scorns admonition * B's mother, M-B, copies B's foolish conduct,
 thus giving B a visible demonstration of its absurdity ** (931) (933)
 
 
-
-(13) Seeking by Craftiness to Escape Misfortune
+B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{1247}
 
@@ -11436,7 +11364,7 @@ locking the closet (1335 ch A to A-5) (850b)
 
 -- page 161
 
-(14) Falling Into Misfortune Through the Wiles of a Crafty Schemer
+B{14} Falling Into Misfortune Through the Wiles of a Crafty Schemer
 
 Conflict{1260}
 
@@ -11561,8 +11489,7 @@ supposed by a savage people to be a god, and immediately good fortune comes to
 the tribe. A-3 is discredited ** (973) (1289b*-***) (1319b tr A & A-3)
 
 
-
-(52) Encountering a Would-Be Transgressor and Seeking to Prevent a Transgression
+B{52} Encountering a Would-Be Transgressor and Seeking to Prevent a Transgression
 
 Conflict{1275}
 
@@ -11577,8 +11504,7 @@ A detects A-5 cheating at cards, and denounces him; in the fight that follows,
 A-5 is killed (750) (1017 ch A to A-6 & A-5 to A)
 
 
-
-(51) Devising a Clever and Plausible Delusion in Order to Forward Certain Ambitious Plans
+B{51} Devising a Clever and Plausible Delusion in Order to Forward Certain Ambitious Plans
 
 Conflict{1277}
 
@@ -11636,8 +11562,7 @@ a bag of jewels that is under A's pillow ** B fires a revolver and pretends she 
 shooting at a thief who got away in the night *** (701) (1309b ch A-3 to A) (1309a)
 
 
-
-(53) Opposing tne Plans of a Crafty Schemer
+B{53} Opposing the Plans of a Crafty Schemer
 
 Conflict{1280}
 
@@ -11678,8 +11603,7 @@ not been able to repay; and A-5 hopes to make use of the debt in securing his re
 debt, takes A-5 to jail *** (1209c ch A to A-5) (1319a ch A-3 to A-5 & tr A & A-5)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{1285}
 
@@ -11748,7 +11672,7 @@ use of clues furnished unwittingly by A himself ** (1011 ch A to A-6 & A-5 to A)
 
 -- page 166
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1290}
 
@@ -11805,8 +11729,7 @@ committing one transgression in order to hide another, is apprehended for her
 crime, brought to trial and sentenced ** (1308; 1309a) (1293c; 1309a)
 
 
-
-(20) Becoming Involved with Conditions in which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in which Misfortune is Indicated
 
 Conflict{1295}
 
@@ -11910,7 +11833,7 @@ ch A to B) (648)
 
 -- page 169
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1310}
 
@@ -11924,8 +11847,7 @@ A revenges himself upon an enemy, A-3 * A revenges himself upon an enemy, A-3,
 unaware of the fact that A-3 is his brother ** (1039) (1319a)
 
 
-
-(46) Seeking Retaliation for a Grievous Wrong that is Either Real or Fancied
+B{46} Seeking Retaliation for a Grievous Wrong that is Either Real or Fancied
 
 Conflict{1312}
 
@@ -12074,7 +11996,7 @@ escaping enemies, A-3, A-3, A-3, who are seeking his life ** (1225) (1275) (1324
 
 -- page 172
 
-(21) Falling Into Misfortune Through Mistaken Judgment
+B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1330}
 
@@ -12372,7 +12294,7 @@ friend, B-2, perpetrates a hoax by forging a note which has to do with B and A *
 
 -- page 176
 
-(50) Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
+B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{1365}
 
@@ -12454,8 +12376,7 @@ A, as a method of reprisal against his native land, turns traitor in time of war
 and joins the forces of the enemy (919c) (1021b; 1016 tr A & A-3.)
 
 
-
-(13) Seeking by Craftiness to Escape Misfortune
+B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{1373}
 
@@ -12502,8 +12423,7 @@ of simple faith that A. long mysteriously missing, will some day come back to
 *-'m ** (698 ch A to F-A & CH to A) (1212b ch A to A-4 & A-8 to F-A)
 
 
-
-(54) Becoming Involved in a Puzzling Complication that Has to do with an Object Possessing Mysterious Powers
+B{54} Becoming Involved in a Puzzling Complication that Has to do with an Object Possessing Mysterious Powers
 
 Conflict{1379}
 
@@ -12553,8 +12473,7 @@ B buys an object, X, in a pawnshop * B wonders why the pawnbroker, A-9, tries
 to buy back from her an unredeemed pledge, X, which she bought in his pawnshop ** (1444) (586) (1044b ch A to B & A-2 to B-2)
 
 
-
-(55) Becoming Involved in a Mysterious Complication and Seeking to Make the Utmost of a Bizarre Experience
+B{55} Becoming Involved in a Mysterious Complication and Seeking to Make the Utmost of a Bizarre Experience
 
 Conflict{1385}
 
@@ -12629,8 +12548,7 @@ seems to have hypnotic powers * A tries to solve the mystery of a stranger, AX *
 (1388 ch A-4 to AX) (1404a ch A-4 to AX) (1405 ch A-4 to AX)
 
 
-
-(56) Seeking to Test the Value of a Mysterious Communication and Becoming Involved in Weird Complexities
+B{56} Seeking to Test the Value of a Mysterious Communication and Becoming Involved in Weird Complexities
 
 Conflict{1394}
 
@@ -12665,7 +12583,7 @@ in so-called "automatic writing" (1411) (1437)
 
 -- page 180
 
-(57) Seeking to Unravel a Puzzling Complication
+B{57} Seeking to Unravel a Puzzling Complication
 
 Conflict{1399}
 
@@ -12782,8 +12700,7 @@ may secure an advantage in prosecuting his work for law and order ** (1222a ch
 A-3 to A-5) (1228 ch A-3 to A-5)
 
 
-
-(58) Engaging in an Enterprise and then Mysteriously Disappearing
+B{58} Engaging in an Enterprise and then Mysteriously Disappearing
 
 Conflict{1414}
 
@@ -12818,8 +12735,7 @@ Conflict{1417}
 she implores aid an-.i it is denied (802b) (1207) (1240)
 
 
-
-(59) Engaging in a Mysterious Enterprise and Becoming Involved with the Occult and the Fantastic
+B{59} Engaging in a Mysterious Enterprise and Becoming Involved with the Occult and the Fantastic
 
 Conflict{1418}
 
@@ -12920,8 +12836,7 @@ Conflict{1428}
 A dreams that he falls from a great height * A dies of psychic shock ♦*
 
 
-
-(60) Becoming Involved, Through Curiosity Aroused by Mystery, in a Strange Enterprise
+B{60} Becoming Involved, Through Curiosity Aroused by Mystery, in a Strange Enterprise
 
 Conflict{1429}
 
@@ -12994,8 +12909,7 @@ wife, B-4, are killed in an accident; if B-4 died first, A inherits, while if A-
 first, others inherit (1052a) (1398) (1406)
 
 
-
-(20) Becoming Involved with Conditions in Which Misfortune is Indicated
+B{20} Becoming Involved with Conditions in Which Misfortune is Indicated
 
 Conflict{1438}
 
@@ -13105,7 +13019,7 @@ B is a hypnotist who, in carrying out an enterprise, hypnotizes A (471) (1206)
 
 -- page 187
 
-(61) Becoming Aware of an Important Secret that Calls for Decisive Action
+B{61} Becoming Aware of an Important Secret that Calls for Decisive Action
 
 Conflict{1447}
 
@@ -13212,8 +13126,7 @@ B finds an old note book X, which contains information that has an important
 bearing on some of her plans ** (1204) (1244b) (1279b)
 
 
-
-(57) Seeking to Unravel a Puzzling Complication
+B{57} Seeking to Unravel a Puzzling Complication
 
 Conflict{1460}
 
@@ -13223,8 +13136,8 @@ the general public, tells the story to a group of strangers, A-4, A-4, A-4, *** 
 (1305 ch A-5 to A-4)
 
 
-
-(21) Becoming Invoived with Conditions in Which Misfortune is Indicated
+-- TODO: Resolve mismatch: 20 is "Becoming involved..." and 21 is "Falling into misfortune..."
+B{21} Becoming Invoived with Conditions in Which Misfortune is Indicated
 
 Conflict{1461}
 
@@ -13245,7 +13158,7 @@ that vitally concerns his welfare (1278b) (1461c)
 
 -- page 189
 
-(11) Confronting a Situation in Which Courage and Devotion Alone Can Save the Fortunes of One Beloved
+B{11} Confronting a Situation in Which Courage and Devotion Alone Can Save the Fortunes of One Beloved
 
 Conflict{1462}
 
