@@ -943,6 +943,10 @@ X added to any character gives to the character a suggestion of mystery.
 
 -- page 18
 
+ConflictGroup{Love and Courtship}
+
+ConflictSubGroup{Love's Beginning}
+
 B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{1}
@@ -1420,6 +1424,8 @@ Conflict{39}
 B, unmarried, cherishes motherhood as her ideal (Q8) (90a; 60) (84)
 
 -- page 25
+
+ConflictSubGroup{Love's Misadventures}
 
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
@@ -2602,6 +2608,8 @@ flees with them when they effect their escape (157 ch A-3 to A-4) (1395)
 
 -- page 41
 
+ConflictSubGroup{Marriage Proposal}
+
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{182}
@@ -2781,6 +2789,8 @@ A is absent-m.inded * A asks B to marry him and forgets that he has done so **
 (1075a ch B to B-8) (1101)
 
 -- page 44
+
+ConflictSubGroup{Love's Rejection}
 
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
@@ -3860,6 +3870,8 @@ rich, B is plunged into unhappiness (373) (376) (393)
 
 -- page 58
 
+ConflictSubGroup{Marriage}
+
 B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{342}
@@ -4149,6 +4161,10 @@ A, unhappily married to B and in love with B-3, is too high-minded to seek a div
 whom he has long loved ** (241 ch B to B-3) (254 ch B to B-3) (307 ch B to B-3)
 
 -- page 62
+
+ConflictGroup{Married Life}
+
+ConflictSubGroup{}
 
 B{21} Falling into Misfortune through Mistaken Judgment
 
@@ -6049,6 +6065,10 @@ married and estranged from each other, discovers herself to be in love with A-2 
 
 -- page 87
 
+ConflictGroup{Enterprise}
+
+ConflictSubGroup{Misfortune}
+
 B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{595}
@@ -7263,6 +7283,8 @@ is discovered to have been insane — a condition caused by a great sorrow (766)
 
 -- page 103
 
+ConflictSubGroup{Mistaken Judgment}
+
 B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{747}
@@ -7711,6 +7733,8 @@ is in reality genuine and immensely valuable (792a) (1166 ch A to A-8)
 
 -- page 109
 
+ConflictSubGroup{Helpfulness}
+
 B{21} Falling into Misfortune through IVIistaken Judgment
 
 Conflict{804}
@@ -8123,6 +8147,8 @@ A out of the gutter and gives him employment ** (818b*-**) (1075b)
 
 -- page 115
 
+ConflictSubGroup{Deliverance}
+
 B{21} Falling into Misfortune through Mistaken Judgment
 
 Conflict{851}
@@ -8505,6 +8531,8 @@ who is guilty, but this knowledge makes the task of protecting SM dangerous
 and difficult ** (516 ch CH to SN) (725 ch A to B & A-5 to A) (1291a)
 
 -- page 120
+
+ConflictSubGroup{Idealism}
 
 B{21} Falling into Misfortune through Mistaken Judgment
 
@@ -9165,6 +9193,8 @@ her mother, M-B, are penniless, and B has to work to support the two of them **
 
 -- page 129
 
+ConflictSubGroup{Obligation}
+
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{979}
@@ -9534,6 +9564,8 @@ agreed to be forfeit to A-3 whenever A-3 so desires ** (136*-**) (280a; 136*-**)
 
 -- page 135
 
+ConflictSubGroup{Necessity}
+
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1023}
@@ -9613,6 +9645,8 @@ B, sorely in need of money, undertakes a rash enterprise
 (368b) (1159) (1293a)
 
 -- page 136
+
+ConflictSubGroup{Chance}
 
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
@@ -9797,6 +9831,8 @@ a "ghost" **,A, a supposed ghost, is caught in a trap set by A-4; and A-4 proves
 to be A's missing son, SN***
 
 -- page 139
+
+ConflictSubGroup{Personal Limitations}
 
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
@@ -10448,6 +10484,8 @@ sentiment, A-8 refuses to sell ** (1220b ch B to A-8) (1260a)
 
 -- page 148
 
+ConflictSubGroup{Simulation}
+
 B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
 Conflict{1141}
@@ -10979,6 +11017,8 @@ is injured in an accident and expected to die. Great newspaper publicity is give
 the incident (1151) (1258).
 
 -- page 155
+
+ConflictSubGroup{Craftiness}
 
 B{50} Being Impelled by an Unusual Motive to Engage in Crafty Enterprise
 
@@ -11731,6 +11771,8 @@ use of clues furnished unwittingly by A himself ** (1011 ch A to A-6 & A-5 to A)
 
 -- page 166
 
+ConflictSubGroup{Transgression}
+
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
 Conflict{1290}
@@ -11893,6 +11935,8 @@ while in B's company * B is arrested on suspicion of having murdered A-3 ** (635
 ch A to B) (648)
 
 -- page 169
+
+ConflictSubGroup{Revenge}
 
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
@@ -12058,6 +12102,8 @@ life * A disguises himself as a hoodlum and lives in the underworld as a means o
 escaping enemies, A-3, A-3, A-3, who are seeking his life ** (1225) (1275) (1324a)
 
 -- page 172
+
+ConflictSubGroup{Mystery}
 
 B{21} Falling Into Misfortune Through Mistaken Judgment
 
@@ -13088,6 +13134,8 @@ B is a hypnotist who, in carrying out an enterprise, hypnotizes A (471) (1206)
 (1258 ch A-6 to A) (1309b ch A-3 to A)
 
 -- page 187
+
+ConflictSubGroup{Revelation}
 
 B{61} Becoming Aware of an Important Secret that Calls for Decisive Action
 

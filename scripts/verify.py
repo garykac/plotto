@@ -122,8 +122,14 @@ class Parser():
 		if m:
 			return
 
-		# Start of new B-clause section ends the current Conflict.
-		m = re.match(r'^B{\d+}', line)
+		# Make sure that all {-tags are valid.
+		m = re.match(r'^(.+){', line)
+		if m and not m.group(1) in ['B', 'Conflict', 'ConflictGroup', 'ConflictSubGroup']:
+			print line
+			error('Invalid token')
+
+		# Start of new B-clause or conflict group ends the current Conflict.
+		m = re.match(r'^(B|ConflictGroup|ConflictSubGroup){', line)
 		if m:
 			self.is_conflict = False
 			return
