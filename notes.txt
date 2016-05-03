@@ -1,0 +1,12 @@
+
+Conflict 444
+"loyalty" string in outlinks
+
+Conflict 839
+Extra conflict links for "The story"
+
+Conflict 1163
+Extra "(A)" before the outlinks
+
+1336
+Conflict Extra outlink: (What would happen if he wore one of each pair?)
