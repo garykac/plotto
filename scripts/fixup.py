@@ -37,6 +37,12 @@ class Parser():
 				else:
 					body.append(line)
 
+			sub_id = ''
+			m = re.match(r'^\(([a-n])\) (.*)$', in_links)
+			if m:
+				sub_id = m.group(1)
+				in_links = m.group(2)
+
 			if out_links == '':
 				done = False
 				in_paren = False
@@ -83,7 +89,10 @@ class Parser():
 			if out_links == '':
 				out_links = '()'
 
-			self.outfile.write(in_links + '\n')
+			if sub_id != '':
+				self.outfile.write('(%s) PRE: %s\n' % (sub_id, in_links))
+			else:
+				self.outfile.write('PRE: %s\n' % in_links)
 			for b in body:
 				self.outfile.write(b + '\n')
 			self.outfile.write('POST: ' + out_links.strip() + '\n')

@@ -17,7 +17,7 @@ class Parser():
 	def validate_link(self, link):
 		# Only match S in certain contexts since it is often a mistake for 3 or 8.
 		char = ('('
-				# Must be first to avoid partial matches: e.g., B + R-B
+				# Must be first to avoid partial matches: e.g., B vs. R-B
 				'BR-A|BR-B|'
 				'A(X|-[1-9])?|'
 				'B(X|-[2-58])?|'
