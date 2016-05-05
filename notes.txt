@@ -3,10 +3,13 @@ Conflict 444
 "loyalty" string in outlinks
 
 Conflict 839
-Extra conflict links for "The story"
+Extra outlinks tagged "The story"
 
 Conflict 1163
-Extra "(A)" before the outlinks
+Extra "(A)" before the outlinks - deleted
 
-1336
+Conflict 1238
+Extra outlink tagged (Allegorical 1348b)
+
+Conflict 1336
 Conflict Extra outlink: (What would happen if he wore one of each pair?)

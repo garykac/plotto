@@ -14,16 +14,18 @@ class Parser():
 		self.in_conflict = False
 		self.id = 0
 
+		self.links = {}
+
 	def validate_link(self, link):
 		# Only match S in certain contexts since it is often a mistake for 3 or 8.
 		char = ('('
-				# Must be first to avoid partial matches: e.g., B vs. R-B
-				'BR-A|BR-B|'
+				# Must be first to avoid partial matches: e.g., B vs. BR-B
+				'AUX|BR-A|BR-B|'
 				'A(X|-[1-9])?|'
 				'B(X|-[2-58])?|'
-				'(D|F|GF|M|NW|P|SR|U)-A|'
+				'(D|F|GF|M|NW|P|SN|SR|U)-A|'
 				'(D|F|GF|M|SM|SN|SR)-B|'
-				'CH|CN|D|FA|GCH|NW|SN|SR|U|'
+				'CH|CN|D|FA|FB|GCH|NW|SN|SR|SX|U|X|'
 				'".*?"'
 				')')
 
@@ -66,13 +68,19 @@ class Parser():
 		link = m.group('extra')
 
 		# -*, -**, *-**
-		m = re.match(r'^( -\*\*?\*?\*?| \*-\*\*)?(?P<extra>.*)$', link)
+		m = re.match(r'^( -\*{1,4}| \*-\*{2,4}| \*{2}-\*{3,4}| \*{3}-\*{4,5}| \*{4}-\*{5})?(?P<extra>.*)$', link)
 		if not m:
 			return False
 		link = m.group('extra')
 
 		# transpose & change
-		m = re.match(r'^( tr %s & %s, ch %s to %s)?(?P<extra>.*)$' % (char, char, char, char), link)
+		m = re.match(r'^( tr %s & %s(,| &) ch %s to %s)?(?P<extra>.*)$' % (char, char, char, char), link)
+		if not m:
+			return False
+		link = m.group('extra')
+
+		# transpose & eliminate
+		m = re.match(r'^( tr %s & %s and eliminate ".*")?(?P<extra>.*)$' % (char, char), link)
 		if not m:
 			return False
 		link = m.group('extra')
@@ -83,8 +91,20 @@ class Parser():
 			return False
 		link = m.group('extra')
 
+		# change & transpose
+		m = re.match(r'^( ch %s to %s & tr %s & %s)?(?P<extra>.*)$' % (char, char, char, char), link)
+		if not m:
+			return False
+		link = m.group('extra')
+
 		# change & add
 		m = re.match(r'^( ch %s to %s(, %s to %s)* & add %s)?(?P<extra>.*)$' % (char, char, char, char, char), link)
+		if not m:
+			return False
+		link = m.group('extra')
+
+		# change & eliminate
+		m = re.match(r'^( ch %s to %s & eliminate ".*")?(?P<extra>.*)$' % (char, char), link)
 		if not m:
 			return False
 		link = m.group('extra')
@@ -95,8 +115,14 @@ class Parser():
 			return False
 		link = m.group('extra')
 
+		# change: A to B & LAST X to Y
+		m = re.match(r'^( ch %s to %s & last %s to %s)?(?P<extra>.*)$' % (char, char, char, char), link)
+		if not m:
+			return False
+		link = m.group('extra')
+
 		# change
-		m = re.match(r'^( ch %s to %s((, %s to %s)* & %s to %s)?)?(?P<extra>.*)$' % (char, char, char, char, char, char), link)
+		m = re.match(r'^( ch %s to %s((, %s to %s)* (&|and) %s to %s)?)?(?P<extra>.*)$' % (char, char, char, char, char, char), link)
 		if not m:
 			return False
 		link = m.group('extra')
@@ -106,6 +132,12 @@ class Parser():
 		if not m:
 			return False
 		link = m.group('extra')
+
+		# add
+		m = re.match(r'^(, (".*"|(with|son|daughter|mother).*))?$', link)
+		if not m:
+			return False
+		link = ''
 
 		return len(link) == 0
 
@@ -128,50 +160,35 @@ class Parser():
 			print line
 			error('Invalid token')
 
-		# Start of new B-clause or conflict group ends the current Conflict.
-		m = re.match(r'^(B|ConflictGroup|ConflictSubGroup){', line)
-		if m:
-			self.is_conflict = False
-			return
-
 		m = re.match(r'^Conflict{(\d+)}$', line)
 		if m:
-			self.in_conflict = True
-			self.first_lead_up = True
-			self.next_is_lead_up = False
 			self.id = int(m.group(1))
+			self.links[self.id] = []
 			return
 
-		line = line.strip();
-
-		# A blank line in a Conflict means that a new (or the first)
-		# option will start on the next line.
-		# Reset the lead-up check so we validate each option.
-		if len(line) == 0:
-			self.next_is_lead_up = True
+		m = re.match(r'^(\([a-m]\) )?PRE: (.*)$', line)
+		if m:
+			self.in_conflict = True
+			subid = m.group(1)
+			if not subid:
+				subid = '-'
+			self.links[self.id].append(subid)
+			#print 'adding', self.id, subid
 			return
 
-		if self.in_conflict and self.next_is_lead_up:
-			# Make sure all 'lead-up' links are properly formatted.
-			if not self.first_lead_up:
-				# 2nd, 3rd, ... in a Conflict must begin with (b), (c), ...
-				m = re.match(r'^\([a-z]\)', line)
-				if not m:
-					print line
-					error('%s: unexpected prefix' % self.id)
-
-			while len(line) != 0:
+		m = re.match(r'^POST: (.*)$', line)
+		if m:
+			line2 = m.group(1)
+			while len(line2) != 0:
 				# Q&D regex to catch obviously incorrect chars.
-				m = re.match(r'^\(([a-zA-Z\d "&\*,;-]*)\)\s*(.*)$', line)
+				m = re.match(r'^\(([a-zA-Z\d "\'&\*,;-]*)\)\s*(.*)$', line2)
 				if m:
-					line = m.group(2)
+					line2 = m.group(2)
 					if not self.validate_link(m.group(1)):
 						error('%s: found, but unable to parse: %s' % (self.id, m.group(1)))
 				else:
-					print line
+					print line2
 					error('%s: not found' % self.id)
-				self.next_is_lead_up = False
-				self.first_lead_up = False
 
 	def process(self, src):
 		if not os.path.isfile(src):
