@@ -2368,7 +2368,7 @@ Conflict{136}
 PRE: (997a) (1022)
 A and A-3 are in love with B*. Obliged to carry out the orders of A-3, A is
 commanded to [1] commit suicide, or [2] to leave the field clear for A-3 **
-POST: (209) (351a) (352b) (884 ch A-5 to A-3)
+POST: (209) (351a) (352b) (884a ch A-5 to A-3)
 
 Conflict{137}
 
@@ -2615,7 +2615,7 @@ POST: (402 ch A to AX) (451 ch A to AX)
 
 Conflict{167}
 
-PRE: (280b) (634)
+(a) PRE: (280b) (634)
 B, her first lover having died, after some years falls in love a second time. AX,
 the man she loves, greatly cast down, tells B he is already married, and to a woman
 he does not even know, BX. He recites the circumstances (365b ch B to BX)
@@ -2736,7 +2736,7 @@ B{11} Confronting a Situation in Which Courage and Devotion Alone Can Save the F
 
 Conflict{179}
 
-PRE: (131) (1042b) (158) (170)
+(a) PRE: (131) (1042b) (158) (170)
 A, by mental telepathy, becomes aware of a terrible danger threatening B, the
 woman he loves
 POST: (144) (146) (1137a)
@@ -4765,8 +4765,8 @@ POST: (738) (1069 ch "daughter D-A" to "lover A-3") (1151)
 
 Conflict{398}
 
-PRE: (369) (370)
-(a) B fancies herself neglected by her husband, A * A-3, the "other man," appears
+(a) PRE: (369) (370)
+B fancies herself neglected by her husband, A * A-3, the "other man," appears
 and, by flattering married B, and svmpathizing with her, causes her to imagine
 she is in love with him **
 POST: (380) (400) (418) (507a, b)
@@ -5061,7 +5061,7 @@ POST: (377b) (393) (394) (419)
 (b) PRE: (354b) (365b) (155 ch AX to A)
 A's wife, B, is a mystery woman * A does not know B, and has not seen her since
 the day of their romantic marriage **
-POST: (167 ch AX to A) (486)
+POST: (167a ch AX to A) (486)
 
 Conflict{433}
 
@@ -9096,7 +9096,7 @@ A, visiting A-2 in his prison cell, exchanges clothes with him and A-2 leaves th
 prison as A
 POST: (823 *-**) (1344 tr A & A-2)
 
-(b) PRE: (233) (660a) (662) (664) (719a) (179 tr A & B)
+(b) PRE: (233) (660a) (662) (664) (719a) (179a tr A & B)
 A is rescued by B * B makes use of A's hound dog in tracking A **
 POST: (367b) (850a)
 
@@ -9184,7 +9184,7 @@ POST: (923 ch A-5 to A-3) (1022)
 
 Conflict{884}
 
-PRE: (136 ch A-3 to A-5) (596) (660b)
+(a) PRE: (136 ch A-3 to A-5) (596) (660b)
 A is bitterly persecuted by a relentless enemy, A-5 * A, bitterly persecuted by a
 relentless enemy, A-5, sees no possible escape from the coil; then, suddenly, A-5
 is killed in an accident **
@@ -9728,7 +9728,7 @@ POST: (907)
 
 Conflict{945}
 
-PRE: (121) (244) (179 -*) (162b -*) (665)
+PRE: (121) (244) (179a) (162b -*) (665)
 B, as the world regarded her, was a moral transgressor; but, in her own estimation,
 she was seeking the best and noblest in life * B, considered a moral transgressor,
 through her magnetic personality and the sincerity of her convictions, disarmed

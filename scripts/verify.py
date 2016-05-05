@@ -166,12 +166,18 @@ class Parser():
 			self.links[self.id] = []
 			return
 
-		m = re.match(r'^(\([a-m]\) )?PRE: (.*)$', line)
+		m = re.match(r'^(\((?P<subid>[a-m])\) )?PRE: (.*)$', line)
 		if m:
 			self.in_conflict = True
-			subid = m.group(1)
+			subid = m.group('subid')
 			if not subid:
 				subid = '-'
+			elif subid != 'a':
+				# Make sure previous letter of alphabet is already present.
+				prev = self.links[self.id][-1]
+				prev_expected = chr(ord(subid) - 1)
+				if prev != prev_expected:
+					print self.id, subid, prev, prev_expected
 			self.links[self.id].append(subid)
 			#print 'adding', self.id, subid
 			return
