@@ -3589,13 +3589,13 @@ POST: (53) (70) (73) (240)
 Conflict{276}
 
 PRE: (4b) (5) (8a)
-A and B fall m love; but thoir fathers, F-A and F-B, are bitter political enemies
+A and B fall in love; but their fathers, F-A and F-B, are bitter political enemies
 POST: (118 ch GF-A to F-A) (117)
 
 Conflict{277}
 
 PRE: (15a) (31)
-B falh in love with A, who jilts a friend of B's, B-2 (98 ch B to B-2) (324 ch B
+B falls in love with A, who jilts a friend of B's, B-2 (98 ch B to B-2) (324 ch B
 to B-2 & B-3 to B) in order to pay suit to B * B-2 grieves so terribly over losing
 her false lover, A, that B's heart is wrung **
 POST: (243) (307)
