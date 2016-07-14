@@ -15,6 +15,8 @@ class Parser():
 
 	def __init__(self):
 		self.in_conflict = False
+		self.bclause_id = ''
+		self.bclause_name = ''
 		self.id = ''
 		self.subid = ''
 
@@ -195,6 +197,13 @@ class Parser():
 		if m:
 			return
 
+		m = re.match(r'^B{(\d+)} (.*)$', line)
+		if m:
+			self.bclause_id = m.group(1)
+			self.bclause_name = m.group(2)
+			self.write_bclause_header(self.bclause_id, self.bclause_name)
+			return
+
 		m = re.match(r'^Conflict{(\d+)}$', line)
 		if m:
 			self.id = m.group(1)
@@ -239,6 +248,9 @@ class Parser():
 	def write_html_footer(self):
 		self.outfile.write('</body>\n')
 		self.outfile.write('</html>\n')
+
+	def write_bclause_header(self, id, name):
+		self.outfile.write('\n<div class="bclause">({0}) {1}</div>\n'.format(id, name))
 
 	def write_conflict_header(self):
 		self.outfile.write('\n<div class="conflictid">{0}</div>\n'.format(self.id))

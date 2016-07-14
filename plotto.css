@@ -1,11 +1,17 @@
+.bclause {
+	font-size: 16pt;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
 .conflictid {
-	font-size: 18pt;
-	padding: 8px 0;
+	font-size: 14pt;
+	margin: 8px 0;
 }
 
 .prelinks {
 	font-size: 12pt;
-	padding-top: 8px;
+	margin-top: 8px;
 }
 
 .desc {
@@ -14,5 +20,5 @@
 
 .postlinks {
 	font-size: 12pt;
-	padding-bottom: 8px;
+	margin-bottom: 8px;
 }
