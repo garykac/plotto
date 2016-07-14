@@ -3316,7 +3316,8 @@ POST: (251) (325)
 B{13} Seeking by Craftiness to Escape Misfortune
 
 Conflict{244}
-(687) (688) (937) (942)
+
+PRE: (687) (688) (937) (942)
 A fights against the blandishments of B (945c -*), a morally inferior woman who
 is in love with him
 POST: (627) (682) (901)
@@ -13813,14 +13814,14 @@ Conflict{1394}
 
 PRE: (47a -*) (1384; 1444) (1386b) (874) (1046)
 A, treasure trove, finds a mysterious old parchment document which describes
-the place where the treasure is buried'
+the place where the treasure is buried
 POST: (47a *-**) (662) (691)
 
 Conflict{1395}
 
 PRE: (419) (460)
 A receives a mysterious communication from B, sent from a distant place where
-B is residing. It is evidently an important communication, bu difficult to decipher
+B is residing. It is evidently an important communication, but difficult to decipher
 POST: (501) (1394)
 
 Conflict{1396}
