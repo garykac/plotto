@@ -867,7 +867,7 @@ is invariably explained in the text of the Conflicts, with the exception of
 the symbols A and B — these being the symbols of the male, and the female, protagonists.
 These symbols give a certain uniformity to the characters and facilitate
 character changes or transpositions. Protagonist A, or B, might be a criminal, an
-ofiRcer of the law, an employer, etc., but the numeral is never used in connection with
+officer of the law, an employer, etc., but the numeral is never used in connection with
 the protagonist symbol — the explanation is given in the text.
 
 A,      male protagonist
@@ -3945,7 +3945,7 @@ POST: (337b tr B & B-3) (421 tr B & B-3)
 Conflict{315}
 
 PRE: (286) (310)
-A's love is rejected by B; and A, in an effort to forpet, buries himself in an isolated
+A's love is rejected by B; and A, in an effort to forget, buries himself in an isolated
 part of the country
 POST: (24a, b, c, d, e tr B & B-3) (345 tr B & B-3) (246b)
 
