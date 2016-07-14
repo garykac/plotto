@@ -1245,7 +1245,7 @@ he has arrested **
 POST: (49) (986) (126)
 
 (b) PRE: (250) (1186)
-A has taken vows that .proscribe the love of woman * A, although he has taken
+A has taken vows that proscribe the love of woman * A, although he has taken
 vows that proscribe the love of woman, nevertheless falls in love with B **
 POST: (224) (221a, b) (248)
 
@@ -1469,7 +1469,7 @@ POST: (59) (124)
 Conflict{38}
 
 PRE: (13a) (35) (36)
-B considers love and marriage the great advent-re, and eagerly proceeds with
+B considers love and marriage the great adventure, and eagerly proceeds with
 them
 POST: (64) (88) (143) (146)
 
