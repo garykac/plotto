@@ -157,7 +157,7 @@ class Parser():
 		# Make sure that all {-tags are valid.
 		m = re.match(r'^(.+){', line)
 		if m and not m.group(1) in ['B', 'Conflict', 'ConflictGroup', 'ConflictSubGroup']:
-			print line
+			print line,
 			error('Invalid token')
 
 		m = re.match(r'^Conflict{(\d+)}$', line)
@@ -187,7 +187,7 @@ class Parser():
 			line2 = m.group(1)
 			while len(line2) != 0:
 				# Q&D regex to catch obviously incorrect chars.
-				m = re.match(r'^\(([a-zA-Z\d "\'&\*,;-]*)\)\s*(.*)$', line2)
+				m = re.match(r'^\(([a-zA-Z\d "\'&\*,;-]*)\) ?(.*)$', line2)
 				if m:
 					line2 = m.group(2)
 					if not self.validate_link(m.group(1)):
