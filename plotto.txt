@@ -11758,7 +11758,7 @@ Conflict{1176}
 PRE: (610) (654)
 A, a crook, is trapped and surrounded by officers of the law, A-6, A-6, A-6 * A,
 a crook trapped and surrounded by officers of the law, A-6, A-6, A-6, escapes by
-pretending to be another A-6 who is hunting for himself**
+pretending to be another A-6 who is hunting for himself **
 POST: (963) (1142b) (1209a)
 
 Conflict{1177}
@@ -11772,7 +11772,7 @@ Conflict{1178}
 
 PRE: (568c ch A-3 to A-8) (1291b ch A-2 to A-8) (1309b ch B to A & A-3 to A-8)
 A, highly respected in his community, has committed a murder * A buries the
-body of his murdered victirn, A-8, in a swamp and, by his usual exemplary conduct, seeks to escape suspicion **
+body of his murdered victim, A-8, in a swamp and, by his usual exemplary conduct, seeks to escape suspicion **
 POST: (1291a) (1302)
 
 Conflict{1179}
@@ -11780,9 +11780,9 @@ Conflict{1179}
 PRE: (866) (1189) (1316 ch A-3 to A-5)
 A is a crirninal who is posing as an officer of the law hunting for another crirninal *
 A, a criminal, poses as an officer of the law looking for A-5, another criminal.
-Authorities pick up A-5, -turn him over to A, and A starts with his prisoner for
-the scene of A-5's crime— and his own ** (923)S
-POST: (1209c ch A-2 to A-5) (1309b ch B to A & A-3 to A-5)
+Authorities pick up A-5, turn him over to A, and A starts with his prisoner for
+the scene of A-5's crime—and his own **
+POST: (923) (1209c ch A-2 to A-5) (1309b ch B to A & A-3 to A-5)
 
 Conflict{1180}
 
@@ -13249,7 +13249,7 @@ is haunted by the ghost of his friend, A-2 **
 POST: (827) (830 tr A & A-2) (839 tr A & A-2)
 
 (c) PRE: (1277b ch A to A-2) (1348b ch A to A-2)
-A's friend, A-2, is mysteriously murdered * A seeks to discover the murderCiT of
+A's friend, A-2, is mysteriously murdered * A seeks to discover the murderer of
 his friend, A-2 **
 POST: (1222a) (833)
 
