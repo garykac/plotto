@@ -232,11 +232,11 @@ class Parser():
 		self.outfile.write('<div class="postlinks">{0}</div>\n'.format(links))
 
 	def add_tags(self, text):
-		m = re.match(r'^(.*)A-5(.*)$', text)
-		if m:
-			text = self.add_tags(m.group(1))
-			text += '<span class="character" title="tooltip">A-5</span>'
-			text += self.add_tags(m.group(2))
+		#m = re.match(r'^(.*)A-5(.*)$', text)
+		#if m:
+		#	text = self.add_tags(m.group(1))
+		#	text += '<span class="character" title="tooltip">A-5</span>'
+		#	text += self.add_tags(m.group(2))
 		return text
 
 	def process(self, src, dst):
