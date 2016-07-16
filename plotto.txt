@@ -12211,8 +12211,8 @@ POST: (867) (808a ch B to A-2)
 (b) PRE: (234a) (252a)
 A, in order to convince B that he is a man of courage, arranges with A-2 to stage
 a fake holdup with B the supposed victim* A appears during a fake holdup and
-"rescues" B ** (234b).
-POST: (367b)
+"rescues" B **
+POST: (234b) (367b)
 
 (c) PRE: (234a) (252a)
 A hires a confederate, A-2. to abduct B * A hires A-2 to abduct B under pretense
