@@ -11,9 +11,11 @@ class Parser():
 	"""Verify script for Plotto"""
 
 	def __init__(self):
+		self.in_conflict_section = False
 		self.in_conflict = False
 		self.id = 0
 
+		self.conflict_text = []
 		self.links = {}
 
 	def validate_link(self, link):
@@ -141,12 +143,31 @@ class Parser():
 
 		return len(link) == 0
 
+	def verify_conflict_text(self):
+		text = ' '.join([x.strip() for x in self.conflict_text])
+
+		done = False
+		while not done:
+			m = re.match(r'^([^(]*)\(([^)]+)\)(.*)$', text)
+			if m:
+				pre = m.group(1)
+				link = m.group(2)
+				post = m.group(3)
+				if link[0].isdigit():
+					if not self.validate_link(link):
+						error('%s: found, but unable to parse: %s' % (self.id, link))
+				else:
+					print '{0} ignoring parenthetical ({1})'.format(self.id, link)
+				text = post
+			else:
+				done = True
+
 	# Process an entire line from the file.
 	def process_line(self, line):
 		# Conflicts end on page 190.
 		m = re.match(r'^-- page 190$', line)
 		if m:
-			self.in_conflict = False
+			self.in_conflict_section = False
 			return
 
 		# Ignore comments.
@@ -168,7 +189,9 @@ class Parser():
 
 		m = re.match(r'^(\((?P<subid>[a-m])\) )?PRE: (.*)$', line)
 		if m:
+			self.in_conflict_section = True
 			self.in_conflict = True
+			self.conflict_text = []
 			subid = m.group('subid')
 			if not subid:
 				subid = '-'
@@ -184,6 +207,8 @@ class Parser():
 
 		m = re.match(r'^POST: (.*)$', line)
 		if m:
+			self.in_conflict = False
+			self.verify_conflict_text()
 			line2 = m.group(1)
 			while len(line2) != 0:
 				# Q&D regex to catch obviously incorrect chars.
@@ -195,6 +220,10 @@ class Parser():
 				else:
 					print line2
 					error('%s: not found' % self.id)
+
+		if self.in_conflict_section and self.in_conflict:
+			self.conflict_text.append(line)
+
 
 	def process(self, src):
 		if not os.path.isfile(src):
