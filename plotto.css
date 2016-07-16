@@ -1,24 +1,108 @@
+.container {
+	width: 750px;
+	max-width: none !important;
+	font-family: 'Old Standard TT', serif;
+}
+
+.group {
+	font-size: 18pt;
+	font-weight: bold;
+	background-color: #d0d0d0;
+	margin: 60px 0 0 0;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+.subgroup {
+	font-size: 16pt;
+	font-weight: bold;
+	background-color: #f0f0f0;
+	margin: 10px 0 0 0;
+	padding: 5px 0 5px 0;
+	text-align: center;
+}
+
 .bclause {
 	font-size: 16pt;
 	font-weight: bold;
-	margin: 20px 0;
+	margin: 60px auto 40px auto;
+	text-align: center;
 }
 
 .conflictid {
 	font-size: 14pt;
-	margin: 8px 0;
+	font-weight: bold;
+	margin: 20px auto 10px auto;
+	text-align: center;
 }
 
-.prelinks {
-	font-size: 12pt;
-	margin-top: 8px;
+.subid {
+	color: #ffffff;
+	background-color: #a0a0a0;
+	border-radius: 15px;
+	float: left;
+	text-align: center;
+	min-width: 22px;
+	margin-right: 5px;
 }
 
 .desc {
 	font-size: 12pt;
 }
 
+.character {
+	color: #008080;
+}
+
+.prelinks {
+	font-size: 12pt;
+	margin-top: 12px;
+}
+
 .postlinks {
 	font-size: 12pt;
-	margin-bottom: 8px;
+	margin-bottom: 30px;
+}
+
+.clinkgroup {
+	margin: 0 3px;
+	border-radius: 10px;
+	background-color: #e0e0e0;
+}
+
+.prelinks .clink {
+	background-color: #d0f0d0;
+}
+
+.postlinks .clink {
+	background-color: #d0d0f0;
+}
+
+.clink {
+	padding: 0 8px;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+}
+
+.clink:link,:visited,:active {
+	color: #000000;
+	text-decoration: none;
+}
+
+.prelinks .clink:hover {
+	color: #000000;
+	background-color: #a0c0a0;
+	text-decoration: none;
+}
+
+.postlinks .clink:hover {
+	color: #000000;
+	background-color: #a0a0c0;
+	text-decoration: none;
+}
+
+.desc .clink:hover {
+	color: #000000;
+	background-color: #e0e0e0;
+	text-decoration: none;
 }

@@ -15,6 +15,10 @@ class Parser():
 
 	def __init__(self):
 		self.in_conflict = False
+
+		self.group = ''
+		self.subgroup = ''
+
 		self.bclause_id = ''
 		self.bclause_name = ''
 		self.id = ''
@@ -24,16 +28,24 @@ class Parser():
 		self.links = {}
 
 	def parse_links(self, links):
+		hyperlinks = ''
 		while len(links) != 0:
 			m = re.match(r'^\((.*?)\) ?(.*)$', links)
 			if not m:
 				error('%s: invalid link: %s' % (self.id, links))
-			if not self.parse_link(m.group(1)):
+			hlink = self.parse_link(m.group(1))
+			if hlink == None:
 				error('%s: unable to parse link: %s' % (self.id, links))
+			if hyperlinks != '':
+				hyperlinks += ' '
+			hyperlinks += '<span class="clinkgroup">{0}</span>'.format(hlink)
 			links = m.group(2)
+		return hyperlinks
 
-	# Return true if the link is valid.
+	# Return the HTML hyperlink for this link.
+	# Assumes all links are valid (since they were all checked by verify.py).
 	def parse_link(self, link):
+		orig_link = link
 		# Match character tag.
 		# Only match S in certain contexts since it is often a mistake for 3 or 8.
 		char = ('('
@@ -50,24 +62,30 @@ class Parser():
 		# Sequence: (123; 234)
 		if ';' in link:
 			links = link.split(';')
+			hlinks = []
 			for l in links:
 				l = l.strip()
-				if not self.parse_link(l):
-					return False
-			return True
+				hlink = self.parse_link(l)
+				if hlink == None:
+					return None
+				hlinks.append(hlink)
+			return ' ; '.join(hlinks)
 
 		# Alternation: (123 or 234)
 		if ' or ' in link:
 			links = link.split(' or ')
+			hlinks = []
 			for l in links:
 				l = l.strip()
-				if not self.parse_link(l):
-					return False
-			return True
+				hlink = self.parse_link(l)
+				if hlink == None:
+					return None
+				hlinks.append(hlink)
+			return ' or '.join(hlinks)
 
 		# ()
 		if re.match(r'^$', link):
-			return True
+			return ''
 
 		# (123a, b, c)
 		m = re.match(r'^(\d+)([a-h](, [a-h])*)?(?P<extra>.*)$', link)
@@ -75,126 +93,26 @@ class Parser():
 			error('Invalid links: 123a,b,c')
 		id = m.group(1)
 		subid = m.group(2)
-		# Array of [link-id, link-text]s
-		links = [[id, id]]
-		if subid:
-			links = []
-			first = True
-			for x in subid.split(','):
-				x = x.strip()
-				if first:
-					links.append([id + x, id + x])
-					first = False
-				else:
-					links.append([id + x, x])
-		link = m.group('extra')
 
-		# -1-2-3
-		m = re.match(r'^(?P<num>(-1)?(-2)?(-3)?(-4)?)(?P<extra>.*)$', link)
-		if not m:
-			error('Invalid links: -1-2-3')
-		if m.group('num'):
-			# Can only attach to single links.
-			if len(links) != 1:
-				error('Too many links for: -1-2-3')
-			links[0][1] += m.group('num')
-		link = m.group('extra')
-
-		# -*, -**, *-**
-		m = re.match(r'^( \*{0,4}-\*{1,5})?(?P<extra>.*)$', link)
-		if not m:
-			error('Invalid links: -*')
-		if m.group(1):
-			# Can only attach to single links.
-			if len(links) != 1:
-				error('Too many links for: -*')
-			links[0][1] += m.group(1)
-		link = m.group('extra')
-
-		# ⇔ U+21d4
-		# ⇄ U+21c4
-		# → U+2192
-
-		transpose = []
-		change = []
-		eliminate = []
-
-		# transpose & change
-		m = re.match(r'^(?P<ch> tr (?P<tr1>%s) & (?P<tr2>%s)(,| &) ch (?P<ch1>%s) to (?P<ch2>%s))?(?P<extra>.*)$' % (char, char, char, char), link)
-		if not m:
-			error('Invalid links: tr & ch')
-		if m.group('ch'):
-			transpose.append([m.group('tr1'), m.group('tr2')])
-			change.append([m.group('ch1'), m.group('ch2')])
-		link = m.group('extra')
-
-		# transpose & eliminate
-		m = re.match(r'^( tr %s & %s and eliminate ".*")?(?P<extra>.*)$' % (char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# transpose
-		m = re.match(r'^( tr %s & %s)?(?P<extra>.*)$' % (char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# change & transpose
-		m = re.match(r'^( ch %s to %s & tr %s & %s)?(?P<extra>.*)$' % (char, char, char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# change & add
-		m = re.match(r'^( ch %s to %s(, %s to %s)* & add %s)?(?P<extra>.*)$' % (char, char, char, char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# change & eliminate
-		m = re.match(r'^( ch %s to %s & eliminate ".*")?(?P<extra>.*)$' % (char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# change: A to B & X and Y to Z
-		m = re.match(r'^( ch %s to %s & %s and %s to %s)?(?P<extra>.*)$' % (char, char, char, char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# change: A to B & LAST X to Y
-		m = re.match(r'^( ch %s to %s & last %s to %s)?(?P<extra>.*)$' % (char, char, char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# change
-		m = re.match(r'^( ch %s to %s((, %s to %s)* (&|and) %s to %s)?)?(?P<extra>.*)$' % (char, char, char, char, char, char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# add
-		m = re.match(r'^( add %s)?(?P<extra>.*)$' % (char), link)
-		if not m:
-			return False
-		link = m.group('extra')
-
-		# add
-		m = re.match(r'^(, (".*"|(with|son|daughter|mother).*))?$', link)
-		if not m:
-			return False
-		link = ''
-
-		return len(link) == 0
+		return '<a href="#{0}" class="clink">{1}</a>'.format(id, orig_link)
 
 	# Process an entire line from the file.
 	def process_line(self, line):
 		# Ignore comments.
 		m = re.match(r'^--', line)
 		if m:
+			return
+
+		m = re.match(r'^ConflictGroup{(.+)}$', line)
+		if m:
+			self.group = m.group(1)
+			return
+
+		m = re.match(r'^ConflictSubGroup{(.+)}$', line)
+		if m:
+			self.subgroup = m.group(1)
+			self.write_group_header(self.group)
+			self.write_subgroup_header(self.subgroup)
 			return
 
 		m = re.match(r'^B{(\d+)} (.*)$', line)
@@ -221,8 +139,8 @@ class Parser():
 			self.links[self.id].append(subid)
 
 			links = m.group('links')
-			self.parse_links(links)
-			self.write_conflict_subheader(subid, links)
+			hlinks = self.parse_links(links)
+			self.write_conflict_subheader(subid, hlinks)
 			return
 
 		m = re.match(r'^POST: (?P<links>.*)$', line)
@@ -230,43 +148,96 @@ class Parser():
 			assert(self.in_conflict)
 			self.in_conflict = False
 			links = m.group('links')
-			self.parse_links(links)
-			self.write_conflict_body(links)
+			hlinks = self.parse_links(links)
+			self.write_conflict_body(hlinks)
 
 		if self.in_conflict:
 			self.text.append(line)
 
 	def write_html_header(self):
-		self.outfile.write('<html>\n')
+		self.outfile.write('<!DOCTYPE html>\n')
+		self.outfile.write('<html lang="en">\n')
 		self.outfile.write('<head>\n')
-		self.outfile.write('<title>Plotto</title></head>\n')
-		self.outfile.write('<meta charset="UTF-8">\n')
-		self.outfile.write('<link rel="stylesheet" type="text/css" href="plotto.css"/>\n')
+		self.outfile.write('\t<meta charset="utf-8">\n')
+		self.outfile.write('\t<meta http-equiv="X-UA-Compatible" content="IE=edge">\n')
+		self.outfile.write('\t<meta name="viewport" content="width=device-width, initial-scale=1">\n')
+		self.outfile.write('\t<title>Plotto</title></head>\n')
+		self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
+		self.outfile.write('\t<link rel="stylesheet" type="text/css" href="plotto.css"/>\n')
+		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
 		self.outfile.write('</head>\n')
 		self.outfile.write('<body>\n')
 
+		self.write_navbar()
+
+		self.outfile.write('<div class="container">\n')
+
 	def write_html_footer(self):
+		self.outfile.write('</div>\n')
 		self.outfile.write('</body>\n')
 		self.outfile.write('</html>\n')
+
+	def write_navbar(self):
+		self.outfile.write('<nav class="navbar navbar-inverse navbar-static-top">\n')
+		self.outfile.write('\t<div class="container">\n')
+		self.outfile.write('\t\t<div class="navbar-header">\n')
+		self.outfile.write('\t\t\t<a class="navbar-brand" href="./plotto.html">Plotto - A New Method of Plot Suggestion for Writers of Creative Fiction</a>\n')
+		self.outfile.write('\t\t</div>\n')
+		self.outfile.write('\t</div>\n')
+		self.outfile.write('</nav>\n')
+
+	def write_group_header(self, name):
+		self.outfile.write('\n<div class="group">{0}</div>\n'.format(name))
+
+	def write_subgroup_header(self, name):
+		self.outfile.write('\n<div class="subgroup">{0}</div>\n'.format(name))
 
 	def write_bclause_header(self, id, name):
 		self.outfile.write('\n<div class="bclause">({0}) {1}</div>\n'.format(id, name))
 
 	def write_conflict_header(self):
-		self.outfile.write('\n<div class="conflictid">{0}</div>\n'.format(self.id))
+		self.outfile.write('\n<div class="conflictid" id="{0}">{1}</div>\n'.format(self.id, self.id))
 
 	def write_conflict_subheader(self, subid, links):
 		prefix = ''
 		if subid != '':
-			prefix = '(' + subid + ') '
-		self.outfile.write('\n<div class="prelinks">{0} {1}</div>\n'.format(prefix, links))
+			prefix = '<span class="subid">' + subid + '</span> '
+		self.outfile.write('\n<div class="prelinks">{0}{1}</div>\n'.format(prefix, links))
 
 	def write_conflict_body(self, links):
 		self.outfile.write('<div class="desc">')
-		for t in self.text:
-			self.outfile.write(t)
+		text = ' '.join([x.strip() for x in self.text])
+		new_text = ''
+		done = False
+		while not done:
+			m = re.match(r'^([^(]*)\(([^)]+)\)(.*)$', text)
+			if m:
+				pre = m.group(1)
+				link = m.group(2)
+				post = m.group(3)
+				if link[0].isdigit():
+					hlink = self.parse_links('({0})'.format(link))
+					if hlink == None:
+						error('{0}: found, but unable to parse: {1}'.format(self.id, link))
+				else:
+					hlink = '({0})'.format(link)
+
+				new_text += self.add_tags(pre) + hlink
+				text = post
+			else:
+				new_text += self.add_tags(text)
+				done = True
+		self.outfile.write(new_text)
 		self.outfile.write('</div>\n')
 		self.outfile.write('<div class="postlinks">{0}</div>\n'.format(links))
+
+	def add_tags(self, text):
+		m = re.match(r'^(.*)A-5(.*)$', text)
+		if m:
+			text = self.add_tags(m.group(1))
+			text += '<span class="character" title="tooltip">A-5</span>'
+			text += self.add_tags(m.group(2))
+		return text
 
 	def process(self, src, dst):
 		if not os.path.isfile(src):
