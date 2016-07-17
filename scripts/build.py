@@ -107,20 +107,21 @@ class Parser():
 		# Ignore comments.
 		m = re.match(r'^--', line)
 		if m:
+			m = re.match(r'^-- FORMAT_LINES:(.*)', line)
+			if m:
+				if self.format_lines != None:
+					self.outfile.write('<div class="space">&nbsp;</div>\n')
+
 			m = re.match(r'^-- FORMAT', line)
 			if m:
-				# Cancel previous formatting.
+				# Any new format command cancels previous formatting.
 				self.format_paragraph = None
 				self.format_lines = None
 				self.format_next_line = None
 				self.format_links = None
 				# Fall through
 
-			m = re.match(r'^-- FORMAT_BEGIN_LINES:(.*)', line)
-			if m:
-				self.format_lines = m.group(1)
-				self.outfile.write('<div class="{0}">\n'.format(self.format_lines))
-				return
+			# FORMAT_BEGIN must be followed by FORMAT_END
 			m = re.match(r'^-- FORMAT_BEGIN:(.*)', line)
 			if m:
 				self.format_paragraph = m.group(1)
@@ -130,9 +131,16 @@ class Parser():
 			if m:
 				self.outfile.write('</div>\n')
 				return
+
 			m = re.match(r'^-- FORMAT:(.*)', line)
 			if m:
 				self.format_next_line = m.group(1)
+				return
+			m = re.match(r'^-- FORMAT_LINES:(.*)', line)
+			if m:
+				if self.format_lines != None:
+					self.outfile.write('<div>xxx</div>\n')
+				self.format_lines = m.group(1)
 				return
 			m = re.match(r'^-- FORMAT_LINKS:(.*)', line)
 			if m:
@@ -151,12 +159,12 @@ class Parser():
 					self.outfile.write('</div><div class="{0}">\n'.format(self.format_paragraph))
 					self.blank_line = True
 			else:
-				self.outfile.write('{0}\n'.format(line.strip()))
+				self.outfile.write('{0}\n'.format(self.add_tags(line)))
 				self.blank_line = False
 			return
 
 		if self.format_lines:
-			self.outfile.write('{0}<br/>\n'.format(line.strip()))
+			self.outfile.write('<div class="{0}">{1}</div>\n'.format(self.format_lines, self.add_tags(line)))
 			return
 
 		if self.format_next_line:
@@ -168,7 +176,7 @@ class Parser():
 			prefix = ''
 			m = re.match('^\s*\(([a-d])\) (.*)$', line)
 			if m:
-				prefix = '({0})'.format(m.group(1))
+				prefix = '<span class="subid">{0}</span>'.format(m.group(1))
 				line = m.group(2)
 			self.outfile.write('<div class="{0}">{1}{2}</div>\n'.format(self.format_links, prefix, self.parse_links(line.strip())))
 			self.format_links = None
@@ -303,11 +311,11 @@ class Parser():
 		self.outfile.write('<div class="postlinks">{0}</div>\n'.format(links))
 
 	def add_tags(self, text):
-		#m = re.match(r'^(.*)A-5(.*)$', text)
-		#if m:
-		#	text = self.add_tags(m.group(1))
-		#	text += '<span class="character" title="tooltip">A-5</span>'
-		#	text += self.add_tags(m.group(2))
+		m = re.match(r'^(.*)@{(.+)}(.*)$', text)
+		if m:
+			text = self.add_tags(m.group(1))
+			text += self.parse_link(m.group(2))
+			text += self.add_tags(m.group(3))
 		return text
 
 	def process(self, src, dst):

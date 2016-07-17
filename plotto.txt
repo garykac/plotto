@@ -31,11 +31,10 @@ by William Wallace Cook
 
 Copyright (Canada), 1928 by William W. Cook
 
--- FORMAT_BEGIN_LINES:frontmatter
+-- FORMAT_LINES:frontmatter
 All rights reserved including that of
 translation into the foreign languages,
 including the Scandinavian.
--- FORMAT_END
 
 -- HR
 
@@ -116,11 +115,10 @@ Plotto concerns itself with but one General Purpose in its application to three
 general goals of endeavor:
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
     1. To Achieve Happiness in Love and Courtship.
     2. To Achieve Happiness in Married Life.
     3. To Achieve Happiness (Success) in Enterprise.
--- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext
 Yet, while this one General Purpose runs through all the Conflicts, a host of
@@ -206,23 +204,21 @@ CONFLICT GROUPS AND SUB-GROUPS. The Conflicts in Plotto are
 classified in three main groups:
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
     1. Conflicts in Love and Courtship.
     2. Conflicts in Married Life.
     3. Conflicts in Enterprise.
--- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext
 The Conflicts in Love and Courtship are re-grouped as follows:
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
     Conflicts in Love's Beginnings.
     Conflicts in Love's Misadventures.
     Conflicts of the Marriage Proposal.
     Conflicts in Love's Rejection.
     Conflicts of Marriage.
--- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext
 All the sub-groups are classified, for convenience of reference, under the middle.
@@ -232,7 +228,7 @@ main group, "Married Life." Conflicts of the third group. "Enterprise." fall int
 the following general classifications:
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
     Conflicts in Misfortune.
     Conflicts in Mistaken Judgment.
     Conflicts in Helpfulness.
@@ -248,7 +244,6 @@ the following general classifications:
     Conflicts in Revenge.
     Conflicts in Mystery.
     Conflicts in Revelation.
--- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext
 Inasmuch as dramatic situations are a product of the emotions, and the emotions,
@@ -332,11 +327,10 @@ we will select a Masterplot from the Masterplot Chart and build up a
 short story plot in tabloid form.
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
     A   11  A Person Swayed by Pretense,
     B   11  (49) Assuming a fictitious character when embarking upon a certain enterprise,
     C   2   Emerges happily from a serious entanglement.
--- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext
 The B Clause "originates and carries on the action." Prefixed to this B Clause
@@ -772,11 +766,10 @@ A Plotto Masterplot consists of three clauses: An "A" Clause,
 a "B" Clause and a "C" Clause.
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
     The A Clause is the Protagonist Clause.
     The B Clause originates and carries on the action.
     The C Clause carries on and terminates the action.
--- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext
 Any A Clause may be used in conjunction with any B Clause
@@ -806,7 +799,7 @@ the C Clause numbers in the Classification by Symbols.
 -- FORMAT:subtitle
 "A" Clauses
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
 1. A Person in Love,
 2. A Married Person,
 3. A Lawless Person,
@@ -822,13 +815,12 @@ the C Clause numbers in the Classification by Symbols.
 13. A Person Influenced by the Occult and the Mysterious,
 14. A Normal Person,
 15. Any Person,
--- FORMAT_END
 
 
 -- FORMAT:subtitle
 "B" Clauses
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
 (1) Engaging in a difficult enterprise when promised a reward for high achievement,
 (2) Falling in love at a time when certain obligationa forbid love,
 (3) Seeking to demonstrate the power of love by a test of courage.
@@ -891,12 +883,11 @@ the C Clause numbers in the Classification by Symbols.
 (60) Becoming involved, through curiosity aroused by mystery, in a strange enterprise.
 (61) Becoming aware of an important secret that calls for decisive action,
 (62) Becoming involved in any sort of complication,
--- FORMAT_END
 
 -- FORMAT:subtitle
 "C" Clauses
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
 (1) Pays a grim penalty in an unfortunate undertaking,
 (2) Emerges happily from a serious entanglement.
 (3) Foils a guilty plotter and defeats a subtle plot.
@@ -912,7 +903,6 @@ the C Clause numbers in the Classification by Symbols.
 (13) Comes finally to the blank wall of enigma.
 (14) Achieves a complete and permanent character transformation
 (15) Meets any fate, good or evil.
--- FORMAT_END
 
 -- HR
 
@@ -921,70 +911,69 @@ the C Clause numbers in the Classification by Symbols.
 -- FORMAT:subtitle
 Index of Conflicts Grouped Under the "B" Clauses
 
--- FORMAT_BEGIN_LINES:bodylist
-(1) Love and Courtship 110
-(2) Love and Courtship 16, 119, 271
-(3) Love and Courtship 175
-(4) Love and Courtship 148
-(5) Love and Courtship 168. 313
-(6) Love and Courtship 331
-(7) Love and Courtship 333
-(8) Love and Courtship 117
-(9) Love and Courtship 116
-(10) Love and Courtship 105; Married Life 369, 386, 391, 399, 418
-(11) Love and Courtship 179; Married Life 545; Revelation 1462
-(12) Love and Courtship 337; Married Life 547
-(13) Love and Courtship 96, 244; Married Life 457; Misfortune 650; Craftiness 1247; Mystery 1373
-(14) Married Life 471; Craftiness 1260; Misfortune 660
-(15) Love and Courtship 12, 106, 265, 360; Married Life 496; Helpfulness 815; Deliverance 874; Chance 1051
-(16) Helpfulness 831
-(17) Idealism 934
-(18) Misfortune 674
-(19) Misfortune 685
-(20) Love and Courtship 24, 153, 196, 280, 365; Married Life 571; Idealism 956; Necessity 1026; Chance 1036; Personal Limitations 1122; Transgression 1295; Misfortune 695; Mistaken Judgment 793; Deliverance 887; Obligation 997; Craftiness 1285; Mystery 1438; Revelation 1460
-(21) Love and Courtship 40, 182, 205, 342; Married Life 369; Misfortune 595; Mistaken Judgment 747; Helpfulness 804; Deliverance 851; Idealism 897; Obligation 979; Necessity 1023; Chance 1034; Personal Limitations 1057; Transgression 1290; Revenge 1310; Mystery 1330
-(22) Love and Courtship 255; Married Life 484; Mistaken Judgment 768
-(23) Love and Courtship 21, 177, 328, 365; Married Life 538; Mistaken Judgment 786
-(24) Mistaken Judgment 794
-(25) Love and Courtship 122; Helpfulness 820; Deliverance 894.
-(26) Married Life 558; Helpfulness 825; Misfortune 671
-(27) Helpfulness 824
-(28) Love and Courtship 125; Helpfulness 836
-(29) Love and Courtship 147; Married Life 537; Misfortune 667; Persona. Limitations 1070; Simulation 1160
-(30) Helpfulness 845
-(31) Idealism 910
-(32) Idealism 917
-(33) Idealism 958
-(34) Idealism 949
-(35) Love and Courtship 292; Idealism 922
-(36) Love and Courtship 152; Misfortune 680; Idealism 963
-(37) Married Life 563; Idealism 965; Personal Limitations 1107
-(38) Obligation 987
-(39) Love and Courtship 123, 282; Married Life 508; Obligation 989
-(40) Love and Courtship 287; Married Life 517; Obligation 1011
-(41) Love and Courtship 19, 127, 294; Married Life 521; Obligation 1000
-(42) Obligation 1018
-(43) Helpfulness 835; Personal Limitations 1071
-(44) Love and Courtship 191; Personal Limitations 1101
-(45) Personal Limitations 1138
-(46) Married Life 567; Revenge 1312
-(47) Simulation 1165
-(48) Simulation 1167
-(49) Simulation 1173
-(50) Love and Courtship 1, 66, 185, 230, 347; Married Life 419; Helpfulness 813; Deliverance 863; Idealism 932: Simulation 1141; Craftiness 1209; Mystery 1365
-(51) Craftiness 1277
-(52) Craftiness 1275
-(53) Helpfulness 834; Craftiness 1280
-(54) Mystery 1379
-(55) Mystery 1385
-(56) Mystery 1394
-(57) Love and Courtship 174; Married Life 560; Helpfulness 833; Mystery 1399; Revelation 1460
-(58) Mystery 1414
-(59) Mystery 1418
-(60) Mystery 1429
-(61) Mistaken Judgment 802; Revelation 1447
+-- FORMAT_LINES:bodylist
+(1) Love and Courtship @{110}
+(2) Love and Courtship @{16}, @{119}, @{271}
+(3) Love and Courtship @{175}
+(4) Love and Courtship @{148}
+(5) Love and Courtship @{168}. @{313}
+(6) Love and Courtship @{331}
+(7) Love and Courtship @{333}
+(8) Love and Courtship @{117}
+(9) Love and Courtship @{116}
+(10) Love and Courtship @{105}; Married Life @{369}, @{386}, @{391}, @{399}, @{418}
+(11) Love and Courtship @{179}; Married Life @{545}; Revelation @{1462}
+(12) Love and Courtship @{337}; Married Life @{547}
+(13) Love and Courtship @{96}, @{244}; Married Life @{457}; Misfortune @{650}; Craftiness @{1247}; Mystery @{1373}
+(14) Married Life @{471}; Craftiness @{1260}; Misfortune @{660}
+(15) Love and Courtship @{12}, @{106}, @{265}, @{360}; Married Life @{496}; Helpfulness @{815}; Deliverance @{874}; Chance @{1051}
+(16) Helpfulness @{831}
+(17) Idealism @{934}
+(18) Misfortune @{674}
+(19) Misfortune @{685}
+(20) Love and Courtship @{24}, @{153}, @{196}, @{280}, @{365}; Married Life @{571}; Idealism @{956}; Necessity @{1026}; Chance @{1036}; Personal Limitations @{1122}; Transgression @{1295}; Misfortune @{695}; Mistaken Judgment @{793}; Deliverance @{887}; Obligation @{997}; Craftiness @{1285}; Mystery @{1438}; Revelation @{1460}
+(21) Love and Courtship @{40}, @{182}, @{205}, @{342}; Married Life @{369}; Misfortune @{595}; Mistaken Judgment @{747}; Helpfulness @{804}; Deliverance @{851}; Idealism @{897}; Obligation @{979}; Necessity @{1023}; Chance @{1034}; Personal Limitations @{1057}; Transgression @{1290}; Revenge @{1310}; Mystery @{1330}
+(22) Love and Courtship @{255}; Married Life @{484}; Mistaken Judgment @{768}
+(23) Love and Courtship @{21}, @{177}, @{328}, @{365}; Married Life @{538}; Mistaken Judgment @{786}
+(24) Mistaken Judgment @{794}
+(25) Love and Courtship @{122}; Helpfulness @{820}; Deliverance @{894}.
+(26) Married Life @{558}; Helpfulness @{825}; Misfortune @{671}
+(27) Helpfulness @{824}
+(28) Love and Courtship @{125}; Helpfulness @{836}
+(29) Love and Courtship @{147}; Married Life @{537}; Misfortune @{667}; Personal Limitations @{1070}; Simulation @{1160}
+(30) Helpfulness @{845}
+(31) Idealism @{910}
+(32) Idealism @{917}
+(33) Idealism @{958}
+(34) Idealism @{949}
+(35) Love and Courtship @{292}; Idealism @{922}
+(36) Love and Courtship @{152}; Misfortune @{680}; Idealism @{963}
+(37) Married Life @{563}; Idealism @{965}; Personal Limitations @{1107}
+(38) Obligation @{987}
+(39) Love and Courtship @{123}, @{282}; Married Life @{508}; Obligation @{989}
+(40) Love and Courtship @{287}; Married Life @{517}; Obligation @{1011}
+(41) Love and Courtship @{19}, @{127}, @{294}; Married Life @{521}; Obligation @{1000}
+(42) Obligation @{1018}
+(43) Helpfulness @{835}; Personal Limitations @{1071}
+(44) Love and Courtship @{191}; Personal Limitations @{1101}
+(45) Personal Limitations @{1138}
+(46) Married Life @{567}; Revenge @{1312}
+(47) Simulation @{1165}
+(48) Simulation @{1167}
+(49) Simulation @{1173}
+(50) Love and Courtship @{1}, @{66}, @{185}, @{230}, @{347}; Married Life @{419}; Helpfulness @{813}; Deliverance @{863}; Idealism @{932}: Simulation @{1141}; Craftiness @{1209}; Mystery @{1365}
+(51) Craftiness @{1277}
+(52) Craftiness @{1275}
+(53) Helpfulness @{834}; Craftiness @{1280}
+(54) Mystery @{1379}
+(55) Mystery @{1385}
+(56) Mystery @{1394}
+(57) Love and Courtship @{174}; Married Life @{560}; Helpfulness @{833}; Mystery @{1399}; Revelation @{1460}
+(58) Mystery @{1414}
+(59) Mystery @{1418}
+(60) Mystery @{1429}
+(61) Mistaken Judgment @{802}; Revelation @{1447}
 (62) All Conflicts
--- FORMAT_END
 
 -- HR
 
@@ -1004,7 +993,7 @@ officer of the law, an employer, etc., but the numeral is never used in connecti
 the protagonist symbol — the explanation is given in the text.
 -- FORMAT_END
 
--- FORMAT_BEGIN_LINES:bodylist
+-- FORMAT_LINES:bodylist
 A,      male protagonist
 A-2,    male friend of A
 A-3,    male rival or enemy of A
@@ -1015,6 +1004,7 @@ A-7,    male inferior, employee
 A-8,    male utility symbol
 A-9,    male superior, employer, one in authority
 
+-- FORMAT_LINES:bodylist
 B,      female protagonist
 B-2,    female friend of B
 B-3,    female rival or enemy of B
@@ -1025,6 +1015,7 @@ B-7,    female inferior, employee
 B-8,    female utility symbol
 B-9,    female superior, employer. one in authority
 
+-- FORMAT_LINES:bodylist
 F-A,    father of A
 M-A,    mother of A
 BR-A,   brother of A
@@ -1042,6 +1033,7 @@ SF-A,   stepfather of A
 SM-A,   stepmother of A
 GCH-A,  grandchild of A
 
+-- FORMAT_LINES:bodylist
 F-B,    father of B
 M-B,    mother of B
 BR-B,   brother of B
@@ -1059,16 +1051,16 @@ SF-B,   stepfather of B
 SM-B,   stepmother of B
 GCH-B,  grandchild of B
 
+-- FORMAT_LINES:bodylist
 CH,     a child
 AX,     a mysterious male person, or one of unusual character
 BX,     a mysterious female person, or one of unusual character
 X,      an inanimate object, an object of mystery, an uncertain quantity
 
+-- FORMAT_BEGIN:bodytext
 Note: BR-A, BR-B, SR-A, SR-B, SN-A, SN-B, D-A. D-B, CN-A and
 CN-B may on occasion be merely BR, SR, SN. D. and CN.
--- FORMAT_END
 
--- FORMAT_BEGIN:bodytext
 Where necessary to indicate a male friend of B, or a female friend of A,
 the symbols aB-2, bA-2 may be used. Likewise, bCN-A, female cousin
 of A; aCN-B, male cousin of B, bGCH-A, female grandchild of A, aCH.

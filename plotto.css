@@ -61,8 +61,16 @@
 
 .bodylist {
 	font-size: 14pt;
-	margin: 10px 0;
-	padding-left: 30px;
+	padding-left: 70px;
+	text-indent: -40px;
+}
+
+.bodylist:first {
+	margin-top: 10px;
+}
+
+.bodylist:last {
+	margin-bottom: 10px;
 }
 
 .group {
@@ -163,6 +171,12 @@
 }
 
 .desc .clink:hover {
+	color: #000000;
+	background-color: #e0e0e0;
+	text-decoration: none;
+}
+
+.bodylist .clink:hover {
 	color: #000000;
 	background-color: #e0e0e0;
 	text-decoration: none;
