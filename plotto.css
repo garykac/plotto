@@ -140,11 +140,11 @@
 }
 
 .prelinks .clink {
-	background-color: #d0f0d0;
+	background-color: #e0f0e0;
 }
 
 .postlinks .clink {
-	background-color: #d0d0f0;
+	background-color: #e0e0f0;
 }
 
 .clink {
@@ -160,13 +160,13 @@
 
 .prelinks .clink:hover {
 	color: #000000;
-	background-color: #a0c0a0;
+	background-color: #b0d0b0;
 	text-decoration: none;
 }
 
 .postlinks .clink:hover {
 	color: #000000;
-	background-color: #a0a0c0;
+	background-color: #b0b0d0;
 	text-decoration: none;
 }
 

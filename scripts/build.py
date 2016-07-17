@@ -14,6 +14,7 @@ class Parser():
 	"""Build script for Plotto"""
 
 	def __init__(self):
+		self.in_conflict_section = False
 		self.in_conflict = False
 
 		self.group = ''
@@ -104,11 +105,18 @@ class Parser():
 
 	# Process an entire line from the file.
 	def process_line(self, line):
+		line = line.strip()
 		# Ignore comments.
 		m = re.match(r'^--', line)
 		if m:
+			if line == '-- page 18':
+				self.in_conflict_section = True
+			if line == '-- page 190':
+				self.in_conflict_section = False
+
 			m = re.match(r'^-- FORMAT_LINES:(.*)', line)
 			if m:
+				# Put blank div between multiple FORMAT_LINES chunks.
 				if self.format_lines != None:
 					self.outfile.write('<div class="space">&nbsp;</div>\n')
 
@@ -153,7 +161,6 @@ class Parser():
 			return
 
 		if self.format_paragraph:
-			line = line.strip()
 			if line == '':
 				if not self.blank_line:
 					self.outfile.write('</div><div class="{0}">\n'.format(self.format_paragraph))
@@ -168,7 +175,7 @@ class Parser():
 			return
 
 		if self.format_next_line:
-			self.outfile.write('<div class="{0}">{1}</div>\n'.format(self.format_next_line, line.strip()))
+			self.outfile.write('<div class="{0}">{1}</div>\n'.format(self.format_next_line, line))
 			self.format_next_line = None
 			return
 
@@ -178,59 +185,67 @@ class Parser():
 			if m:
 				prefix = '<span class="subid">{0}</span>'.format(m.group(1))
 				line = m.group(2)
-			self.outfile.write('<div class="{0}">{1}{2}</div>\n'.format(self.format_links, prefix, self.parse_links(line.strip())))
+			self.outfile.write('<div class="{0}">{1}{2}</div>\n'.format(self.format_links, prefix, self.parse_links(line)))
 			self.format_links = None
 			return
 
-		m = re.match(r'^ConflictGroup{(.+)}$', line)
-		if m:
-			self.group = m.group(1)
-			return
+		if self.in_conflict_section:
+			if line == '':
+				return
 
-		m = re.match(r'^ConflictSubGroup{(.+)}$', line)
-		if m:
-			self.subgroup = m.group(1)
-			self.write_group_header(self.group)
-			self.write_subgroup_header(self.subgroup)
-			return
+			m = re.match(r'^ConflictGroup{(.+)}$', line)
+			if m:
+				self.group = m.group(1)
+				return
 
-		m = re.match(r'^B{(\d+)} (.*)$', line)
-		if m:
-			self.bclause_id = m.group(1)
-			self.bclause_name = m.group(2)
-			self.write_bclause_header(self.bclause_id, self.bclause_name)
-			return
+			m = re.match(r'^ConflictSubGroup{(.*)}$', line)
+			if m:
+				self.subgroup = m.group(1)
+				self.write_group_header(self.group)
+				self.write_subgroup_header(self.subgroup)
+				return
 
-		m = re.match(r'^Conflict{(\d+)}$', line)
-		if m:
-			self.id = m.group(1)
-			self.links[self.id] = []
-			self.write_conflict_header()
-			return
+			m = re.match(r'^B{(\d+)} (.*)$', line)
+			if m:
+				self.bclause_id = m.group(1)
+				self.bclause_name = m.group(2)
+				self.write_bclause_header(self.bclause_id, self.bclause_name)
+				return
 
-		m = re.match(r'^(\((?P<subid>[a-m])\) )?PRE: (?P<links>.*)$', line)
-		if m:
-			self.in_conflict = True
-			self.text = []
-			subid = m.group('subid')
-			if not subid:
-				subid = ''
-			self.links[self.id].append(subid)
+			m = re.match(r'^Conflict{(\d+)}$', line)
+			if m:
+				self.id = m.group(1)
+				self.links[self.id] = []
+				self.write_conflict_header()
+				return
 
-			links = m.group('links')
-			hlinks = self.parse_links(links)
-			self.write_conflict_subheader(subid, hlinks)
-			return
+			m = re.match(r'^(\((?P<subid>[a-m])\) )?PRE: (?P<links>.*)$', line)
+			if m:
+				assert(not self.in_conflict)
+				self.in_conflict = True
+				self.text = []
+				subid = m.group('subid')
+				if not subid:
+					subid = ''
+				self.links[self.id].append(subid)
 
-		m = re.match(r'^POST: (?P<links>.*)$', line)
-		if m:
-			assert(self.in_conflict)
-			self.in_conflict = False
-			links = m.group('links')
-			hlinks = self.parse_links(links)
-			self.write_conflict_body(hlinks)
+				links = m.group('links')
+				hlinks = self.parse_links(links)
+				self.write_conflict_subheader(subid, hlinks)
+				return
 
-		if self.in_conflict:
+			m = re.match(r'^POST: (?P<links>.*)$', line)
+			if m:
+				assert(self.in_conflict)
+				self.in_conflict = False
+				links = m.group('links')
+				hlinks = self.parse_links(links)
+				self.write_conflict_body(hlinks)
+				return
+
+			if not self.in_conflict:
+				print line
+				assert(self.in_conflict)
 			self.text.append(line)
 
 	def write_html_header(self):
@@ -269,7 +284,8 @@ class Parser():
 		self.outfile.write('\n<div class="group">{0}</div>\n'.format(name))
 
 	def write_subgroup_header(self, name):
-		self.outfile.write('\n<div class="subgroup">{0}</div>\n'.format(name))
+		if name != '':
+			self.outfile.write('\n<div class="subgroup">{0}</div>\n'.format(name))
 
 	def write_bclause_header(self, id, name):
 		self.outfile.write('\n<div class="bclause">({0}) {1}</div>\n'.format(id, name))
