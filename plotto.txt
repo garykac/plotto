@@ -12020,24 +12020,24 @@ B{47} Finding (Apparently) an Object Greatly Coveted, and Obtaining (Apparently)
 Conflict{1165}
 
 PRE: (1145 ch A to A-5 & A-8 to A) (1161 ch A to A-8 & A-4 to A-5)
-A is an art collector * XI and X2 are very rare and valuable art objects, the only
-two in the world ** A owns an objet d'art, XI; and he buys X2, as he supposes,
-which is an exact duplicate of XI, from A-5, only to discover that he has repurchased
-XI which the scheming A-5 had stolen from his collection ***
+A is an art collector * X1 and X2 are very rare and valuable art objects, the only
+two in the world ** A owns an objet d'art, X1; and he buys X2, as he supposes,
+which is an exact duplicate of X1, from A-5, only to discover that he has repurchased
+X1 which the scheming A-5 had stolen from his collection ***
 POST: (224 ch A to A-5) (1146 ch A to A-5)
 
 Conflict{1166}
 
 (a) PRE: (1129a) (1144)
-A is a thief who has a real gem, XI, which he thinks is a counterfeit * A, a thief,
-has a real gem, XI, which he thinks is a counterfeit; and, adroitly, he substitutes
-Xl for X2, a counterfeit which A thinks is a genuine stone **
+A is a thief who has a real gem, X1, which he thinks is a counterfeit * A, a thief,
+has a real gem, X1, which he thinks is a counterfeit; and, adroitly, he substitutes
+X1 for X2, a counterfeit which A thinks is a genuine stone **
 POST: (614) (1166b)
 
 (b) PRE: (1166a -*)
 A, adroitly, secures an object greatly desired, X2. from A-9, who willl not dispose
-of it * A, making a replica, Xl, of a valuable original, X2, secures X2 by leaving
-XI in its place **
+of it * A, making a replica, X1, of a valuable original, X2, secures X2 by leaving
+X1 in its place **
 POST: (1166 *-**) (1343)
 
 -- page 151
@@ -12270,7 +12270,7 @@ POST: (1451b ch A-8 to A-3) (1439a ch A-2 to A-3)
 Conflict{1194}
 
 PRE: (1004) (1031)
-A is a thief who has an honest profession which he uses as a "cover for his
+A is a thief who has an honest profession which he uses as a "cover" for his
 dishonest practices * A seeks to appropriate a large sum of money which a dying
 man, A-8, has in his possession **
 POST: (338) (636)
@@ -12461,8 +12461,8 @@ Conflict{1214}
 
 PRE: (1129a ch A to A-5 & A-4 to A-2; 1268 ch A to A-5)
 A, friend of A-2, learns that A-2 is to be made the victim of a transgression. A
-discovers this too late to warn A-2, and determines to help him by secret enterprise (834:
-POST: (1227a)
+discovers this too late to warn A-2, and determines to help him by secret enterprise
+POST: (834) (1227a)
 
 Conflict{1215}
 
@@ -14132,7 +14132,7 @@ POST: (8a) (1134) (1330) (1343) (1352) (1354b) (1360)
 Conflict{1381}
 
 PRE: (562) (1211 ch A to A-5) (1387) (1389a, b)
-A is puzzled to account for certain objects, XI, X2, X3, which come mysteriously
+A is puzzled to account for certain objects, X1, X2, X3, which come mysteriously
 into his possession * A, unable to explain events of a seemingly supernatural nature,
 has a feeling that a ghostly visitor is at work **
 POST: (1400) (1424a) (1435)
