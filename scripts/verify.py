@@ -178,8 +178,10 @@ class Parser():
 		# Make sure that all {-tags are valid.
 		m = re.match(r'^(.+){', line)
 		if m and not m.group(1) in ['B', 'Conflict', 'ConflictGroup', 'ConflictSubGroup']:
-			print line,
-			error('Invalid token')
+			# Allow @{} in the middle of lines.
+			if m.group(1)[-1] != '@':
+				print line,
+				error('Invalid token')
 
 		m = re.match(r'^Conflict{(\d+)}$', line)
 		if m:
