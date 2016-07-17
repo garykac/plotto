@@ -7,10 +7,13 @@ http://archive.org/details/plottonewmethodoOOcook
 
 -- page i
 
+-- FORMAT:book_title
 PLOTTO
 
+-- FORMAT:book_subtitle
 A New Method of Plot Suggestion for Writers of Creative Fiction
 
+-- FORMAT:byline
 By William Wallace Cook
 
 
@@ -22,16 +25,23 @@ ELLIS PUBLISHING COMPANY
 BATTLE CREEK, MICHIGAN
 U. S. A.
 
-Copyright, 1928 by William Wallace Cook
+-- FORMAT:copyright
+Copyright 1928
+by William Wallace Cook
 
 Copyright (Canada), 1928 by William W. Cook
 
+-- FORMAT_BEGIN_LINES:frontmatter
 All rights reserved including that of
 translation into the foreign languages,
 including the Scandinavian.
+-- FORMAT_END
+
+-- HR
 
 -- page iii
 
+-- FORMAT_BEGIN:frontmatter
 The Soul, with its human faculties which put it in
 immediate touch with the Universe, is a Divine Instrument,
 an Aeolian Harp which is not played upon
@@ -41,13 +51,19 @@ Nature; and this Music of the Soul is a Divine
 Harmony which the Creative Imagination, alone
 of the human faculties, interprets in Creative Art.
 To this high interpretation, through fictional narrative,
+-- FORMAT_END
 
+-- FORMAT:frontmatter
 Plotto is dedicated.
+
+-- HR
 
 -- page 1
 
+-- FORMAT:title
 INTRODUCTION
 
+-- FORMAT_BEGIN:bodytext
 THE PLOTTO METHOD. Plotto achieves creative art in fiction by a new
 Method of plot suggestion. Suggestion is based on Themes (or Masterplots)
 and Conflicts.
@@ -98,11 +114,15 @@ the faults of a human soul set the pattern of Purpose for that soul.
 
 Plotto concerns itself with but one General Purpose in its application to three
 general goals of endeavor:
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
     1. To Achieve Happiness in Love and Courtship.
     2. To Achieve Happiness in Married Life.
     3. To Achieve Happiness (Success) in Enterprise.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Yet, while this one General Purpose runs through all the Conflicts, a host of
 subordinate Purposes will appear in them, opposed by an infinite number of Obstacles.
 
@@ -184,25 +204,35 @@ search the imagination is certain to find exactly what it is looking for.
 
 CONFLICT GROUPS AND SUB-GROUPS. The Conflicts in Plotto are
 classified in three main groups:
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
     1. Conflicts in Love and Courtship.
     2. Conflicts in Married Life.
     3. Conflicts in Enterprise.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 The Conflicts in Love and Courtship are re-grouped as follows:
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
     Conflicts in Love's Beginnings.
     Conflicts in Love's Misadventures.
     Conflicts of the Marriage Proposal.
     Conflicts in Love's Rejection.
     Conflicts of Marriage.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 All the sub-groups are classified, for convenience of reference, under the middle.
 or "B," Clauses of the Masterplots; and these form the only subdivisions of the
 -- page 4
 main group, "Married Life." Conflicts of the third group. "Enterprise." fall into
 the following general classifications:
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
     Conflicts in Misfortune.
     Conflicts in Mistaken Judgment.
     Conflicts in Helpfulness.
@@ -218,7 +248,9 @@ the following general classifications:
     Conflicts in Revenge.
     Conflicts in Mystery.
     Conflicts in Revelation.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Inasmuch as dramatic situations are a product of the emotions, and the emotions,
 by reason of their complexity, have defied a hard and fast classification, it
 follows naturally that the Conflicts themselves will defy a rigid classification. The
@@ -298,51 +330,73 @@ Herein lies the opportunity for originality, and the way to creative work.
 DEVELOPING THE PLOT FROM A MASTERPLOT. For purposes of illustration,
 we will select a Masterplot from the Masterplot Chart and build up a
 short story plot in tabloid form.
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
     A   11  A Person Swayed by Pretense,
-
-    B   11  (49) Assuming a fictitious character when embarking upon a certain
-            enterprise,
-
+    B   11  (49) Assuming a fictitious character when embarking upon a certain enterprise,
     C   2   Emerges happily from a serious entanglement.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 The B Clause "originates and carries on the action." Prefixed to this B Clause
 in parentheses is the number, (49). On the back of the Masterplot Chart, we find
 that No. (49) refers us to a sub-group of Conflicts beginning with Conflict No. 1173,
 this particular B Clause serving as a title for the sub-group:
+-- FORMAT_END
 
+-- FORMAT:conflictid
     1173
 
+-- FORMAT_LINKS:prelinks indent
     (2b, c, d, e, g, h) (1187; 2f)
+-- FORMAT_BEGIN:desc indent
     A, a pretender, encounters B, who is also a pretender * A and B are pretenders,
 -- page 6
-    yet neither knows the other is not what he or she seems to be ** (773; 772 ch A to
-    B & A-4 to A) (806 ch B-4 to B) (1462)
+    yet neither knows the other is not what he or she seems to be **
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (773; 772 ch A to B & A-4 to A) (806 ch B-4 to B) (1462)
 
+-- FORMAT_BEGIN:bodytext
 The reference numbers prefixed to this Conflict offer lead-up suggestions.
 Numbers 1187 and 2f form a complementary suggestion, or a combination of two
 Conflicts appropriate to the main situation.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     1187. A is a poor clerk who, with a limited capital, dons a dress suit and takes
     a "fling" in high society.
 
     2f *.**, B, poor and humble but pretending to be wealthy and aristocratic, meets
     rich and influential A, and they fall in love.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Thus we have our two pretenders, neither knowing that the other is not what
 he or she seems to be. No. 2f has a carry-on suggestion:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     1461a. B fights a hard battle with her conscience; she finds it a losing battle
     and makes an important revelation in order that she may achieve peace of mind.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 A and not B is the protagonist of 1461a, but we manipulate the Conflict by
-changing A to B. This Conflict has a reference, No. 358 **.***;
+changing A to B. This Conflict has a reference, No. 358 **.***:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     358 **-***. A, in order to win B, is compelled to confess his true rank and station.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 We can now eliminate our main suggestion. Conflict 1173, so that our tabloid
 plot will read:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     2f *.**, B, poor and humble but pretending to be wealthy and aristocratic, meets
     rich and influential A, and they fall in love.
 
@@ -353,7 +407,9 @@ plot will read:
     makes an important revelation in order that she may achieve peace of mind.
 
     358 **-***. A, in order to win B, is compelled to confess his true rank and station.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 We have manipiilated the combination Conflict by allowing 2f *-** to precede
 1187; and if we keep the reader in ignorance of the fact that A and B are pretenders
 and allow the revelation to come at the end of the story, we shall achieve a double
@@ -362,36 +418,53 @@ these suggestions.
 
 By changing the first two situations and selecting different Conflicts, the plot
 will develop along criminal lines:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     2h. B, a criminal, assumes an alias and makes use of stolen funds in evading the
     the law * B, a criminal in disguise, meets A, and they fall in love **
 
     1c. A, a crook, pretends to be an honest man in order to forward his love affair
     with B.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Or, we could make our plot more dramatic by having the second situation read:
-3a. A is a judge, and B is a fugitive from justice posing as a woman of wealth and
-fashion * A, a judge, falls in love with B, a criminal **
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
+    3a. A is a judge, and B is a fugitive from justice posing as a woman of wealth and
+    fashion * A, a judge, falls in love with B, a criminal **
+-- FORMAT_END
+
+-- FORMAT_BEGIN:bodytext
 This might be followed with:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     1292. B seeks happiness as a reform.ed transgressor * B, seeking happiness as a
     reformed transgressor, has her old transgression discovered **
 
     727. A, a judge presiding at a murder trial, finds himself unexpectedly confronted
     with a circumstance that makes his work a torture to his soul.
+-- FORMAT_END
 
 -- page 7
 
+-- FORMAT_BEGIN:bodytext
 These changes in the plot would make necessary a change in the C clause of
 the Masterplot:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     C (1). Pays a grim penalty in an unfortunate undertaking.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 CONFLICT MANIPULATIONS. Characters in the Plotto Conflicts are
 represented by symbols (see "The Plotto Character Symbols," page 17). These
 symbols may be readily changed or transposed, as an aid in manipulating the Conflict suggestions. Thus, "261 ch A-3 to A," indicates that A-3 in the Conflict is
-to be changed to A; and, "57Sb tr B & B-3," indicates a transposition in which
+to be changed to A; and, "578b tr B & B-3," indicates a transposition in which
 B-3 takes the place of B and B of B-3.
 
 The character symbols are changed, or transposed, in the auxiliary Conflicts
@@ -401,22 +474,30 @@ studied.
 In many instances the Conflicts are "broken" — that is, divided into two or
 more parts. The end of the first part is marked with a star (*), of the second part,
 with a double star (**), of the third part with a triple star (***), etc. Thus,"-*"
-indicates that the Conflict is to be used up to the first star; "*.**" indicates that
+indicates that the Conflict is to be used up to the first star; "*-**" indicates that
 the first part of the Conflict is not to be used, but only that part between the first
-star and the double star; ".**" indicates that all of the Conflict is to be used up
+star and the double star; "-**" indicates that all of the Conflict is to be used up
 to the double star, etc.
 
 DEVELOPING THE PLOT FROM A SELECTED SITUATION. The
 most practical way to illustrate the Plotto Method of developing a plot from a
 single situation, or Conflict, will be to select a Conflict and follow the Method
-through, step by step. For this purpose, the first Conflict, la, may be used:
+through, step by step. For this purpose, the first Conflict, 1a, may be used:
+-- FORMAT_END
 
+-- FORMAT:conflictid
     1
 
+-- FORMAT_LINKS:prelinks indent
     (a) (112) (117) (148) (656)
+-- FORMAT_BEGIN:desc indent
     A, poor, is in love with wealthy and aristocratic B * A, poor, in love with wealthy
-    B, pretends to be a man of wealth ** (209) (187)
+    B, pretends to be a man of wealth **
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (209) (187)
 
+-- FORMAT_BEGIN:bodytext
 The simplest combination will consist of three Conflicts — the Conflict selected
 as the working basis for the plot, the one Conflict leading up to it, and the third
 Conflict terminating the action, both auxiliary Conflicts taken from the references
@@ -426,8 +507,10 @@ Conflict No. 112 may be used, followed by la, and this in turn followed by No. 2
 It develops, however, that the second part of the broken Conflict, la, may be
 eliminated; and that, with this elimination, la -* may logically precede Conflict 112,
 giving the three-Conflict plot as follows:
+-- FORMAT_END
 
-    la -*. A, POOR, IS IN LOVE WITH WEALTHY AND ARISTOCRATIC B.
+-- FORMAT_BEGIN:bodytext indent
+    1a -*. A, POOR, IS IN LOVE WITH WEALTHY AND ARISTOCRATIC B.
 
     112. A loves B; and B's father, F-B, promises him B's hand in marriage if he will
     successfully carry out an enterprise of great difficulty and danger.
@@ -435,43 +518,69 @@ giving the three-Conflict plot as follows:
     209. A carries out successfully a very difficult enterprise when promised the hand
     of B in marriage by F-B, father of B * A, discovering secretly that B loves a rival,
     A-3, refuses to hold B to a promise of marriage made by her father, F-B **
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Nobility of character on the part of A is suggested by this heroic renunciation.
 The character of B, of F-B and of A-3, as well as the "enterprise of great difficulty
 and danger," may be left to the creative imagination.
 
 Again using Conflict la for our main suggestion, we might begin with Conflict
 656 for a lead-up:
+-- FORMAT_END
 
 -- page 8
 
+-- FORMAT:conflictid
     656
 
+-- FORMAT_LINKS:prelinks indent
     (751) (961) (1000) (1079)
-    A's ancestral acres have been heavily mortgaged and he is about to lose the property * A, by hook or crook, seeks to save his mortgaged paternal acres from foreclosure ** (500) (860) (874) (1029)
+-- FORMAT_BEGIN:desc indent
+    A's ancestral acres have been heavily mortgaged and he is about to lose the property * A, by hook or crook, seeks to save his mortgaged paternal acres from foreclosure **
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (500) (860) (874) (1029)
 
+-- FORMAT_BEGIN:bodytext
 Reaching backward into the causes of A's unfortunate condition, we will select
 lead-up sugge.stion No. 1079. Many other Conflicts in Personal Limitations,
 Misfortune, or. some of the other groups would serve us equally well, or better;
 but we will content ourselves with
+-- FORMAT_END
 
+-- FORMAT:conflictid
     1079
 
+-- FORMAT_LINKS:prelinks indent
     (127a) (656)
+-- FORMAT_BEGIN:desc indent
     A's character weakness is betting; * and he seems unable to conquer the failing
-    although he invariably suffers loss ** (367a) (524a) (902)
+    although he invariably suffers loss **
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (367a) (524a) (902)
 
+-- FORMAT_BEGIN:bodytext
 Here we have a suggestion as to the character weakness which caused A to
 squander his fortune and mortgage his ancestral estates. We shall assume now
 that none of the references prefixed or affixed to 1079 appeals to our imagination,
 so we shall proceed on our own initiative — a course which Plotto earnestly recommends to the Plottoist in the working out of every plot. A further study of i.'ersonal Limitations suggests
+-- FORMAT_END
 
+-- FORMAT:conflictid
     1075
 
+-- FORMAT_LINKS:prelinks indent
     (a) (850b) (902)
+-- FORMAT_BEGIN:desc indent
     A, struggling hopelessly against a character weakness, forms a platonic friendship
-    for B (838 ch A to B & A-2 to A) (850a, b) (364d) (1075b)
+    for B
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (838 ch A to B & A-2 to A) (850a, b) (364d) (1075b)
 
+-- FORMAT_BEGIN:bodytext
 Thus we have A, struggling hopelessly against a character weakness that has
 wrecked him financially, forming a platonic friendship for B. If we consider it
 expedient to bring about a dramatic first meeting of A with B, the Conflicts are
@@ -481,13 +590,21 @@ plot, our object being to simplify the references as much as possible. Conflict
 over A: "A's admiration for his friend B, and his desire to please her, inspires him
 to bring out the best in his nature." Also appended to 1075a is a reference to
 Conflict 364d, which seems quite apropos at this point:
+-- FORMAT_END
 
+-- FORMAT:conflictid
     364
 
+-- FORMAT_LINKS:prelinks indent
     (d) (850a, b) (1075a, b)
+-- FORMAT_BEGIN:desc indent
     A, with the help of B, overcomes an ignoble weakness * A's gratitude to B blossoms
-    into love; and, when A is sure he has rehabilitated his character, he proposes marriage to B and is accepted ** (826) (828)
+    into love; and, when A is sure he has rehabilitated his character, he proposes marriage to B and is accepted **
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (826) (828)
 
+-- FORMAT_BEGIN:bodytext
 This Conflict may be called a terminal Conflict, in the sense that it brings our
 love story plot to marriage, the finale of most such plots. But we are not ready,
 as yet, to close the action, inasmuch as we are merely leading up to the main situation, la; so we shall use only the first part of this broken Conflict: "A, with the
@@ -495,7 +612,9 @@ help of B, overcomes an ignoble weakness."
 
 At last we have the female protagonist, B, firmly fixed in the plot, and we need
 not go back further into the lead-ups.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     1079. A's character weakness is betting, and he seems unable to conquer the
     failing although he invariably suffers loss.
 
@@ -512,46 +631,65 @@ not go back further into the lead-ups.
 
     364d -*. A, with the help of B, overcomes an ignoble weakness.
 
-    la. A. POOR. IS IN LOVE WITH WEALTHY AND ARISTOCRATIC B * A.
+    1a. A. POOR. IS IN LOVE WITH WEALTHY AND ARISTOCRATIC B * A.
     POOR. IN LOVE WITH WEALTHY B. PRETENDS TO BE A MAN OF
     WEALTH **
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 From this, it is manifest that A's platonic association with B has gone the way
 of most platonic associations (see Conflicts 9a, b, c). and his gratitude has blossomed into love. A, by inference, is so deeply in love with B that the best in his
 nature is. for the time, eclipsed by his desire to win B. He resorts to simulation
 in forwarding his suit — thinking less of saving his ancestral acres by a wealthy
 marriage than he is of his own future happiness. Conflict la has a reference to
 Conflict 187 for carrying on the action:
+-- FORMAT_END
 
+-- FORMAT:conflictid
     187
 
+-- FORMAT_LINKS:prelinks indent
     (145) (956 -*) (1105) (1119)
+-- FORMAT_BEGIN:desc indent
     A, in love with B and wishing to propose marriage, finds it impossible because B
-    is so busy he can never find her alone. He seeks to make an opportunity by stratagem. (163; 91) (352a)
+    is so busy he can never find her alone. He seeks to make an opportunity by stratagem.
+-- FORMAT_END
+-- FORMAT_LINKS:postlinks indent
+    (163; 91) (352a)
 
+-- FORMAT_BEGIN:bodytext
 We will discard this suggestion, for the reason that it will plunge A deeper into
 the questionable methods into which his ardor has already lured him. He is pretending to be a man of wealth when he is almost a bankrupt; but he has overcome
 his passion for gambling, thanks to B's influence, and he is ready to husband his
 remaining resources and save what he can from the wreck of his material fortunes.
 A carry-on suggestion appended to Conflict 187 is a two-Conflict combination,
 163; 91:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     163. B learns that her lover. A, has fallen into desperate misfortunes.
 
     91. B, in love with A. seeks to save A from disaster.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 We are now approaching the climax of the action. A's pretensions to wealth,
 B secretly discovers, are a hollow mockery. She learns that he is faced with disaster; and the Conflicts, if desired, will offer suggestions as to just how she discovers
 this secret. B is in love with A and ready to overlook his shortcomings, so she
 hastens to his rescue. We will depart, at this point, from the references and show
 B, on her own part, indulging in a bit of simulation. Turning to the sub-group.
 Simulation, we select Conflict,
+-- FORMAT_END
 
+-- FORMAT:conflictid
     1155
 
+-- FORMAT_BEGIN:desc indent
     B, the friend of A, learns that A is desperately involved in debt * B, unknown to A.
     settles with A's creditors and frees him from debt **
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 This happy turn of affairs, naturally, cannot long remain unknown to A. If he
 has pride, let him pocket it; or let his pride be humbled by B's proof of her great
 love for him. If this course cannot be made to serve, the Conflicts will offer many
@@ -559,12 +697,16 @@ suggestions for estrangement and reconciliation; but, in our plot, we will not h
 A a cad. Of the thousands of changes possible in such a series of actions as we are
 studying, we could eliminate the Conflicts from 163. inclusive, onward and place
 A in a better light by using this suggestion from Revelation:
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext indent
     1451a. A fights a hard battle with his conscience; he finds it a losing battle, and
     makes an important revelation in order that he may achieve peace of mind.
+-- FORMAT_END
 
 -- page 10
 
+-- FORMAT_BEGIN:bodytext
 But we will not make the change. We will proceed to close the action with
 Conflict 364d *-**: "A's gratitude to B blossoms into love; and when A is sure he
 has rehabilitated his character, he proposes to B and is accepted."
@@ -574,8 +716,10 @@ The statement in 364d that "A's gratitude to B has blossomed into love," is redu
 of the action; and we simply ignore it here.
 
 The latter part of this love story plot would stand as follows:
+-- FORMAT_END
 
-    la. A, POOR, IN LOVE WITH WEALTHY AND ARISTOCRATIC B, PRETENDS TO BE A MAN OF WEALTH.
+-- FORMAT_BEGIN:bodytext indent
+    1a. A, POOR, IN LOVE WITH WEALTHY AND ARISTOCRATIC B, PRETENDS TO BE A MAN OF WEALTH.
 
     163. B learns that her lover. A, has fallen into desperate misfortunes.
 
@@ -584,43 +728,57 @@ The latter part of this love story plot would stand as follows:
     1155. B, in love with A, learns that A is desperately involved in debt * B unknown to A, settles with A's creditors and frees him from debt **
 
     364d *-**. A's gratitude to B blossoms into love; and when A is sure he has rehabilitated his character, he proposes to B and is accepted.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 In the Classification by Character Symbols, all terminal Conflicts are marked
 by the parentheses number of the C Clauses. For instance, 364d exemplifies C
 Clause (9), "Achieves success and happiness in a hard undertaking." This Conflict, 364d, will be found, marked "9", under the A and B symbols of Conflicts in
 Marriage in the Classification by Symbols. An elusive terminal situation may be
 run down by consulting this Classification.
+-- FORMAT_END
 
+-- HR
 
-
+-- FORMAT_BEGIN:bodytext
 INDIVIDUALIZING PLOTTO. It is possible for the Plottoist to individualize his Plotto by adding material of his own. Every writer has newspaper
 clippings or other memoranda filed away for possible use. Let all this be catalogued
 in a loose-leaf book under the Conflict numbers to which each bit of material applies,
 and a notation to that effect penciled opposite the Conflicts thus amplified. This
 will broaden the usefulness of Plotto, often with concrete exemplifications of the
 Conflicts from real life.
+-- FORMAT_END
 
 -- page 11
 
+-- HR
 
 Copyright, 1927, by William Wallace Cook
 Patent applied for.
 
 
+-- FORMAT:book_title
 Plotto Chart
 
+-- FORMAT:book_subtitle
 Masterplots with Interchangeable Clauses
 
 
+-- FORMAT:title
 NOTE
 
+-- FORMAT_BEGIN:bodytext
 A Plotto Masterplot consists of three clauses: An "A" Clause,
 a "B" Clause and a "C" Clause.
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
     The A Clause is the Protagonist Clause.
     The B Clause originates and carries on the action.
     The C Clause carries on and terminates the action.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Any A Clause may be used in conjunction with any B Clause
 and with any C Clause. For the purpose of bringing all the B
 Clauses in juxtaposition with all the A and C Clauses, it is merely
@@ -638,47 +796,39 @@ parentheses number of the B Clause.
 The C, or Terminal, Clauses are also numbered in parentheses;
 and Conflicts suggesting these terminations will be found opposite
 the C Clause numbers in the Classification by Symbols.
+-- FORMAT_END
 
 
 
 -- page 12-15
 
 
+-- FORMAT:subtitle
 "A" Clauses
 
+-- FORMAT_BEGIN_LINES:bodylist
 1. A Person in Love,
-
 2. A Married Person,
-
 3. A Lawless Person,
-
 4. An Erring Person,
-
 5. A Benevolent Person,
-
 6. A Protecting Person,
-
 7. A Person of Ideals,
-
 8. A Person Influenced by an Obligation,
-
 9. A Person Subjected to Adverse Conditions,
-
 10. A Resentful Person,
-
 11. A Person Swayed by Pretense,
-
 12. A Subtle Person,
-
 13. A Person Influenced by the Occult and the Mysterious,
-
 14. A Normal Person,
-
 15. Any Person,
+-- FORMAT_END
 
 
+-- FORMAT:subtitle
 "B" Clauses
 
+-- FORMAT_BEGIN_LINES:bodylist
 (1) Engaging in a difficult enterprise when promised a reward for high achievement,
 (2) Falling in love at a time when certain obligationa forbid love,
 (3) Seeking to demonstrate the power of love by a test of courage.
@@ -688,11 +838,9 @@ the C Clause numbers in the Classification by Symbols.
 (7) Becoming involved in a love affair that encounters unforeseen obstacles,
 (8) Confronting a situation in which wealth is made conditional upon a certain course of action in a love affair,
 (9) Being put to a test in which love will be lost if more material fortunes are advanced,
-
 (10) Suffering an estrangement due to mistaken judgment,
 (11) Confronting a situation in which courage and devotion alone can save the fortunes of one beloved,
 (12) Falling into misfortune through disloyalty in love,
-
 (13) Seeking by craftiness to escape misfortune,
 (14) Falling into misfortune through the wiles of a crafty schemer,
 (15) Finding a sustaining power in misfortune,
@@ -701,20 +849,16 @@ the C Clause numbers in the Classification by Symbols.
 (18) Rebelling against a power that controls personal abilities and holds them in subjection.
 (19) Meeting with misfortune and being cast away in a primitive, isolated and savage environment,
 (20) Becoming involved with conditions in which misfortune is indicated,
-
 (21) Falling into misfortune through mistaken judgment,
 (22) Following a wrong course through mistaken judgment,
 (23) Becoming involved in a complication that has to do with mistaken judgment and suspicion,
 (24) Becoming the victim of mistaken judgment in carrying out an enterprise,
-
 (25) Seeking to save a person who is accused of transgression,
 (26) Seeking secretly to preserve another from danger,
 (27) Refusing to betray another's secret and calmly facing persecution because of the refusal,
-
 (28) Facing a situation in which the misfortunes of one greatly esteemed call for courage and sagacious enterprise,
 (29) Aiding another to hide from the world a fateful secret,
 (30) Enlisting whole-heartedly in the service of a needy unfortunate and conferring aid of the utmost value,
-
 (31) Living a lonely, cheerless life and seeking companionship
 (32) Seeking to conceal identity because of a lofty idealism,
 (33) Resisting secretly and from an honorable motive a mandate considered discreditable,
@@ -722,28 +866,22 @@ the C Clause numbers in the Classification by Symbols.
 (35) Becoming involved in a complication that challenges the value of cherished ideals,
 (36) Undergoing an experience that results in a remarkable character change,
 (37) Seeking against difficulties to realize a cherished ideal.
-
 (38) Committing a grievous mistake and seeking in secret to live down its evil results,
 (39) Forsaking cherished ambitions to carry out an obligation,
 (40) Embarking upon an enterprise in which one obligation is opposed by another obligation.
 (41) Finding an obligation at variance with ambition, inclination or necessity,
 (42) Falling into misfortune while seeking honorably to discharge an obligation,
-
 (43) Seeking to overcome personal limitations in carrying out an enterprise,
 (44) Seeking by unusual methods to conquer personal limitations.
 (45) Seeking to forward an enterprise and encountering family sentiment as an obstacle.
-
 (46) Seeking retaliation for a grievous wrong that is either real or fancied,
-
 (47) Finding (apparently) an object greatly coveted, and obtaining (apparently) the object,
 (48) Assuming the character of a criminal in a perfectly honest enterprise.
 (49) Assuming a fictitious character when embarking upon a certain enterprise,
-
 (50) Being impelled by an unusual motive to engage in crafty enterprise,
 (51) Devising a clever and plausible delusion in order to forward certain ambitious plans,
 (52) Encountering a would-be transgressor and seeking to prevent a transgression,
 (53) Opposing the plans of a crafty schemer,
-
 (54) Becoming involved in a puzzling complication that has to do with an object possessing mysterious powers,
 (55) Becoming involved in a mysterious complication and seeking to make the utmost of a bizarre experience,
 (56) Seeking to test the value of a mysterious communication and becoming involved in weird complexities,
@@ -751,48 +889,39 @@ the C Clause numbers in the Classification by Symbols.
 (58) Engaging in an enterprise and then mysteriously disappearing,
 (59) Engaging in an mysterious enterprise and becoming involved with the occult and the fantastic.
 (60) Becoming involved, through curiosity aroused by mystery, in a strange enterprise.
-
 (61) Becoming aware of an important secret that calls for decisive action,
-
 (62) Becoming involved in any sort of complication,
+-- FORMAT_END
 
-
+-- FORMAT:subtitle
 "C" Clauses
 
+-- FORMAT_BEGIN_LINES:bodylist
 (1) Pays a grim penalty in an unfortunate undertaking,
-
 (2) Emerges happily from a serious entanglement.
-
 (3) Foils a guilty plotter and defeats a subtle plot.
-
 (4) Undertakes a role that leads straight to catastrophe.
-
 (5) Emerges from a trying ordeal with soreiy garnered wisdom.
-
 (6) Makes the supreme sacrifice in carrying out an undertaking.
-
 (7) Reverses certain opinions when their fallacy is revealed.
-
 (8) Achieves a spiritual victory
-
 (9) Achieves success and happiness in a hard undertaking.
-
 (10) Meets with an experience whereby an error is corrected
-
 (11) Discovers the folly of trying to appear otherwise than as one is in reality.
-
 (12) Rescues integrity from a serious entanglement.
-
 (13) Comes finally to the blank wall of enigma.
-
 (14) Achieves a complete and permanent character transformation
-
 (15) Meets any fate, good or evil.
+-- FORMAT_END
+
+-- HR
 
 -- page 16
 
+-- FORMAT:subtitle
 Index of Conflicts Grouped Under the "B" Clauses
 
+-- FORMAT_BEGIN_LINES:bodylist
 (1) Love and Courtship 110
 (2) Love and Courtship 16, 119, 271
 (3) Love and Courtship 175
@@ -855,12 +984,16 @@ Index of Conflicts Grouped Under the "B" Clauses
 (60) Mystery 1429
 (61) Mistaken Judgment 802; Revelation 1447
 (62) All Conflicts
+-- FORMAT_END
 
+-- HR
 
 -- page 17
 
+-- FORMAT:subtitle
 THE PLOTTO CHARACTER SYMBOLS
 
+-- FORMAT_BEGIN:bodytext
 Characters in the Plotto Conflicts are represented by symbols. These symbols
 indicate the relationship of the auxiliary characters to the protagonist. This relationship
 is invariably explained in the text of the Conflicts, with the exception of
@@ -869,7 +1002,9 @@ These symbols give a certain uniformity to the characters and facilitate
 character changes or transpositions. Protagonist A, or B, might be a criminal, an
 officer of the law, an employer, etc., but the numeral is never used in connection with
 the protagonist symbol — the explanation is given in the text.
+-- FORMAT_END
 
+-- FORMAT_BEGIN_LINES:bodylist
 A,      male protagonist
 A-2,    male friend of A
 A-3,    male rival or enemy of A
@@ -931,15 +1066,19 @@ X,      an inanimate object, an object of mystery, an uncertain quantity
 
 Note: BR-A, BR-B, SR-A, SR-B, SN-A, SN-B, D-A. D-B, CN-A and
 CN-B may on occasion be merely BR, SR, SN. D. and CN.
+-- FORMAT_END
 
+-- FORMAT_BEGIN:bodytext
 Where necessary to indicate a male friend of B, or a female friend of A,
 the symbols aB-2, bA-2 may be used. Likewise, bCN-A, female cousin
 of A; aCN-B, male cousin of B, bGCH-A, female grandchild of A, aCH.
 male child, etc.
 
 X added to any character gives to the character a suggestion of mystery.
+-- FORMAT_END
 
 
+-- HR
 
 -- page 18
 

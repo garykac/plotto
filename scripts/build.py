@@ -27,6 +27,12 @@ class Parser():
 		self.text = []
 		self.links = {}
 
+		self.format_paragraph = None
+		self.format_lines = None
+		self.format_next_line = None
+		self.format_links = None
+		self.blank_line = False
+
 	def parse_links(self, links):
 		hyperlinks = ''
 		while len(links) != 0:
@@ -90,7 +96,7 @@ class Parser():
 		# (123a, b, c)
 		m = re.match(r'^(\d+)([a-h](, [a-h])*)?(?P<extra>.*)$', link)
 		if not m:
-			error('Invalid links: 123a,b,c')
+			error('Invalid links: {0}'.format(orig_link))
 		id = m.group(1)
 		subid = m.group(2)
 
@@ -101,6 +107,71 @@ class Parser():
 		# Ignore comments.
 		m = re.match(r'^--', line)
 		if m:
+			m = re.match(r'^-- FORMAT', line)
+			if m:
+				# Cancel previous formatting.
+				self.format_paragraph = None
+				self.format_lines = None
+				self.format_next_line = None
+				self.format_links = None
+				# Fall through
+
+			m = re.match(r'^-- FORMAT_BEGIN_LINES:(.*)', line)
+			if m:
+				self.format_lines = m.group(1)
+				self.outfile.write('<div class="{0}">\n'.format(self.format_lines))
+				return
+			m = re.match(r'^-- FORMAT_BEGIN:(.*)', line)
+			if m:
+				self.format_paragraph = m.group(1)
+				self.outfile.write('<div class="{0}">\n'.format(self.format_paragraph))
+				return
+			m = re.match(r'^-- FORMAT_END', line)
+			if m:
+				self.outfile.write('</div>\n')
+				return
+			m = re.match(r'^-- FORMAT:(.*)', line)
+			if m:
+				self.format_next_line = m.group(1)
+				return
+			m = re.match(r'^-- FORMAT_LINKS:(.*)', line)
+			if m:
+				self.format_links = m.group(1)
+				return
+			m = re.match(r'^-- HR', line)
+			if m:
+				self.outfile.write('<hr/>\n')
+				return
+			return
+
+		if self.format_paragraph:
+			line = line.strip()
+			if line == '':
+				if not self.blank_line:
+					self.outfile.write('</div><div class="{0}">\n'.format(self.format_paragraph))
+					self.blank_line = True
+			else:
+				self.outfile.write('{0}\n'.format(line.strip()))
+				self.blank_line = False
+			return
+
+		if self.format_lines:
+			self.outfile.write('{0}<br/>\n'.format(line.strip()))
+			return
+
+		if self.format_next_line:
+			self.outfile.write('<div class="{0}">{1}</div>\n'.format(self.format_next_line, line.strip()))
+			self.format_next_line = None
+			return
+
+		if self.format_links:
+			prefix = ''
+			m = re.match('^\s*\(([a-d])\) (.*)$', line)
+			if m:
+				prefix = '({0})'.format(m.group(1))
+				line = m.group(2)
+			self.outfile.write('<div class="{0}">{1}{2}</div>\n'.format(self.format_links, prefix, self.parse_links(line.strip())))
+			self.format_links = None
 			return
 
 		m = re.match(r'^ConflictGroup{(.+)}$', line)

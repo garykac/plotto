@@ -4,6 +4,67 @@
 	font-family: 'Old Standard TT', serif;
 }
 
+.book_title {
+	font-size: 36pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.book_subtitle {
+	font-size: 24pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.byline {
+	font-size: 18pt;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.copyright {
+	font-size: 14pt;
+	font-style: italic;
+	text-align: center;
+}
+
+.frontmatter {
+	font-size: 14pt;
+	font-style: italic;
+	text-align: center;
+	margin: 30px 0;
+}
+
+.title {
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+	margin: 15px 0;
+}
+
+.subtitle {
+	font-size: 18pt;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+.bodytext {
+	font-size: 14pt;
+	margin: 15px 0;
+}
+
+.indent {
+	margin-left: 30px;
+}
+
+.bodylist {
+	font-size: 14pt;
+	margin: 10px 0;
+	padding-left: 30px;
+}
+
 .group {
 	font-size: 18pt;
 	font-weight: bold;
