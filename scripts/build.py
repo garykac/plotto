@@ -10,10 +10,52 @@ def error(msg):
 	print 'Error: %s' % (msg)
 	sys.exit(1)
 
+genderedTerms = [
+	['brother', 'sister'],
+	['boy', 'girl'],
+	['clergyman', 'clergywoman'],
+	['craftsman', 'craftswoman'],
+	['father', 'mother'],
+	['foreman', 'forewoman'],
+	['frontiersman', 'frontierswoman'],
+	['gentleman', 'gentlewoman'],
+	['gentlemen', 'gentlewomen'],
+	['grandfather', 'grandmother'],
+	['he', 'she'],
+	['highwayman', 'highwaywoman'],
+	['him', '*her'],
+	['himself', 'herself'],
+	['husband', 'wife'],
+	['his', '*her'],
+	['male', 'female'],
+	['man', 'woman'],
+	['man-hater', 'woman-hater'],
+	['mankind', 'womankind'],
+	['manly', 'womanly'],
+	['manservant', 'maid'],
+	['*men', 'ladies'],
+	['men', 'women'],
+	['*lover', 'mistress'],
+	['nephew', 'niece'],
+	['paternal', 'maternal'],
+	['policeman', 'policewoman'],
+	['son', 'daughter'],
+	['stepfather', 'stepmother'],
+	['uncle', 'aunt'],
+	# her: objective (him) vs. possessive (his)
+	# husband: spouse (wife) vs. to manage
+	# mistress: head of household (master) vs. lover
+	# cad: female equivalent?
+]
+
 class Parser():
 	"""Build script for Plotto"""
 
 	def __init__(self):
+		self.A = 'm'
+		self.B = 'f'
+
+		self.page = 0
 		self.in_conflict_section = False
 		self.in_conflict = False
 
@@ -33,6 +75,50 @@ class Parser():
 		self.format_next_line = None
 		self.format_links = None
 		self.blank_line = False
+
+		self.replaceList = {}
+		for x in genderedTerms:
+			male = x[0]
+			female = x[1]
+			m2f = True
+			f2m = True
+			if male[0] == '*':
+				male = male[1:]
+				m2f = False
+			if female[0] == '*':
+				female = female[1:]
+				f2m = False
+
+			if m2f:
+				assert not (male in self.replaceList)
+				self.replaceList[male] = female
+			if f2m:
+				assert not (female in self.replaceList)
+				self.replaceList[female] = male
+
+		# The pronoun 'her' can be either the objective (cf. him) or the
+		# possessive (cf. his). By default, we assume the posssive, but the
+		# "-- HER (obj|poss)" comment can be used to override that default.
+		# This is an array of 'obj', 'poss' since 'her' can occur multiple
+		# time on the same line.
+		self.her_info = None
+
+		# Capital 'A' can either be the character A, or, at the beginning of a
+		# sentence, it can be the determiner 'a'. By default, it is assumed to
+		# be the character.
+		self.a_info = None
+
+		# 'husband' can be either a noun or a verb. By default, it is a noun,
+		# but the "-- HUSBAND verb" comment can be used to override that default.
+		self.husband_info = None
+
+		# 'mistress' can be either a head of household or a lover (default).
+		# Use "-- MISTRESS master" to override default
+		self.mistress_info = None
+
+	def setAB(self, ab):
+		self.A = ab[0]
+		self.B = ab[1]
 
 	def parse_links(self, links):
 		hyperlinks = ''
@@ -105,14 +191,34 @@ class Parser():
 
 	# Process an entire line from the file.
 	def process_line(self, line):
-		line = line.strip()
+		# Reset language defaults.
+		self.her_info = None
+		self.a_info = None
+		self.husband_info = None
+		self.mistress_info = None
+
 		# Ignore comments.
 		m = re.match(r'^--', line)
 		if m:
-			if line == '-- page 18':
-				self.in_conflict_section = True
-			if line == '-- page 190':
-				self.in_conflict_section = False
+			m = re.match(r'-- page (\d+)', line)
+			if m:
+				self.page = m.group(1)
+
+				if self.page == '18':
+					self.in_conflict_section = True
+				if self.page == '190':
+					self.in_conflict_section = False
+
+			m = re.match(r'-- HER (.*)', line)
+			if m:
+				self.her_info = m.group(1).split()
+			m = re.match(r'-- A (.*)', line)
+			if m:
+				self.a_info = m.group(1).split()
+			if line == '-- HUSBAND verb':
+				self.husband_info = 'verb'
+			if line == '-- MISTRESS master':
+				self.mistress_info = 'verb'
 
 			m = re.match(r'^-- FORMAT_LINES:(.*)', line)
 			if m:
@@ -268,6 +374,8 @@ class Parser():
 
 	def write_html_footer(self):
 		self.outfile.write('</div>\n')
+		self.outfile.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>\n')
+		self.outfile.write('<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>\n')
 		self.outfile.write('</body>\n')
 		self.outfile.write('</html>\n')
 
@@ -277,6 +385,19 @@ class Parser():
 		self.outfile.write('\t\t<div class="navbar-header">\n')
 		self.outfile.write('\t\t\t<a class="navbar-brand" href="./plotto.html">Plotto - A New Method of Plot Suggestion for Writers of Creative Fiction</a>\n')
 		self.outfile.write('\t\t</div>\n')
+
+		self.outfile.write('\t\t<div class="collapse navbar-collapse" id="navbar-right">\n')
+		self.outfile.write('\t\t<ul class="nav navbar-nav navbar-right">\n')
+		self.outfile.write('\t\t<li class="dropdown">\n')
+		self.outfile.write('\t\t  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AB <span class="caret"></span></a>\n')
+		self.outfile.write('\t\t  <ul class="dropdown-menu">\n')
+		self.outfile.write('\t\t	<li><a href="plotto-mf.html">A=male, B=female</a></li>\n')
+		self.outfile.write('\t\t	<li><a href="plotto-fm.html">A=female, B=male</a></li>\n')
+		self.outfile.write('\t\t  </ul>\n')
+		self.outfile.write('\t\t</li>\n')
+		self.outfile.write('\t\t</ul>\n')
+		self.outfile.write('\t\t</div>\n')
+
 		self.outfile.write('\t</div>\n')
 		self.outfile.write('</nav>\n')
 
@@ -334,6 +455,51 @@ class Parser():
 			text += self.add_tags(m.group(3))
 		return text
 
+	def preprocess_word(self, word):
+		if word == '':
+			return word
+
+		cap = False
+		wordLower = word
+		if word[0].isupper():
+			cap = True
+			wordLower = word[0].lower() + word[1:]
+
+		if wordLower == 'her':
+			wordNew = 'his'
+			if self.her_info != None:
+				if len(self.her_info) == 0:
+					print self.page, self.id, 'missing her info'
+				type = self.her_info.pop(0)
+				if type == 'obj':
+					wordNew = 'him'
+				elif type == 'poss':
+					wordNew = 'his'
+				else:
+					assert False
+			if cap:
+				wordNew = wordNew[0].upper() + wordNew[1:]
+			return wordNew
+
+		if wordLower == 'husband' and self.husband_info:
+			return 'husband'
+		if wordLower == 'mistress' and self.mistress_info:
+			return 'master'
+
+		if wordLower in self.replaceList:
+			wordNew = self.replaceList[wordLower]
+			if cap:
+				wordNew = wordNew[0].upper() + wordNew[1:]
+			return wordNew
+		return word
+
+	def preprocess_line(self, line):
+		if line[0:2] == '--':
+			return line
+		words = re.split('([ .,:;\'"])', line)
+		line2 = ''.join([self.preprocess_word(w) for w in words])
+		return line2
+
 	def process(self, src, dst):
 		if not os.path.isfile(src):
 			error('File "%s" doesn\'t exist' % src)
@@ -351,6 +517,9 @@ class Parser():
 		self.outfile = outfile
 		self.write_html_header()
 		for line in infile:
+			line = line.strip()
+			if self.A == 'f' and self.B == 'm':
+				line = self.preprocess_line(line)
 			self.process_line(line)
 		self.write_html_footer()
 
@@ -360,10 +529,11 @@ class Parser():
 
 def main():
 	infilename = '../plotto.txt'
-	outfilename = '../plotto.html'
 
-	parser = Parser()
-	parser.process(infilename, outfilename)
+	for version in ['mf', 'fm']:
+		parser = Parser()
+		parser.setAB(version)
+		parser.process(infilename, '../plotto-{0}.html'.format(version))
 
 if __name__ == '__main__':
 	main()
