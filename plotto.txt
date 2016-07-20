@@ -31,7 +31,7 @@ by William Wallace Cook
 
 Copyright (Canada), 1928 by William W. Cook
 
--- FORMAT_LINES:frontmatter
+-- FORMAT_LINES:copyright
 All rights reserved including that of
 translation into the foreign languages,
 including the Scandinavian.
@@ -947,7 +947,7 @@ Index of Conflicts Grouped Under the "B" Clauses
 (2) Love and Courtship @{16}, @{119}, @{271}
 (3) Love and Courtship @{175}
 (4) Love and Courtship @{148}
-(5) Love and Courtship @{168}. @{313}
+(5) Love and Courtship @{168}, @{313}
 (6) Love and Courtship @{331}
 (7) Love and Courtship @{333}
 (8) Love and Courtship @{117}
@@ -967,7 +967,7 @@ Index of Conflicts Grouped Under the "B" Clauses
 (22) Love and Courtship @{255}; Married Life @{484}; Mistaken Judgment @{768}
 (23) Love and Courtship @{21}, @{177}, @{328}, @{365}; Married Life @{538}; Mistaken Judgment @{786}
 (24) Mistaken Judgment @{794}
-(25) Love and Courtship @{122}; Helpfulness @{820}; Deliverance @{894}.
+(25) Love and Courtship @{122}; Helpfulness @{820}; Deliverance @{894}
 (26) Married Life @{558}; Helpfulness @{825}; Misfortune @{671}
 (27) Helpfulness @{824}
 (28) Love and Courtship @{125}; Helpfulness @{836}
@@ -4071,7 +4071,7 @@ POST: (1410) (885a ch B to BX)
 Conflict{299}
 
 PRE: (43 -*) (276)
-A is in love -with B; but F-B, father of B, orders A to keep awav from the house
+A is in love with B; but F-B, father of B, orders A to keep awav from the house
 and away from B
 POST: (70) (73) (352a, b)
 
