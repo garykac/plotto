@@ -134,7 +134,7 @@ each life encounters: DEATH. Complicating the scheme and
 giving zest to the plot of life are innumerable subordinate Purposes and Obstacles,
 dealing with all the enterprises of which life is capable.
 
-Overshadowed by the Supieme Purpose of LIFE, and the Supreme Obstacle
+Overshadowed by the Supreme Purpose of LIFE, and the Supreme Obstacle
 of DEATH, we wage our mimic wars of conquest and gain; but, at any minute,
 the Supreme Purpose may fail, and Death come striding into our finite calculations
 and calling a truce. There is also a Paramount Purpose in all the lesser activities
@@ -1090,7 +1090,7 @@ X,      an inanimate object, an object of mystery, an uncertain quantity
 
 -- FORMAT_BEGIN:bodytext
 Note: BR-A, BR-B, SR-A, SR-B, SN-A, SN-B, D-A. D-B, CN-A and
-CN-B may on occasion be merely BR, SR, SN. D. and CN.
+CN-B may on occasion be merely BR, SR, SN, D, and CN.
 
 Where necessary to indicate a male friend of B, or a female friend of A,
 the symbols aB-2, bA-2 may be used. Likewise, bCN-A, female cousin
@@ -1235,7 +1235,7 @@ Conflict{5}
 
 PRE: (168) (603b, c, d)
 A, carrying the news of the death of his friend, A-2, to B, the girl to whom A-2 was
-betrothed, (70 ch A to A-2). is mistaken by B and her parents for A-2. B and her
+betrothed, (70 ch A to A-2), is mistaken by B and her parents for A-2. B and her
 parents have never seen A-2 or A (26a, b) * A, posing as his dead friend, A-2, falls
 in love with B, and withholds the news of A-2's death **
 POST: (1385) (1461a; 73)

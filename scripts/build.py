@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# Run this script from within the scripts/ directory.
+
 import os.path
 import re
 import subprocess
