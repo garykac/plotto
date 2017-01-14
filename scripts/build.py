@@ -12,6 +12,11 @@ def error(msg):
 	print 'Error: %s' % (msg)
 	sys.exit(1)
 
+# These terms are bidirectional unless marked with an '*'.
+# 'her' requires disambiguation, so there is no default substitution.
+#   her: objective (him) vs. possessive (his)
+# 'husband' defaults to spouse
+# 'mistress' defaults to lover
 genderedTerms = [
 	['brother', 'sister'],
 	['boy', 'girl'],
@@ -20,14 +25,20 @@ genderedTerms = [
 	['father', 'mother'],
 	['foreman', 'forewoman'],
 	['frontiersman', 'frontierswoman'],
-	['gentleman', 'gentlewoman'],
-	['gentlemen', 'gentlewomen'],
+	['gentleman', 'lady'],
+	# Handle ladies' -> gentlemen's (ladies' is preprocessed into ladies_poss)
+	["*gentlemen's", "ladies_poss"],
+	['gentlemen', 'ladies'],
 	['grandfather', 'grandmother'],
 	['he', 'she'],
 	['highwayman', 'highwaywoman'],
+	# him -> her
 	['him', '*her'],
 	['himself', 'herself'],
+	# wife <-> husband
+	# husband: spouse (wife) vs. to manage
 	['husband', 'wife'],
+	# his -> her
 	['his', '*her'],
 	['male', 'female'],
 	['man', 'woman'],
@@ -35,8 +46,9 @@ genderedTerms = [
 	['mankind', 'womankind'],
 	['manly', 'womanly'],
 	['manservant', 'maid'],
-	['*men', 'ladies'],
 	['men', 'women'],
+	# lover is ungendered
+	# mistress: head of household (master) vs. lover
 	['*lover', 'mistress'],
 	['nephew', 'niece'],
 	['paternal', 'maternal'],
@@ -44,9 +56,6 @@ genderedTerms = [
 	['son', 'daughter'],
 	['stepfather', 'stepmother'],
 	['uncle', 'aunt'],
-	# her: objective (him) vs. possessive (his)
-	# husband: spouse (wife) vs. to manage
-	# mistress: head of household (master) vs. lover
 	# cad: female equivalent?
 ]
 
@@ -220,7 +229,7 @@ class Parser():
 			if line == '-- HUSBAND verb':
 				self.husband_info = 'verb'
 			if line == '-- MISTRESS master':
-				self.mistress_info = 'verb'
+				self.mistress_info = 'master'
 
 			m = re.match(r'^-- FORMAT_LINES:(.*)', line)
 			if m:
@@ -498,6 +507,8 @@ class Parser():
 	def preprocess_line(self, line):
 		if line[0:2] == '--':
 			return line
+		# Preprocess "ladies'" so we can convert to "gentlemen's".
+		line = line.replace("ladies'", "ladies_poss");
 		words = re.split('([ .,:;\'"])', line)
 		line2 = ''.join([self.preprocess_word(w) for w in words])
 		return line2
