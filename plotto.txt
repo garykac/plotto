@@ -1326,7 +1326,7 @@ POST: (182a) (406)
 Conflict{11}
 
 (a) PRE: (1279a ch B to M-B; 57 ch B to M-B) (124 -* ch B to M-B)
-B's mothex, M-B, a middle-aged widow, introduces A, her youthful lover, to B*
+B's mother, M-B, a middle-aged widow, introduces A, her youthful lover, to B*
 B's mother, M-B, plans that her youthful lover, A, shall transfer his affections to
 B. M-B's plans are successful **
 POST: (83 ch B to M-B) (324 ch B to M-B & B-3 to B)
@@ -4654,7 +4654,7 @@ B{15} Finding a Sustaining Power in Misfortune
 Conflict{360}
 
 (a) PRE: (177) (276) (316)
-A, thinkinc his love rejected by B, receives a letter from B telling him how much
+A, thinking his love rejected by B, receives a letter from B telling him how much
 she loves him, and that her father, F-B, has consented to their marriage
 POST: (562) (571)
 
@@ -4751,7 +4751,7 @@ POST: (432a, b ch B to BX) (437 ch B to BX)
 
 (d) PRE: (188b ch B to BX) (365a, b, c)
 A marries BX, a woman he does not know * A and BX, husband and wife, go their
-difiFerent ways immediately after the marriage ceremony **
+different ways immediately after the marriage ceremony **
 POST: (167a ch B to BX) (432b ch B to BX)
 
 Conflict{366}
@@ -4794,6 +4794,7 @@ POST: (312-1) (313)
 (d) PRE: (818d ch A to A-8 & CH to B) (1051) (1054)
 -- HER poss obj
 B, a foundling, has the secret of her birth and parentage revealed to her by A.
+-- A det char
 A rich estate awaits B's claim and proof of parentage * A, in love with B, is poor
 and feels that he may not aspire to the hand of wealthy B; but B proposes marriage
 to A, and happiness is the result **
@@ -4825,7 +4826,7 @@ Conflict{370}
 PRE: (366) (367b)
 A, husband of B, loves B devotedly, but he is so constituted that he never shows
 his true feelings and often masks them with something that suggests their exact
-opposite * 3 mourns over the mistaken belief that she has lost A's love **
+opposite * B mourns over the mistaken belief that she has lost A's love **
 POST: (581) (586) (575; 918b)
 
 Conflict{371}
@@ -4887,7 +4888,7 @@ POST: (388) (638)
 Conflict{378}
 
 PRE: (59) (234a)
-A, marrying a widow. B, discovers that he has "caught a tartar" and has wedded a
+A, marrying a widow, B, discovers that he has "caught a tartar" and has wedded a
 domestic tyrant
 POST: (417) (473) (480)
 
@@ -7288,7 +7289,7 @@ Conflict{630}
 
 PRE: (1226) (1214; 1227a -**)
 A seeks to defeat a grafter, A-5, at the grafter's own game * A, seeking to defeat
-the schemes of a grafter, A-5, is betrayedby a confederate, A-2, whom A asks to
+the schemes of a grafter, A-5, is betrayed by a confederate, A-2, whom A asks to
 help him ** Through A-2, A's confederate in an enterprise, A suflEers loss ***
 POST: (1268) (1269 tr A & A-2)
 
@@ -8442,7 +8443,7 @@ Conflict{759}
 
 PRE: (718b) (898)
 A, a tenderfoot in the West, takes offense at the slurs of a cowboy, A-8 * A and A-8
-proceed to settle their diflEerences with their fists **
+proceed to settle their differences with their fists **
 POST: (782) (820 ch A-2 to A-8) (830 ch A-2 to A-8)
 
 Conflict{760}
@@ -12713,7 +12714,7 @@ POST: (295a ch A to A-4) (209 ch A to A-4 & A-3 to A-8)
 Conflict{1224}
 
 PRE: (1146) (1162 ch A to A-2, A-2 to A & A-5 to A-8)
-A seeks for his own gain to impersonate a widower, A-8, who has a child. CH.
+A seeks for his own gain to impersonate a widower, A-8, who has a child, CH.
 A has no child but overcomes the handicap by a stratagem
 POST: (1057b) (1167 ch A-5 to A-8) (1147 -* ch A to A-4 & X to CH)
 

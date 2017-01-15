@@ -18,9 +18,11 @@ def error(msg):
 # 'husband' defaults to spouse
 # 'mistress' defaults to lover
 genderedTerms = [
+	['adventurer', 'adventuress'],
 	['brother', 'sister'],
 	['boy', 'girl'],
 	['clergyman', 'clergywoman'],
+	['cowboy', 'cowgirl'],
 	['craftsman', 'craftswoman'],
 	['father', 'mother'],
 	['foreman', 'forewoman'],
@@ -56,6 +58,7 @@ genderedTerms = [
 	['son', 'daughter'],
 	['stepfather', 'stepmother'],
 	['uncle', 'aunt'],
+	['widower', 'widow'],
 	# cad: female equivalent?
 ]
 
