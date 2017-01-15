@@ -12499,7 +12499,7 @@ POST: (364b) (1208 ch B-2 to B-4)
 Conflict{1204}
 
 PRE: (450) (921) (1172) (1220b)
-B's happiness requires a complete escape from ner life and environment * B hires
+B's happiness requires a complete escape from her life and environment * B hires
 B-8, a woman who has not long to live, to take her name ** B-8 dies and is buried
 as B ***
 POST: (435a) (1244b)
@@ -13018,7 +13018,7 @@ POST: (711b -**) (685) (1250 ch A-3 to A-8)
 Conflict{1256}
 
 PRE: (903) (1029) (1257)
-A has a valuable work of art destroyed by a lady. B, in
+A has a valuable work of art destroyed by a lady, B, in
 a tantrum * B, a very great personage, snatches A's cane and belabors him with
 it. A auctions off the cane as a priceless piece for a collection **
 POST: (814)
@@ -13040,7 +13040,7 @@ POST: (3b) (10a) (16a)
 Conflict{1259}
 
 PRE: (974) (1267a ch A to A-5)
-B traps A-5, a thief, by telling him ner valuables are in a clothes closet — and then
+B traps A-5, a thief, by telling him her valuables are in a clothes closet — and then
 locking the closet
 POST: (1335 ch A to A-5) (850b)
 
@@ -24156,7 +24156,7 @@ Misfortune
 
 B, committing a secret transgression, has her secret discovered by A-5 669
 
-B is threatened by crooks, A-5, A-5, A-5, in an attempt to force ner to open a
+B is threatened by crooks, A-5, A-5, A-5, in an attempt to force her to open a
 strong box 666
 
 (1) B, a respectable working girl seeking employment, follows the advice of a
@@ -24169,14 +24169,14 @@ purposes of blackmail 669
 
 Personal Limitations
 
-B is forced.to battle for her honor with A-5 when finding herself trapped in a
+B is forced to battle for her honor with A-5 when finding herself trapped in a
 room 1135b
 
 
 Craftiness
 
 (2) B traps A-5, a, thief, by telling him her valuables are in a clothes closet — and
-then locking, the closet 1259
+then locking the closet 1259
 
 
 
@@ -24185,7 +24185,7 @@ B and A-G
 
 Deliverance
 
-B, her integrity seriously compromised, finds a friend in A-6, a 'detective 870b
+B, her integrity seriously compromised, finds a friend in A-6, a detective 870b
 
 
 Simulation
