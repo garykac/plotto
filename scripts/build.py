@@ -8,6 +8,8 @@ import re
 import subprocess
 import sys
 
+WRITE_DICT = False
+
 def error(msg):
 	print 'Error: %s' % (msg)
 	sys.exit(1)
@@ -51,6 +53,7 @@ genderedTerms = [
 	['manly', 'womanly'],
 	['manservant', 'maid'],
 	['men', 'women'],
+	['misogynist', 'misandrist'],
 	# lover is ungendered
 	# mistress: head of household (master) vs. lover
 	['*lover', 'mistress'],
@@ -104,6 +107,10 @@ class Parser():
 		self.format_links = None
 		self.blank_line = False
 
+		# Dict with count of all words found in doc.
+		self.dict = {}
+		
+		# Arrays to swap gendered character abbreviations.
 		self.swapCharList = {}
 		for x in genderedChars:
 			male = x[0]
@@ -113,6 +120,7 @@ class Parser():
 			assert not (female in self.swapCharList)
 			self.swapCharList[female] = male
 
+		# Array to swap gendered terms for equivalent in opposite gender.
 		self.replaceList = {}
 		for x in genderedTerms:
 			male = x[0]
@@ -222,7 +230,7 @@ class Parser():
 		self.husband_info = None
 		self.mistress_info = None
 
-		# Ignore comments.
+		# Process comments.
 		m = re.match(r'^--', line)
 		if m:
 			m = re.match(r'-- page (\d+)', line)
@@ -535,6 +543,10 @@ class Parser():
 		# Preprocess "ladies'" so we can convert to "gentlemen's".
 		line = line.replace("ladies'", "ladies_poss");
 		words = re.split('([ .,:;\'"])', line)
+		for w in words:
+			#if self.id == '1289':
+			#	print self.subid, w
+			self.add_to_dict(w, line)
 		line2 = ''.join([self.preprocess_word(w) for w in words])
 		return line2
 
@@ -564,7 +576,34 @@ class Parser():
 		outfile.close()
 		infile.close()
 
+	def add_to_dict(self, word, line):
+		if re.match(r'^Conflict?{\d+}$', word):
+			return
+		if re.match(r'^[@B]{\d+}$', word):
+			return
+		if re.match(r'^\(?[-\d]+[abcde]?\)?$', word):
+			return
+		# Print entire line for word.
+		# Useful for tracking down short typo words.
+		#if word == 'le':
+		#	print self.id, line
 
+		if not word in self.dict:
+			self.dict[word] = 0
+		self.dict[word] += 1
+
+	def write_dict(self):
+		dst = 'dict.txt'
+		try:
+			outfile = open(dst, 'w')
+		except IOError as e:
+			error('Unable to open "%s" for writing: %s' % (dst, e))
+
+		for word in sorted(self.dict, key=self.dict.get, reverse=True):
+			outfile.write('%d %s\n' % (self.dict[word], word))
+
+		outfile.close()
+	
 def main():
 	infilename = '../plotto.txt'
 
@@ -572,6 +611,8 @@ def main():
 		parser = Parser()
 		parser.setAB(version)
 		parser.process(infilename, '../plotto-{0}.html'.format(version))
-
+		if WRITE_DICT:
+			parser.write_dict()
+	
 if __name__ == '__main__':
 	main()
