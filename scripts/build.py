@@ -555,8 +555,9 @@ class Parser():
 			return line
 		# Preprocess "ladies'" so we can convert to "gentlemen's".
 		line = line.replace("ladies'", "ladies_poss");
+		# Note: This does not split on () [] or {}
 		# Note: — is emdash
-		words = re.split('([ .,:;—\'"])', line)
+		words = re.split('([ .,:;—\'"\(\)])', line)
 		for w in words:
 			#if self.id == '1289':
 			#	print self.subid, w
