@@ -25,6 +25,8 @@ genderedTerms = [
 	['cowboy', 'cowgirl'],
 	['craftsman', 'craftswoman'],
 	['father', 'mother'],
+	['fatherhood', 'motherhood'],
+	['fathers', 'mothers'],
 	['foreman', 'forewoman'],
 	['frontiersman', 'frontierswoman'],
 	['gentleman', 'lady'],
@@ -62,6 +64,18 @@ genderedTerms = [
 	# cad: female equivalent?
 ]
 
+# Gendered character abbreviations.
+# These don't need to be swapped, but it is more readable to do so.
+genderedChars = [
+	['F', 'M'],		# father mother
+	['BR', 'SR'],	# brother sister
+	['SN', 'D'],	# son daughter
+	['U', 'AU'],	# uncle aunt
+	['NW', 'NC'],	# nephew niece
+	['GF', 'GM'],	# grandfather grandmother
+	['SF', 'SM'],	# stepfather stepmother
+]
+
 class Parser():
 	"""Build script for Plotto"""
 
@@ -89,6 +103,15 @@ class Parser():
 		self.format_next_line = None
 		self.format_links = None
 		self.blank_line = False
+
+		self.swapCharList = {}
+		for x in genderedChars:
+			male = x[0]
+			female = x[1]
+			assert not (male in self.swapCharList)
+			self.swapCharList[male] = female
+			assert not (female in self.swapCharList)
+			self.swapCharList[female] = male
 
 		self.replaceList = {}
 		for x in genderedTerms:
@@ -153,18 +176,6 @@ class Parser():
 	# Assumes all links are valid (since they were all checked by verify.py).
 	def parse_link(self, link):
 		orig_link = link
-		# Match character tag.
-		# Only match S in certain contexts since it is often a mistake for 3 or 8.
-		char = ('('
-				# Must be first to avoid partial matches: e.g., B vs. BR-B
-				'AUX|BR-A|BR-B|'
-				'A(X|-[1-9])?|'
-				'B(X|-[2-58])?|'
-				'(D|F|GF|M|NW|P|SN|SR|U)-A|'
-				'(D|F|GF|M|SM|SN|SR)-B|'
-				'CH|CN|D|FA|FB|GCH|NW|SN|SR|SX|U|X|'
-				'".*?"'
-				')')
 
 		# Sequence: (123; 234)
 		if ';' in link:
@@ -469,10 +480,21 @@ class Parser():
 			text += self.add_tags(m.group(3))
 		return text
 
+	# Preprocess the word, swapping gendered terms.
 	def preprocess_word(self, word):
 		if word == '':
 			return word
 
+		char = word.split('-')
+		if len(char) == 2:
+			(pre, post) = char
+			if post == 'A' or post == 'B':
+				if pre in self.swapCharList:
+					return '%s-%s' % (self.swapCharList[pre], post)
+		
+		if word in ['BR', 'SR', 'SN', 'D']:
+			return self.swapCharList[word]
+		
 		cap = False
 		wordLower = word
 		if word[0].isupper():

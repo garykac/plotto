@@ -1089,7 +1089,7 @@ BX,     a mysterious female person, or one of unusual character
 X,      an inanimate object, an object of mystery, an uncertain quantity
 
 -- FORMAT_BEGIN:bodytext
-Note: BR-A, BR-B, SR-A, SR-B, SN-A, SN-B, D-A. D-B, CN-A and
+Note: BR-A, BR-B, SR-A, SR-B, SN-A, SN-B, D-A, D-B, CN-A and
 CN-B may on occasion be merely BR, SR, SN, D, and CN.
 
 Where necessary to indicate a male friend of B, or a female friend of A,
@@ -3023,7 +3023,7 @@ B, thinking she has received a proposal of marriaqe from A (192a) (195), accepts
 Later, she discovers it was A-3 (76) (160) who proposed
 POST: (260a) (266) (318)
 
-(b) PRE: (148) (137b ch SR to B & B-3 to SR-B)
+(b) PRE: (148) (137b ch SR-B to B & B-3 to SR-B)
 A is in love with B. Intending to propose marriage to B, he discovers that he has
 proposed to B-3 * A, thinking he is proposing marriage to B, finds that he has
 proposed to B-3, who accepts him **
@@ -25607,7 +25607,7 @@ Love's Rejection
 (1) A and B fall in love; but their fathers, F-A and F-B, are bitter political enemies
 276
 
-(5) B loves A, but rejects his love because of petty differences, and because her fathe-.
+(5) B loves A, but rejects his love because of petty differences, and because her father,
 F-B, is an enemy of A's father, F-A 283
 
 -- page 299
