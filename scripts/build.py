@@ -153,6 +153,10 @@ class Parser():
 		# be the character.
 		self.a_info = None
 
+		# Capital 'U' can either be the character U, or it can be part of an
+		# abbreviation (like U.S.). By default, it is assumed to be the character.
+		self.u_info = None
+
 		# 'husband' can be either a noun or a verb. By default, it is a noun,
 		# but the "-- HUSBAND verb" comment can be used to override that default.
 		self.husband_info = None
@@ -227,6 +231,7 @@ class Parser():
 		# Reset language defaults.
 		self.her_info = None
 		self.a_info = None
+		self.u_info = None
 		self.husband_info = None
 		self.mistress_info = None
 
@@ -248,6 +253,9 @@ class Parser():
 			m = re.match(r'-- A (.*)', line)
 			if m:
 				self.a_info = m.group(1).split()
+			m = re.match(r'-- U (.*)', line)
+			if m:
+				self.u_info = m.group(1).split()
 			if line == '-- HUSBAND verb':
 				self.husband_info = 'verb'
 			if line == '-- MISTRESS master':
@@ -501,7 +509,10 @@ class Parser():
 				if pre in self.swapCharList:
 					return '%s-%s' % (self.swapCharList[pre], post)
 		
-		if word in ['BR', 'SR', 'SN', 'D']:
+		if word == 'U' and self.u_info:
+			return word
+
+		if word in ['BR', 'SR', 'SN', 'D', 'U', 'AU']:
 			return self.swapCharList[word]
 		
 		cap = False

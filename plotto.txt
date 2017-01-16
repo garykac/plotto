@@ -7665,6 +7665,7 @@ POST: (671) (805 ch A-4 to A-2) (807) (809 ch A-5 to A-2) (839)
 Conflict{673}
 
 PRE: (743a) (1298)
+-- U abbrev
 A finds a motor stage wrecked and the U. S. mail it was carrying scattered from
 the broken pouches. The stage driver, A-4, has gone for help. A picks up a torn
 letter, reads it, and discovers that B is in m'sfortune * A, a fugitive from justice,
