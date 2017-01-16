@@ -2408,7 +2408,7 @@ B{8} Confronting a Situation in Which Wealth is Made Conditional Upon a Certain 
 
 Conflict{117}
 
-PRE: (26a, b ch B to BX) (1432 ch A to P-A & NW to A)
+PRE: (26a, b ch B to BX) (1432 ch A to F-A & NW to A)
 A, a wanderer, is left a fortune by F-A, his father, in case he can be found and will
 marry BX. a woman he has never seen
 POST: (116) (132) (230 ch B to BX)
@@ -9746,7 +9746,7 @@ Conflict{896}
 PRE: (467 ch A-8 to SN) (623 ch A to SN)
 B learns that her son, SN, is suspected of having committed a crime * B knows
 that her son, SN, is innocent of the crime of which he is accused, and she knows
-who is guilty, but this knowledge makes the task of protecting SM dangerous
+who is guilty, but this knowledge makes the task of protecting SN dangerous
 and difficult **
 POST: (516 ch CH to SN) (725 ch A to B & A-5 to A) (1291a)
 

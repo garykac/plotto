@@ -513,7 +513,7 @@ class Parser():
 		if word == 'U' and self.u_info:
 			return word
 
-		if word in ['BR', 'SR', 'SN', 'D', 'U', 'AU']:
+		if word in ['BR', 'SR', 'SN', 'D', 'U', 'AU', 'NC', 'NW']:
 			return self.swapCharList[word]
 		
 		cap = False
