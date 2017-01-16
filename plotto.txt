@@ -143,7 +143,7 @@ Purposes and Obstacles to keep us "on our toes" and fighting valiantly for
 all we have, or hope to have. Blessed be Purpose! And thrice-blessed be Obstacle!
 
 The Conflicts in Plotto are brief statements of Purpose in active opposition with
-Obstacle — situations which are to be combined with other situations. For instance:
+Obstacle—situations which are to be combined with other situations. For instance:
 "A, in love with B, is not favored by F-B, father of B." Here is the
 implied Purpose, "To Achieve Happiness in Love," meeting an Obstacle bluntly
 expressed.
@@ -178,7 +178,7 @@ several short stories all leading up to, and intimately bound up with, the Param
 Purpose and Obstacle that give the complete story its unity. Construction here
 plays its most discriminating role, for the subordinate situations must grow toward
 a single, decisive crisis. The effect must be cumulative. If the main Conflict
-shall involve the crisis — and it should — all the subordinate situations dealing with
+shall involve the crisis—and it should—all the subordinate situations dealing with
 the Theme will be so selected as to grow naturally in dramatic strength toward the
 climax. Here no rules of construction will take the place of taste and discrimination.
 The constructive imagination, properly exercised, will deal capably with
@@ -187,7 +187,7 @@ power.
 
 ORIGINALITY. The Conflicts all come from the vast storehouse of Human
 Nature. They are there, millions upon millions of them, waiting for the imagination
-to select them and groUp them in an original combination. For there is "nothing
+to select them and group them in an original combination. For there is "nothing
 new under the sun." Originality in creative work comes from our own individual use
 of the tools so bountifully provided by the Divine Creator. All that
 is possible to a mortal craftsman is the combining of old material into something
@@ -449,7 +449,7 @@ This might be followed with:
 -- FORMAT_END
 
 -- FORMAT_BEGIN:bodytext indent
-    1292. B seeks happiness as a reform.ed transgressor * B, seeking happiness as a
+    1292. B seeks happiness as a reformed transgressor * B, seeking happiness as a
     reformed transgressor, has her old transgression discovered **
 
     727. A, a judge presiding at a murder trial, finds himself unexpectedly confronted
@@ -1326,7 +1326,7 @@ POST: (182a) (406)
 Conflict{11}
 
 (a) PRE: (1279a ch B to M-B; 57 ch B to M-B) (124 -* ch B to M-B)
-B's mother, M-B, a middle-aged widow, introduces A, her youthful lover, to B*
+B's mother, M-B, a middle-aged widow, introduces A, her youthful lover, to B *
 B's mother, M-B, plans that her youthful lover, A, shall transfer his affections to
 B. M-B's plans are successful **
 POST: (83 ch B to M-B) (324 ch B to M-B & B-3 to B)
@@ -1588,7 +1588,7 @@ POST: (307) (147)
 Conflict{29}
 
 PRE: (38) (916) (925 -*) (926)
-B knows nothing of A, having i,allen in love with him at "first sight'
+B knows nothing of A, having fallen in love with him at "first sight'
 POST: (31) (223) (226)
 
 Conflict{30}
@@ -1865,7 +1865,7 @@ POST: (742) (758)
 Conflict{58}
 
 (a) PRE: (32) (36)
-B invents a wholly imaginary lover, AX; and, most unexpectedly, a man of AXs
+B invents a wholly imaginary lover, AX; and, most unexpectedly, a man of AX's
 -- HER obj
 name and general characteristics, presents himself to her
 POST: (1184) (4a)
@@ -1975,7 +1975,7 @@ POST: (828) (833) (787 ch A to B)
 Conflict{70}
 
 PRE: (100) (129) (132) (240)
-A's family is at vvar with B's family; and A, in love with B, disguises his identity
+A's family is at war with B's family; and A, in love with B, disguises his identity
 when calling on B
 POST: (5) (73) (352a, b)
 
@@ -1988,7 +1988,7 @@ pretends that he is married; [3] pretends that he is engaged to be married
 POST: (2c) (24a, b, c, d)
 
 (b) PRE: (143) (145)
-B, in order to escape annoymg manifestations of love, resorts to simulation
+B, in order to escape annoying manifestations of love, resorts to simulation
 POST: (83) (84a) (58a, b, c)
 
 Conflict{72}
@@ -2019,7 +2019,7 @@ POST: (24e) (1335)
 
 (b) PRE: (259-3) (968) (1104) (1134) (513)
 A, hearing a woman's voice calling for help in a house he happens to be passing,
-mshes up the steps, through the front door — and into a romantic complication
+rushes up the steps, through the front door — and into a romantic complication
 POST: (664) (407 ch A to A-8; 274)
 
 Conflict{75}
@@ -2208,7 +2208,7 @@ A back again (359) (361a, b) **
 POST: ()
 
 (b) PRE: (337a) (340)
-B's friend, B-2, an attractive married woman, seeks- to save A, B's fiance, from the
+B's friend, B-2, an attractive married woman, seeks to save A, B's fiance, from the
 wiles of a designing woman, B-3, and restore him to B. B-2 does this by winning
 A away from B-3
 POST: (337b) (322b)
@@ -2255,7 +2255,7 @@ Conflict{100}
 
 PRE: (275) (276) (299) (1298)
 A, in love witt B, is determined to see B, although the determination will surely
-involve him in misfortune unless he resorts to crafty etiterprise
+involve him in misfortune unless he resorts to crafty enterprise
 POST: (1209a) (70)
 
 Conflict{101}
@@ -2507,7 +2507,7 @@ B{41} Finding an Obligation at Variance With Ambition, Inclination or Necessity
 Conflict{127}
 
 (a) PRE: (291) (311)
-A believes thatB will not marry him until he becomes wealthy
+A believes that B will not marry him until he becomes wealthy
 POST: (638) (621) (850b)
 
 (b) PRE: (1061) (1082) (1079) (1092)
@@ -2581,7 +2581,7 @@ POST: (156 ch A to F-A) (282a) (983 ch A-8 to F-B; 269 ch A-3 to F-A) (351a ch A
 Conflict{136}
 
 PRE: (997a) (1022)
-A and A-3 are in love with B*. Obliged to carry out the orders of A-3, A is
+A and A-3 are in love with B *. Obliged to carry out the orders of A-3, A is
 commanded to [1] commit suicide, or [2] to leave the field clear for A-3 **
 POST: (209) (351a) (352b) (884a ch A-5 to A-3)
 
@@ -2747,7 +2747,7 @@ Conflict{155}
 PRE: (916 ch B to AX) (954) (923 ch A to AX) (954 ch A to AX)
 AX, a gay young blade traveling through the country, takes refuge from a storm
 in a rural church. To his astonishment, he is hailed at once as a bridegroom, and
-is hurried to the altar where a pretty girl, R (38) (166) in an exhausted condition,
+is hurried to the altar where a pretty girl, B (38) (166) in an exhausted condition,
 seems waiting for him. In a spirit of recklessness (421 ch A to AX), he allows
 himself to be married to her; and when she, after the ceremony, seems to realize that
 he is not the man she thought he was, he hurriedly makes his escape
@@ -2771,7 +2771,7 @@ Conflict{158}
 
 PRE: (159) (171)
 A's rival for the hand of B, A-3, is more energetic and enterprising than A and
-seems to be m.ore favored
+seems to be more favored
 POST: (85a) (177) (285a) (364a)
 
 Conflict{159}
@@ -3050,7 +3050,7 @@ Conflict{185}
 PRE: (312) (299)
 -- HER obj
 A is in love with B and is determined to ask her to marry him, but B is so closely
-guarded that A is in despair becatise of his lack of opportunity * A seeks by subtlity
+guarded that A is in despair because of his lack of opportunity * A seeks by subtlity
 to make an opportunity to ask B to marry him **
 POST: (81) (82a tr A & B) (352a)
 
@@ -3210,7 +3210,7 @@ POST: (211) (214) (227) (245) (257a) (272) (287) (288)
 Conflict{203}
 
 PRE: (1061) (1132)
-A and B, in love, are each too difRdent to make an avowal to the other
+A and B, in love, are each too diffident to make an avowal to the other
 POST: (179a, b, c) (193) (352b)
 
 Conflict{204}
@@ -3327,7 +3327,7 @@ POST: (233) (224)
 Conflict{216}
 
 PRE: (218a) (170)
-A isiabout to marry B-3. who has deceived him into thinking B, the woman he loves,
+A is about to marry B-3. who has deceived him into thinking B, the woman he loves,
 is unfaithful
 POST: (220 ch B to B-3; 865; 880a) (238)
 
@@ -3515,7 +3515,7 @@ POST: (205) (404)
 Conflict{238}
 
 PRE: (4b) (6a, b)
-A is engaged to marry B. B-3, a designing woman, seeks to rompromise A (218a, b)
+A is engaged to marry B. B-3, a designing woman, seeks to compromise A (218a, b)
 so B will give him up. B-2 is a generous woman who seeks by secret enterprise
 (844b) to rescue A from the wiles of B-3 and restore him to B
 POST: (45a ch B to B-2) (128 ch B to B-2) (364b)
@@ -3579,8 +3579,8 @@ POST: (75a) (1051) (1054)
 Conflict{246}
 
 (a) PRE: (244) (31) (229) (331) (332)
-A, in love with B, of an inferior race, seeks to abandon B secretly in order to np-
-hold a lofty conception of duty
+A, in love with B, of an inferior race, seeks to abandon B secretly in order to
+uphold a lofty conception of duty
 POST: (348) (1328)
 
 (b) PRE: (248) (259-3) (315) (322b)
@@ -3612,7 +3612,7 @@ POST: (367b) (635) (859) (1163c)
 Conflict{250}
 
 PRE: (10b) (28b)
-B is in love with m, but A avoids women, believing them all temoters of Satan
+B is in love with m, but A avoids women, believing them all tempters of Satan
 POST: (45a, b) (55) (71a) (101a) (363a)
 
 Conflict{251}
@@ -3713,7 +3713,7 @@ POST: (81) (265b)
 Conflict{261}
 
 PRE: (262a, b, c)
-B, her life's romance apparently wrecked, decides to m.arry the man, A-3 (284)
+B, her life's romance apparently wrecked, decides to marry the man, A-3 (284)
 (290), she does not love
 POST: (81) (236) (351a) (315; 318)
 
@@ -3777,7 +3777,7 @@ POST: (351a) (1222a; 1222b) (1232 tr A & A-3)
 Conflict{267}
 
 PRE: (59 ch A to A-3) (260a) (97)
-B, disrovering the perfidious nature of A-3, the man she has prom.ised to marry,
+B, discovering the perfidious nature of A-3, the man she has promised to marry,
 turns from him to accept A, by whose shrewdness A-3 was unmasked
 POST: (280b) (367b)
 
@@ -3793,7 +3793,7 @@ POST: (893) (976)
 Conflict{269}
 
 PRE: (177) (301b; 1260b ch A to A-3 & A-8 to F-B)
-B's father, F-B, bankrupt, refuses to give B in marriacfp to wealthy A-3, a man
+B's father, F-B, bankrupt, refuses to give B in marriage to wealthy A-3, a man
 she does not love, in discharge of his debts
 POST: (993; 88) (993; 1207)
 
@@ -3810,7 +3810,7 @@ B{2} Falling in Love at a Time when Certain Obligations Forbid Love
 Conflict{271}
 
 PRE: (694; 31) (255) (282b)
-A and B are in love; but A realizes that if he. of an inferior race, shotild marry B,
+A and B are in love; but A realizes that if he, of an inferior race, should marry B,
 of a superior race, the result would be disastrous to both of them
 POST: (286 -*) (240 *-**) (87; 61; 264; 705)
 
@@ -3922,7 +3922,7 @@ POST: (266) (271) (248)
 Conflict{283}
 
 PRE: (295a) (310) (334a, b) (325)
-B loves A, br!t rejects his love because of petty differences, and because her father,
+B loves A, but rejects his love because of petty differences, and because her father,
 F-B, is an enemy of A's father, F-A
 POST: (234b) (293)
 
@@ -4476,9 +4476,9 @@ POST: (212b) (1445)
 Conflict{343}
 
 PRE: (41a, b) (85a) (334a, b)
-A is estranged from B, the woman he loves, because of a difTerence of opinion over
+A is estranged from B, the woman he loves, because of a difference of opinion over
 a trivial matter * A discovers B was right, acknowledges his error, achieves a
-reconciliation, and presently +hey are married **
+reconciliation, and presently they are married **
 POST: (408) (412) (424)
 
 Conflict{344}
@@ -4536,7 +4536,7 @@ Conflict{349}
 
 PRE: (283) (335)
 A's gift to his sweetheart, B, is returned by B to A on account of a
-lovers* quarrel * A's gift, returned by B on account of a lovers' quarrel, is sent
+lovers' quarrel * A's gift, returned by B on account of a lovers' quarrel, is sent
 back to B, unknown to A, by A-2, a friend of both B and A; and attached to the
 gift is a note requesting B to keep it until A calls for it in person ** A, estranged from
 B, is influenced by A-2 to call on B; and the result of the call is reconciliation and
@@ -4609,8 +4609,8 @@ POST: (230) (379)
 Conflict{355}
 
 PRE: (189) (188a)
-B, capable of winning a contest against her lover, A, deliberately suffers defeat -
-because it has been agreed that she shall marry A if he wins
+B, capable of winning a contest against her lover, A, deliberately suffers defeat—because
+it has been agreed that she shall marry A if he wins
 POST: (375) (419)
 
 Conflict{356}
@@ -4818,7 +4818,7 @@ Conflict{369}
 
 PRE: (107) (367a)
 A and B, married and devotedly in love with each other, are hasty and intolerant *
-A aud B quarrel (372) (373), and an estrangement results **
+A and B quarrel (372) (373), and an estrangement results **
 POST: (457) (460) (501)
 
 Conflict{370}
@@ -4881,7 +4881,7 @@ POST: (496a) (499a)
 (b) PRE: (656) (781)
 A marries B, thinking she is wealthy; after marriage, he discovers that B is not
 wealthy * A, bankrupt, divorces B and plans to marry wealthy B-3 ** B-3, whom A,
-divorced, seeks to marrv, marries another man *** B, just divorced by A, falls
+divorced, seeks to marry, marries another man *** B, just divorced by A, falls
 heir to a large estate ****
 POST: (388) (638)
 
@@ -5190,7 +5190,7 @@ POST: (404 tr A & A-3) (411a) (418) (557a)
 Conflict{413}
 
 PRE: (190) (261 ch A-3 to A) (253)
-B marries A, a man much older than herself * B does not love A but th9ught when
+B marries A, a man much older than herself * B does not love A but thought when
 -- HER obj poss
 she married him that he would help her realize her consuming ambition ** B's
 great desire is to become an actress *** A, husband of B, proves a brutal tyrant
@@ -5415,7 +5415,7 @@ Conflict{436}
 
 PRE: (458b) (1061)
 A, husband of B, a very beautiful woman, persuades B to pretend that she is his
-sister * A fears that he will be killed by some admirer of his wife, B, so *hat the
+sister * A fears that he will be killed by some admirer of his wife, B, so that the
 admirer may marry B **
 POST: (584b) (554) (557a)
 
@@ -5533,7 +5533,7 @@ POST: (557a) (1258) (1294)
 Conflict{449}
 
 PRE: (398b) (411b -*; 445 *-**) (433b; 583b)
-B is happily married to A*B, wife of A, impelled by an innocent motive,
+B is happily married to A * B, wife of A, impelled by an innocent motive,
 clandestinely meets an old lover, A-3 **
 POST: (411a -*; 410) (434a)
 
@@ -5835,7 +5835,7 @@ B{22} Following a Wrong Course through Mistaken Judgment
 Conflict{484}
 
 (a) PRE: (429b) (436) (563c)
-A and B, man and v/ife, struggle to realize a cherished ideal * A and B discover
+A and B, man and wife, struggle to realize a cherished ideal * A and B discover
 that their cherished ideal is a mistaken one **
 POST: (420) (457)
 
@@ -5858,7 +5858,7 @@ A, married to B, falls in love with B-3
 POST: (386) (368e) (555b)
 
 (b) PRE: (395) (420) (464) (525)
-A has two wives, B and B-3, two hornes several miles apart, two names by which
+A has two wives, B and B-3, two homes several miles apart, two names by which
 he is known in two different communities, two circles of acquaintances, and
 practices two professions
 POST: (548b) (1148a) (1248)
@@ -5890,7 +5890,7 @@ POST: (528) (1291a)
 Conflict{489}
 
 PRE: (486a) (472)
-A begins divorce proceedings againstliis wife, B * A seeks to divorce B, thinking
+A begins divorce proceedings against his wife, B * A seeks to divorce B, thinking
 to find happiness in a new love **
 POST: (496a) (556) (886; 563a)
 
@@ -6061,7 +6061,7 @@ enterprise long cherished by B **
 POST: (534) (546a) (884b)
 
 (b) PRE: (493 ch B to B-3) (528) (578b tr B & B-3)
-B is the second wife of A * A's sorrow for his deceased wife, B-3, caiises B, his
+B is the second wife of A * A's sorrow for his deceased wife, B-3, causes B, his
 second wife, much unhappiness ** B, second wife of A, discovers that B-3, A's
 first wife, was unfaithful ***
 POST: (389) (391 ch B-3 to B-8)
@@ -6171,7 +6171,7 @@ sacrifices her life at the hands of her husband, A, in order to save their son, 
 who is falsely accused of transgression by A, the real transgressor.
 POST: ()
 
-B{40} Embarking upon an Enterprise in which one Obligation is Opposed by Another ObUgation
+B{40} Embarking upon an Enterprise in which one Obligation is Opposed by Another Obligation
 
 Conflict{517}
 
@@ -6365,7 +6365,7 @@ Conflict{537}
 
 PRE: (378) (385a) (395)
 A's wife, B, is murdered at a certain hour of the night * A is suspected of having
-murdered his wife, B; but, at tlie hour the murder was committed, A was with
+murdered his wife, B; but, at the hour the murder was committed, A was with
 B-3 (411a ch B to B-3) (411b -* ch B to B-3, A to A-8 & A-3 to A) a woman of
 spotless reputation and happily married **
 POST: (520) (667 ch B to B-3) (535 ch B to B-3, A to A-8 & A-3 to A) (1070 ch B to B-3)
@@ -6847,7 +6847,7 @@ her husband, A
 POST: (442) (534)
 
 (b) PRE: (532a) (561) (585b)
-B, wife of A, is desperately in need of money for a certain purpose* A-3, a rejected
+B, wife of A, is desperately in need of money for a certain purpose * A-3, a rejected
 lover of B's, promises to help B, wife of A, if she will come to his apartment for
 an interview **
 POST: (476b) (483a, b)
@@ -6896,7 +6896,7 @@ POST: (1352) (1408) (1425) (1444)
 Conflict{587}
 
 PRE: (537) (539a) (577)
-B, the deceased wife of A, appears to a relative of A*s and describes her mortal
+B, the deceased wife of A, appears to a relative of A's and describes her mortal
 -- HER obj
 reactions to A's lack of affection for her
 POST: (922) (984)
@@ -7226,7 +7226,7 @@ POST: (1455b) (1424a)
 Conflict{622}
 
 PRE: (611 ch A to SN) (928b)
-A mistakenly supposes his son, SX, to have perished in a tragic accident
+A mistakenly supposes his son, SN, to have perished in a tragic accident
 POST: (698) (628 ch A to SN & B to A) (297 ch B to SX) (674) (734 ch A to SX) (1053) (1056)
 
 Conflict{623}
@@ -7357,7 +7357,7 @@ POST: ()
 Conflict{639}
 
 PRE: (758 -*) (768) (898) (925 -*)
-A is abducted by A-5and held for ransom* A, abducted by A-5 and held for ransom,
+A is abducted by A-5 and held for ransom * A, abducted by A-5 and held for ransom,
 is a meddlesome, disagreeable person and his family and friends are glad to be rid
 of him and will not pay the ransom ** A, abducted by A-5 and held for ransom,
 makes A-5's life so miserable that he pays a round sum to have A taken off his
@@ -7410,7 +7410,7 @@ POST: (179a, c) (594d) (824)
 Conflict{645}
 
 PRE: (737b -*) (737c; 737b *-**)
-B finds herself, innocently and through error, a prisoner at r.ight in a bedroom not
+B finds herself, innocently and through error, a prisoner at night in a bedroom not
 her own * B, caught innocently in a compromising situation, discovers a state of
 affairs that renders her dilemma tragic **
 POST: (648) (669 ch A-5 to A) (1135b)
@@ -7465,7 +7465,7 @@ A, a fugitive from justice seeking to avoid capture, finds himself in a tight co
 with sheriffs, A-6, A-6, A-6, apparently approaching from every direction * A, a
 fugitive driven to bay by officers of the law, takes refuge in a house which is a place
 of mystery ** (699b) (74a) [1] A house built squarely on the dividing line between
-two states, so that one may pass from California into Navada by crossing
+two states, so that one may pass from California into Nevada by crossing
 the living room. The serving of legal processes from one state or the other is thus
 avoided or delayed. Similarly [2], a cabin built where four states "corner," a
 a cabin with one room: the stove in Arizona, the cupboard in New Mexico, the bed
@@ -7668,7 +7668,7 @@ PRE: (743a) (1298)
 -- U abbrev
 A finds a motor stage wrecked and the U. S. mail it was carrying scattered from
 the broken pouches. The stage driver, A-4, has gone for help. A picks up a torn
-letter, reads it, and discovers that B is in m'sfortune * A, a fugitive from justice,
+letter, reads it, and discovers that B is in misfortune * A, a fugitive from justice,
 seeks to rescue B from her misfortunes **
 POST: (817) (869) (1209a)
 
@@ -7793,7 +7793,7 @@ POST: (713) (762)
 Conflict{686}
 
 PRE: (109) (718b)
-A, of gentle birth and breeding, is -solated in a primitive, uninhabited wilderness,
+A, of gentle birth and breeding, is isolated in a primitive, uninhabited wilderness,
 and compelled to battle with Nature for his very existence
 POST: (197) (918b) (904)
 
@@ -7867,7 +7867,7 @@ suspicion **
 POST: (635) (833) (1064)
 
 (b) PRE: (608) (623)
-A suffers imprisonment for a crime ne did not commit * j\, finishing a term of
+A suffers imprisonment for a crime he did not commit * A, finishing a term of
 imprisonment for a crime he did not commit, finds that his character as an ex-convict
 seriously hampers him in his honest enterprises **
 POST: (299) (1183)
@@ -8056,7 +8056,7 @@ undergoes the hardships and evil treatment accorded an upstart imposter ***
 POST: (635) (963) (1348a; 1455b)
 
 (b) PRE: (680b) (113; 257b)
-A cripples hirnself for life in rescuing a child, CH, from death (842b) * A loses his
+A cripples himself for life in rescuing a child, CH, from death (842b) * A loses his
 small fortune in trying to help a friend, A-2 (601) ** A, a poor man and crippled,
 finds his life in a sad tangle ***
 POST: (345) (690) (944)
@@ -8229,7 +8229,7 @@ Conflict{734}
 PRE: (222b) (315) (430)
 A is mistakenly reported dead during the World War *
 A, in the World War, is shell-shocked and loses all knowledge of his identity ** A,
-victim of amnesia in a foreign land, wanders back -to his native country ***
+victim of amnesia in a foreign land, wanders back to his native country ***
 POST: (437) (548a) (1128a -*; 918b)
 
 Conflict{735}
@@ -8436,7 +8436,7 @@ Conflict{758}
 PRE: (57) (742)
 A is a hard-hearted man of the world, seeking gain by exploiting the misfortunes of
 others * A finds a mysterious note. It contains 9. woman's fateful secret — the
-secret of B, in desperate misfortune ** A, attemptmg to exploit B's troubles for
+secret of B, in desperate misfortune ** A, attempting to exploit B's troubles for
 his own gain, ends by yielding his sympathy and befriending B ***
 POST: (21) (817) (955)
 
@@ -8514,7 +8514,7 @@ POST: (642 **-***) (918b ch A to B)
 
 -- page 105
 
-B{22} Following a Wrong Course through Mistanen Judgment
+B{22} Following a Wrong Course through Mistaken Judgment
 
 Conflict{768}
 
@@ -8595,7 +8595,7 @@ POST: (1166b ch A to A-7) (1008 ch A to A-7 & A-9 to A)
 Conflict{776}
 
 PRE: (732) (711b -*)
-A is seriously injured by a motor car * A, seriously mjured by a motor car, ever
+A is seriously injured by a motor car * A, seriously injured by a motor car, ever
 afterward has a weird delusion while he is in the streets that motor cars are trying
 to run him down **
 POST: (634) (1078)
@@ -8981,9 +8981,9 @@ POST: (821 ch A to F-A & SN to A) (1166b ch A-9 to F-A)
 Conflict{816}
 
 (a) PRE: (174) (834)
-A is on his way to keep an irnportant engagement * A finds a stranger, A-4, ill,
+A is on his way to keep an important engagement * A finds a stranger, A-4, ill,
 exhausted and unconscious, lying in the road ** A subordinates his own affairs to
-those of a stranger, A-4, who is ill, and helps him to a olace where he can receive
+those of a stranger, A-4, who is ill, and helps him to a place where he can receive
 medical attention ***
 POST: (772) (1265b)
 
@@ -9030,7 +9030,7 @@ POST: (245 ch A to CH) (948 ch B to CH) (1106 ch B to CH) (1458 ch B to CH)
 Conflict{819}
 
 PRE: (646 ch AX to A) (844a) (850a) (263 ch A-3 to A-5)
-A, a burglar, seeks to aid B, who was his fnend before he "went to the bad" * A,
+A, a burglar, seeks to aid B, who was his friend before he "went to the bad" * A,
 friend of B, breaks into a building for the purpose of committing a robbery, and
 finds a trusted employee, A-5, B's husband, dead at his desk, a defaulter and a
 suicide. A-5 has left a note explaining his guilt (753 ch A to A-5) ** A, in order
@@ -9066,7 +9066,7 @@ POST: (1167) (1171) (1192)
 Conflict{823}
 
 PRE: (918a) (955) (972)
-A is a ne'er-do-well who has a fiiend, A-2, of woith in the world * A's friend, A-2,
+A is a ne'er-do-well who has a friend, A-2, of worth in the world * A's friend, A-2,
 is unjustly condemned to death (715c ch A to A-2) (793b ch A to A-2 & A-2 to
 A-3); and A, by subtlity, takes A-2's place in the prison cell and dies in his stead **
 POST: (876a)
@@ -9269,7 +9269,7 @@ B{30} Enlisting Whole-Heartedly in the Service of a Needy Unfortunate and Confer
 Conflict{845}
 
 PRE: (755 ch A to A-2; 922b ch A to A-2) (926)
-A, poor and humble, at great self-sacrifise helps A-2, an old man poorer than A
+A, poor and humble, at great self-sacrifice helps A-2, an old man poorer than A
 himself * A, through his enterprise, restores A-2 to friends and fortune **
 POST: (876a ch B to A-2; 850b ch B to A & A to A-2; 880b tr A & A-2; 601)
 
@@ -9769,8 +9769,8 @@ Conflict{898}
 
 PRE: (106 -*) (492a)
 A is a selfish person, constantly looking out for "Number One" * A, selfish and
-miseily, finds that his methods are mistaken and that he is making no progress
-towards happiness**
+miserly, finds that his methods are mistaken and that he is making no progress
+towards happiness **
 POST: (106 *-**) (307) (372) (597) (632) (661) (698) (918b)
 
 Conflict{899}
@@ -9807,7 +9807,7 @@ Conflict{903}
 
 PRE: (850a) (1143b)
 A is a conscientious artist, whose ideal is Truth * A, hired by B to paint her portrait,
-puts so much character and so little beauty into his work that B is deeply oflTended **
+puts so much character and so little beauty into his work that B is deeply offended **
 POST: (1143b; 1386b; 1408) (1386b)
 
 Conflict{904}
@@ -9880,7 +9880,7 @@ Conflict{912}
 
 (a) PRE: (695a) (695b)
 A's consuming desire is for friendship, for some one with whom he may associate
-and converse; bi:t he is old and ugly, and no one pays him any attention
+and converse; but he is old and ugly, and no one pays him any attention
 POST: (735 tr A & A-8) (762) (911) (1059)
 
 (b) PRE: (1311) (1314)
@@ -10227,7 +10227,7 @@ POST: (148) (155) (420) (628)
 
 (b) PRE: (246b -*) (322b)
 A is a police magistrate with lofty humanitarian ideals * A, a police magistrate
-whowishes to know more of the private lives of those who are brought before him
+who wishes to know more of the private lives of those who are brought before him
 for judgment, disguises himself as a "bum" and plunges into the underworld **
 POST: (833) (834) (838) (876a) (1209b)
 
@@ -10259,7 +10259,7 @@ Conflict{953}
 
 PRE: (74a -*) (604) (651)
 A, for reasons of his own, craves peace and quiet * A, desiring peace and quiet,
-finds his ideal retreat in a vacant house, and there he secretly takes up his quarters**
+finds his ideal retreat in a vacant house, and there he secretly takes up his quarters **
 POST: (664) (719a) (1409) (1423) (1225)
 
 Conflict{954}
@@ -10331,7 +10331,7 @@ POST: (255) (271) (579b tr B & A) (919c)
 Conflict{960}
 
 (a) PRE: (922a -*) (928b ch A to F-A & SN to A)
-A is a soldier, eager to fight but who is comrnanded to retreat before a superior
+A is a soldier, eager to fight but who is commanded to retreat before a superior
 force of the enemy * A receives orders from his superiors which he considers discreditable **
 POST: (919b) (919c; 928b ch A to F-A & SN to A)
 
@@ -10423,7 +10423,7 @@ POST: (608) (625) (683)
 Conflict{970}
 
 PRE: (922a -*) (926) (927) (928a)
-A befriends any strangers who miay be in need of assistance, often neglecting his
+A befriends any strangers who may be in need of assistance, often neglecting his
 own family in carrying out his generous enterprises
 POST: (848a) (613) (612) (707 tr A & A-4) (772)
 
@@ -10594,7 +10594,7 @@ Conflict{990}
 
 PRE: (258) (697a)
 A's family all worked in order that he might be helped to a technical education *
-A conceives it to be his duty to work at a callmg he dislikes so that he may repay
+A conceives it to be his duty to work at a calling he dislikes so that he may repay
 his family for their sacrifices **
 POST: (991) (1130) (1434)
 
@@ -10658,7 +10658,7 @@ POST: (139) (820) (846) (906) (1003) (1007)
 (b) PRE: (925 -* ch A to U) (926) (958) (700)
 -- A char det char
 A has $500,000. A rich relative, U, bequeaths a million dollars to A, provided
-he shall spend his half-million within a year* A, with a half million dollars must
+he shall spend his half-million within a year * A, with a half million dollars must
 be "broke" within a year, and he must not give away any money nor spend a cent
 foolishly **
 POST: (431) (865)
@@ -10749,7 +10749,7 @@ Conflict{1007}
 PRE: (132) (607) (997a)
 A carries out honorably the heart-breaking obligation of killing his friend, A-2,
 hopelessly ill and tortured with suffering * A-2 begs relief at A's hands as an act
-of mercy** A-2 is the brother of B, who is very dear to A ***
+of mercy ** A-2 is the brother of B, who is very dear to A ***
 POST: (296 ch A-3 to A-2) (315)
 
 Conflict{1008}
@@ -11419,7 +11419,7 @@ POST: (918b) (1082b) (1104)
 
 (b) PRE: (289) (1061)
 A lives in a strange lost community which is ruled by an idol of Fear * A seeks
-escape from a community ruled by Fear, but finds it difiicult to develop sufficient
+escape from a community ruled by Fear, but finds it difficult to develop sufficient
 courage to accomplish his purpose **
 POST: (1082a) (181c)
 
@@ -11434,7 +11434,7 @@ POST: (225) (844a) (839 ch A to B & A-2 to A) (850a) (963) (1278a)
 Conflict{1084}
 
 PRE: (113) (126)
-A seeks to forward an honest enterprise but lacks the m.eans to finance it * A, in
+A seeks to forward an honest enterprise but lacks the means to finance it * A, in
 order to secure means to forward an honest enterprise, becomes a bootlegger for
 a time **
 POST: (92) (1309b ch B to A & A-3 to A-6; 699a)
@@ -11644,7 +11644,7 @@ POST: (805 tr A & A-4) (809 ch A to A-4 & A-5 to A)
 Conflict{1108}
 
 PRE: (675) (1149 -* ch A to SN)
-A is so preoccupied with business aflFairs that, while he intends writing to his son,
+A is so preoccupied with business affairs that, while he intends writing to his son,
 SN, he somehow never gets around to it
 POST: (622; 674) (821) (1149 *-** ch A to SN)
 
@@ -11722,7 +11722,7 @@ POST: (562) (1111b) (1438a)
 Conflict{1118}
 
 PRE: (974) (1137b)
-B, a banker's wife, trying to subscribe to the socia* conventions of a farming
+B, a banker's wife, trying to subscribe to the social conventions of a farming
 community, finds her efforts embarrassing and distasteful
 POST: (848b) (1151) (1172)
 
@@ -11828,7 +11828,7 @@ that has been stolen from him **
 POST: (1081) (1219) (1129c)
 
 (c) PRE: (1165) (1304 ch A-2 to A-5)
-A has been robbed of valuable property, X, by A-5, a notprious criminal, and A
+A has been robbed of valuable property, X, by A-5, a notorious criminal, and A
 tries to secure a courageous man who will recover X for him
 POST: (1081) (1219)
 
@@ -12180,7 +12180,7 @@ X1 for X2, a counterfeit which A thinks is a genuine stone **
 POST: (614) (1166b)
 
 (b) PRE: (1166a -*)
-A, adroitly, secures an object greatly desired, X2. from A-9, who willl not dispose
+A, adroitly, secures an object greatly desired, X2. from A-9, who will not dispose
 of it * A, making a replica, X1, of a valuable original, X2, secures X2 by leaving
 X1 in its place **
 POST: (1166 *-**) (1343)
@@ -12209,8 +12209,8 @@ Conflict{1169}
 
 PRE: (1073) (1096) (818a -*)
 A seeks to demonstrate his ability to enact a certain role in a forthcoming play *
-A, in -order to prove his ability to enact a certain role in a forthcoming play,
-assumes the -role off the stage **
+A, in order to prove his ability to enact a certain role in a forthcoming play,
+assumes the role off the stage **
 POST: (818a *-***) (625)
 
 Conflict{1170}
@@ -12744,7 +12744,7 @@ POST: (867) (808a ch B to A-2)
 
 (b) PRE: (234a) (252a)
 A, in order to convince B that he is a man of courage, arranges with A-2 to stage
-a fake holdup with B the supposed victim* A appears during a fake holdup and
+a fake holdup with B the supposed victim * A appears during a fake holdup and
 "rescues" B **
 POST: (234b) (367b)
 
@@ -12827,7 +12827,7 @@ POST: (1291a) (1295) (1443b)
 Conflict{1237}
 
 (a) PRE: (1314) (1316)
-A pretends tolead a dissipated life * A pretends that he is "going to the dogs" in
+A pretends to lead a dissipated life * A pretends that he is "going to the dogs" in
 order to deceive his mortal enemy, A-3, and lead A-3 to believe he is not to be
 feared ** A, when his mortal enemy, A-3, is lulled by a false sense of security,
 strikes and kills ***
@@ -13073,7 +13073,7 @@ POST: (1253 tr A & A-3) (1255a tr A & A-3)
 Conflict{1262}
 
 PRE: (96) (98)
-A represents guilt-masqueradmg-as-mnocence * A is influenced to engage in an
+A represents guilt-masquerading-as-innocence * A is influenced to engage in an
 enterprise that will bring about his punishment for transgression **
 POST: (753) (628) (1261 tr A & A-3)
 
@@ -13289,7 +13289,7 @@ POST: (885a ch A to A-2) (3a -* ch A to A-2)
 Conflict{1282}
 
 PRE: (1093 ch A to A-6) (1174)
-A, a crook, commits a robbery and escapes in woman's clothes * A had loeal fame
+A, a crook, commits a robbery and escapes in woman's clothes * A had local fame
 as a female impersonator; and A-6, a detective, makes use of this fact as a clue in
 apprehending A for transgression **
 POST: (651) (712)
@@ -13456,7 +13456,7 @@ POST: (1440 ch A to B; 1384 ch B to B-4) (1204)
 Conflict{1294}
 
 PRE: (446a) (448) (1309b)
-B cornmits a transgression in order to conceal a less serious transgression * B,
+B commits a transgression in order to conceal a less serious transgression * B,
 committing one transgression in order to hide another, is apprehended for her
 crime, brought to trial and sentenced **
 POST: (1308; 1309a) (1293c; 1309a)
@@ -13484,7 +13484,7 @@ POST: (701) (1235) (1291b)
 Conflict{1297}
 
 PRE: (111) (113) (484b -*) (723)
-A, a poor man going about his honest duties, is suddenly aflForded the opportunity
+A, a poor man going about his honest duties, is suddenly afforded the opportunity
 to commit a secret transgression whereby he will acquire great gain without incurring
 suspicion * A fights against the temptation to acquire gain through transgression **
 POST: (484b *-**) (1278c) (1254)
@@ -13954,7 +13954,7 @@ Conflict{1348}
 (a) PRE: (899) (925) (715a -*)
 A's mortal pride would transgress the Divine Power; so fate, seeking to discipline
 A, materializes a spirit, AX, in A's image * A's property and high place in the
-world are appropriated by AX, and v/hen A would claim his earthly possessions,
+world are appropriated by AX, and when A would claim his earthly possessions,
 he is treated as an imposter **
 POST: (681b) (715a *-***) (918b)
 
@@ -13994,7 +13994,7 @@ Conflict{1352}
 
 PRE: (1343) (1347) (1380)
 A is given a small object of mystery, X, by a stranger, A-4, and assured that its
-possession will bring misfortune* A, carrying in his pocket a small object of
+possession will bring misfortune * A, carrying in his pocket a small object of
 mystery, X, is harried by ill-luck and comes to believe in the malefic powers of X **
 A, meeting A-4, a man who gave him a small object of mystery, X, which has
 brought A ill luck, is informed by A-4 that only A's belief in the misfortunes
@@ -14006,7 +14006,7 @@ Conflict{1353}
 PRE: (579a) (1120) (1134) (1291c)
 A, during a storm, defies the Supreme Power *
 A, during a storm, has a narrow escape when lightning strikes a tree under which
-he is standing, throwing A to the ground and injuring him severely** A, slowly
+he is standing, throwing A to the ground and injuring him severely ** A, slowly
 recovering from injuries in a hospital, changes his views on certain important
 questions ***
 POST: (918a, b)
@@ -14110,7 +14110,7 @@ Conflict{1364}
 B receives in a mysterious manner a photograph, not of herself but of some one
 -- HER obj
 greatly resembling her * B receives a photograph; and on the back of it is written:
-"You are in great dangerl Beware!" **
+"You are in great danger! Beware!" **
 POST: (328) (1154a)
 
 (b) PRE: (461) (1424b)
@@ -14134,7 +14134,7 @@ Conflict{1366}
 
 PRE: (852) (1141) (1361a)
 A is influenced unduly by his dreams * A, influenced unduly by his dreams, strives
-to master the ignoble weakness and control his dreams by sheer force of will**
+to master the ignoble weakness and control his dreams by sheer force of will **
 POST: (1374) (1377)
 
 Conflict{1367}
@@ -14177,7 +14177,7 @@ POST: (833) (1234) (1453) (1456; 1377a)
 A, a Fortyniner, returning with a wagon train from California, has with him a
 fortune in gold dust * A and his companions are attacked by Indians, A's
 companions are killed and A is mortally wounded ** A, alone and near death, buries
-nis store of gold dust and draws a map of the cache on a water canteen, X ***
+his store of gold dust and draws a map of the cache on a water canteen, X ***
 POST: (1394 ch A to A-8) (1369 ch A to A-8) (1401 ch A to A-8)
 
 (c) PRE: (1298) (1358)
@@ -14262,7 +14262,7 @@ Conflict{1378}
 PRE: (681b) (1327) (1329)
 A has long been mysteriously missing * A's father, F-A, has a conviction born
 of simple faith that A, long mysteriously missing, will some day come back to
-*-'m **
+him **
 POST: (698 ch A to F-A & CH to A) (1212b ch A to A-4 & A-8 to F-A)
 
 
@@ -14722,7 +14722,7 @@ the storm the house vanishes, and the site on which it stood becomes a lake **
 POST: (54a) (1414a)
 
 (b) PRE: (691) (1082b) (1404b)
-A, engaged in a hazardous searcn for A-4, finds himself in a strange lost community
+A, engaged in a hazardous search for A-4, finds himself in a strange lost community
 that has no direct communication with the outside world * A is made a
 prisoner in a strange lost community; and he finds A-4, for whom he is searching,
 also a prisoner **
@@ -14759,7 +14759,7 @@ POST: (819 ch A-5 to A-8) (906 ch A-2 to A-8)
 Conflict{1430}
 
 (a) PRE: (245) (697b)
-A, who evidently is a person ol quality, cannot prove his station in life as he knows
+A, who evidently is a person of quality, cannot prove his station in life as he knows
 nothing of his birth and parentage
 POST: (1051) (1054) (1055)
 
@@ -14941,7 +14941,7 @@ POST: (1245) (1258)
 Conflict{1446}
 
 (a) PRE: (850b; 1243) (1297)
-B loses her handbag, X, which contaios the key to her jewel box * B finds her lost
+B loses her handbag, X, which contains the key to her jewel box * B finds her lost
 handbag, X, and the key to her jewel box is in the bag — but the jewels in the jewel
 box are missing **
 POST: (1254) (1284)
@@ -15055,7 +15055,7 @@ POST: (918b) (922a)
 Conflict{1456}
 
 PRE: (516 ch A to A-5) (624) (783 ch A-7 to A-5)
-A, by shrewd deduction and skilful reasoning, proves that A-5 is a criminal
+A, by shrewd deduction and skillful reasoning, proves that A-5 is a criminal
 POST: (802b) (803a) (1222a ch A-3 to A-5)
 
 Conflict{1457}
@@ -15163,7 +15163,7 @@ A, A-4 & A-8,       A, male stranger and male utility character             231
 A, A-4 & A-9,       A, male stranger and male superior                      231
 
 A, A-5 & A-6,       A, male criminal and male law officer                   232
-A, A-5 & A-8,       A, male criminal and male ut'lity character             232
+A, A-5 & A-8,       A, male criminal and male utility character             232
 
 A, A-6 & A-8,       A, male law officer and male utility character          232
 
@@ -15409,7 +15409,7 @@ A, his curiosity aroused, secretly watches an old house, said to be deserted; th
 one day, he sees a beautifully rounded arm and a small, shapely hand emerge
 from behind the broken blind and place something on the window sill 74a
 
-A, hearing a wom.an's voice calling for help in a house he happens to be passing,
+A, hearing a woman's voice calling for help in a house he happens to be passing,
 rushes up the steps, through the front door — and into a romantic complication 74b
 A is so besieged by match-rnaking mammas that their meddling seriously interferes
 with the practice of his profession. He resolves to escape the annoyance
@@ -15434,9 +15434,9 @@ A is absent-minded 204-265b
 
 Love's Rejection
 
-A fears that he has inherited the evil traits of an ancestor 2s8
+A fears that he has inherited the evil traits of an ancestor 288
 
-A hopes, by a surgical operation on his skull, to be made immune ftom the "master
+A hopes, by a surgical operation on his skull, to be made immune from the "master
 passion" 231
 
 A, an aviator, is a person of masterful character 234b
@@ -15704,7 +15704,7 @@ storm 706a, b, c
 A, after a mysterious absence of many years, returns to his old home town 708
 
 A, returning as aa Unknown to his native place, discovers that no one recognizes
-hirn 708
+him 708
 
 A is expected by a large crowd of people to appear and carry out an obligation
 of professional duty 710
@@ -15727,7 +15727,7 @@ A, deprived of food through misfortune, faces slow death by starvation 713
 
 A, wealthy, finds that his pretentions to place and power are treated as a joke 715a
 
-A, a poor mari and crippled, finds his life in a sad tangle 715b
+A, a poor man and crippled, finds his life in a sad tangle 715b
 
 A is found guilty of a political conspiracy 715c
 
@@ -15793,7 +15793,7 @@ because he is a ventriloquist and supposed to be a god 650
 (5) A, because he is a ventriloquist (a conjuror or a magician) saves his life among
 savages; then loses his voice 714
 
-(5) A, wealthy and influential, loses his clothes, personal belongings and all othe
+(5) A, wealthy and influential, loses his clothes, personal belongings and all other
 means of identification 715a
 
 (6) A, unable to conquer his misfortunes, seeks to escape them by committing suicide
@@ -16053,7 +16053,7 @@ A is a conscientious artist whose ideal is Truth 903
 A's consuming desire is for friendship, for some one with whom he may associate
 and converse; but he is old and ugly, and no one pays him any attention 912a
 
-A is a garnbler pursuing his blackleg profession 914
+A is a gambler pursuing his blackleg profession 914
 
 A mysteriously disappears from his own community; and, when he reappears
 among strangers, he bears a fictitious name 917
@@ -16257,7 +16257,7 @@ ideals 918a
 
 (8) A starves to death rather than amass wealth by shattering his ideals 943a
 
-(8) A, a prisioner, dies holding fast to a lofty conception of duty rather than win
+(8) A, a prisoner, dies holding fast to a lofty conception of duty rather than win
 freedom by shattering his ideals of loyalty 943b
 
 (8) A is a gentleman of the "old school," who comes through life enduring with
@@ -16417,7 +16417,7 @@ A is injured in an accident and taken unconscious to a hospital 1040
 
 A, in a half doze, overhears a chance conversation that concerns a transgression;
 but he is in doubt as to whether he overheard a real conversation, or was deceived
-by a dreaming mmd 1045
+by a dreaming mind 1045
 
 A is strolling through the streets of a large city at dead of night 1046
 
@@ -16493,7 +16493,7 @@ A is a rnan who finds cowardice an obstacle to enterprise 1082a
 
 A lives in a strange lost community which is ruled by a.-, idol of Fear 1082b
 
-A seeks escape from a community ruled by Fear, iDut finds it difficult to develop
+A seeks escape from a community ruled by Fear, but finds it difficult to develop
 sufficient courage to accomplish his purpose 1082b
 
 A lacks initiative, and the ability unaided to advance his material fortunes 1083
@@ -16559,7 +16559,7 @@ important enterprise 1116
 A manufactures a hand-made product in a worthy manner no machinery can
 duplicate 1122
 
-A, by rnanufacturing a hand-made product by machinery, on a large scale, and
+A, by manufacturing a hand-made product by machinery, on a large scale, and
 so keeping up with the demand, will amass wealth; but the standard of quality
 will be lowered 1122
 
@@ -16628,7 +16628,7 @@ decides to write up an imaginary interview, pretending it is bona fide 1080
 (4) A seeks to overcome personal limitations in an honest enterprise by a resort to
 dishonest methods 1101
 
-(4) A, reading de ective stories, is fired with the desire to become a detective 1111b
+(4) A, reading detective stories, is fired with the desire to become a detective 1111b
 
 (4) A, highly confident of his own ability, takes up a line of work with which he has
 had no practical experience 1111b
@@ -16878,7 +16878,7 @@ into the underworld in quest of adventure 1209b
 decides to spend all his money before he dies so none will be left for his heirs 1210
 
 (4) A, taking refuge in a vacant house and desiring to stay on secretly in the place,
-movesr into the attic when the house is rented 1225
+moves into the attic when the house is rented 1225
 
 (4) A's plan to commit a robbery becomes known, and a trap is laid for him at the
 scene of the intended crime 1268
@@ -16923,7 +16923,7 @@ A seeks to evade the legal consequences of a crime he has committed 1301
 A, a minister of the gospel, errs secretly on his human side and commits a moral
 transgression 1306
 
-(4) A comaiits a transgression when he sells a piece of woodland, part of an inherited
+(4) A commits a transgression when he sells a piece of woodland, part of an inherited
 estate 120 Ic
 
 (8) A, committing a transgression and escaping unsuspected, is so tortured by
@@ -17027,7 +17027,7 @@ fortune in gold dust 1370b
 
 A has a character weakness that prevents him from achieving success in enterprise 1374
 
-A has long been rtjysteriously missing 1378
+A has long been mysteriously missing 1378
 
 A is a man of adventurous nature who seeks to accomplish a dangerous enterprise 1379
 
@@ -17076,7 +17076,7 @@ surrounded by people who are the victims of a hypnotic delusion 1427a
 
 A is a skeptic in matters that have to do with the supernatural 1427b
 
-A, a skeptic, meets with an experience which he finds disturbing 1 t27b
+A, a skeptic, meets with an experience which he finds disturbing 1427b
 
 A dreams that he falls from a great height 1428
 
@@ -17120,7 +17120,7 @@ and the stout door locks against him 1335
 (1) A, during a storm, has a narrow escape when lightning strikes a tree under which
 he is standing, throwing A to the ground and injuring him severely 1353
 
-(1) A, discovering a magic method for wishing and havine: makes a last wish that
+(1) A, discovering a magic method for wishing and having makes a last wish that
 he shall live forever; but his magic fails him, and he dies 1354a
 
 (1) A meets with disaster when illusion becomes reality through the overthrow of
@@ -17229,7 +17229,7 @@ an eclipse of the sun 1419a
 
 -- page 213
 
-(11) A, in one pair of shoes, is meek and circumspect in his behavior* vrhen wearing
+(11) A, in one pair of shoes, is meek and circumspect in his behavior; when wearing
 another pair, he is wild and profligate 1336
 
 (12) A, in a mysterious manner, receives a warning of danger 1424a
@@ -17249,7 +17249,7 @@ things of which he has no remembrance in his waking moments 1389a
 
 (13) A, while carrying out an enterprise of small importance vanishes completely
 and mysteriously, baffling every attempt of the police and of his friends to find
-him 1414a -
+him 1414a
 
 (13) A, seeking to unravel the mystery of a strange house in the hills, is caught in
 an electrical storm. During the storm the house vanishes and the site on which
@@ -17317,7 +17317,7 @@ Misfortune
 
 A, seeking to help his friend, A-2, lends him all his money 601
 
-A and his friend, A-2, are attacked by robbers in a Ipnely wood 603b
+A and his friend, A-2, are attacked by robbers in a lonely wood 603b
 
 A's friend, A-2, receives a wound from which he dies 603b
 
@@ -17372,7 +17372,7 @@ pit by A-2, who makes off alone with the treasure 662
 
 (1) A, seeking wealth by craftily defrauding A-2, is tortured by conscience 701
 
-(1) A loses his small fortune in trying to help a friend, A-2 7l5b
+(1) A loses his small fortune in trying to help a friend, A-2 715b
 
 (4) A, in order to oblige his friend, A-2, acts contrary to his own principles
 and experiences unpleasant results 599
@@ -17442,7 +17442,7 @@ A, learning that his friend, A-2, is accused of a crime, seeks to prove his inno
 A is a ne'er-do-well who has a friend, A-2, of worth in the world 823
 
 A, a sprinter, is on the point of losing a footrace because he believes he hears the
-voice of a dead fiiend, A-2, calling to him 827
+voice of a dead friend, A-2, calling to him 827
 
 A, ill and starving, receives food and money from his friend, A-2 831
 
@@ -17921,7 +17921,7 @@ naught by A-3, a witch doctor 1274
 (9) A, by subtle enterprise, forces a confession of guilt from A-3, and thus wins
 success in a difficult undertaking 1222b
 
-(9) A, when his mortal enemy, A-3, is lulled by a false sense of security, strikes ard
+(9) A, when his mortal enemy, A-3, is lulled by a false sense of security, strikes and
 kills 1237a
 
 (9) A, by working on A-3's pride as a connoisseur of wines, lures him into a wine
@@ -18161,7 +18161,7 @@ faked by a reporter, A 1340
 (2) A is hired by A-4 to recover stolen property which, unknown to A-4, was stolen
 by A himself 1339
 
-(4) A rnurders a stranger, A-4, in a lonely wood where the soil is of a peculiar color,
+(4) A murders a stranger, A-4, in a lonely wood where the soil is of a peculiar color,
 unlike any other soil for miles around. A sulks back home with the mud on
 his shoes 1341
 
@@ -18360,7 +18360,7 @@ A-5, attempt to open the safe and loot it of its contents 1307
 
 Mystery
 
-A finds that A-5, in absent-minded mornents, beguiles his leisure with a trifling
+A finds that A-5, in absent-minded moments, beguiles his leisure with a trifling
 proceeding that has become habitual with him 1362
 
 A suspects A-5, seemingly an honest man, of a crime, and tries to prove him
@@ -18455,7 +18455,7 @@ by impersonating him 1189
 
 Craftiness
 
-(1) A had local fame as a female irnpersonator; and A-6, a detective, makes use of
+(1) A had local fame as a female impersonator; and A-6, a detective, makes use of
 this fact as a clue in apprehending A for transgression 1282
 
 (1) A's secret is discovered by A-6, who craftily makes use of clues furnished
@@ -18530,7 +18530,7 @@ will in enterprise 720
 
 (5) A's employer, A-8, has been "using the mails to defraud" 604
 
-(7) A rids hirnself of a meddlesome person, A-8, and later regrets his harshness 735
+(7) A rids himself of a meddlesome person, A-8, and later regrets his harshness 735
 
 (13) A is a fugitive from justice, who discovers that a relative, A-8, has died and left
 him a rich estate 699a
@@ -18702,7 +18702,7 @@ A, a young artist, is hired by A-8 to paint a mystery picture 1386a
 
 (13) A is a cub reporter. The star reporter, A-8, from a distant place sends a cipher
 dispatch which the best minds in the newspaper office are unable to translate.
-A attempts the task 13'j6
+A attempts the task 1396
 
 (13) A, a thief, breaking into a building to commit a robbery, finds a man, A-8, dead
 on the floor, a revolver clutched in his tense fingers 1429
@@ -18856,7 +18856,7 @@ Craftiness
 A's friend, A-2, plans to rescue A from a brigand, A-5, who is holding A for
 ransom, and he plans to make the rescue without paying the ransom 1218
 
-(3) A's friend, A-2, is robbed by A and A-5- then A, in turn, robs A-5 1227a
+(3) A's friend, A-2, is robbed by A and A-5, then A, in turn, robs A-5 1227a
 
 (3) A robs A-5 of valuables stolen from A-2, and returns the property to A-2 1227a
 
@@ -19000,8 +19000,8 @@ A-4 and A-8 1223b
 
 A, by chance, receives confidential information sent by A-4 to A-8 1278c
 
-A-8, a doctor, is called in by A-4, and A-8 informs A privately that he is an im
-poster 1278d
+A-8, a doctor, is called in by A-4, and A-8 informs A privately that he is an
+imposter 1278d
 
 A, a crook, pretends to have a fit, and is befriended by A-4, who calls in a doctor,
 A-8, to attend him 1285c
@@ -19359,7 +19359,7 @@ A is vastly puzzled in his attempts to solve the mystery of a strange object, X
 X, experiences all sorts of misfortunes 1343
 
 (1) A, carrying in his pocket a small object of mystery, X, is harried by ill-luck and
-comes to believe in the m.alefic powers of X 1352
+comes to believe in the malefic powers of X 1352
 
 (1) A suffers weird adventures and undergoes strange dangers when unknown
 persons seek by stealth to take from him a mysterious object, X, which has come
@@ -19438,7 +19438,7 @@ Misfortune
 
 Chance
 
-(4) A unwittingly takes an object, X-1, belonging to his friend, a-2, leaving for
+(4) A unwittingly takes an object, X-1, belonging to his friend, A-2, leaving for
 A-2 a similar object, X-2, in place of X-1. Close inspection is necessary to
 discover the difference between X-2 and X-1 1044b
 
@@ -19564,7 +19564,7 @@ A, A-6 and X
 
 Misfortune
 
-(1) A, arrested by the police as a crim.inal "suspect," has in his possession a satchel,
+(1) A, arrested by the police as a criminal "suspect," has in his possession a satchel,
 innocently come by. The satchel, X, is found to contain burglar's tools 608
 
 -- page 238
@@ -19753,7 +19753,7 @@ complication 821
 (2) A is inspired to carry on successfully because of the faith his son, SN, has in him
 810
 
-(10) A's son, SN, winsfor his college in a gruelling contest; and SN tells A, who is
+(10) A's son, SN, wins for his college in a gruelling contest; and SN tells A, who is
 gloomy and despairing and considers himself a failure, that his success was inspired
 by the thought that his father had never been beaten 810
 
@@ -19899,7 +19899,7 @@ A, U and CN
 
 Simulation
 
-(4) A's uncle, U. dies and icaves A's cousin, CN, a large estate. A impersonates CN
+(4) A's uncle, U. dies and leaves A's cousin, CN, a large estate. A impersonates CN
 1201
 
 
@@ -19978,7 +19978,7 @@ B is convinced that several eligible men are in love with her 56
 
 B is unaware of the fact that she is the victim of egotistical self-deception 56
 
-B, in a fit of discouragement over an unhappy love affair, m.editates suicide and
+B, in a fit of discouragement over an unhappy love affair, meditates suicide and
 writes a note to her friends telling of her motives 57
 
 B is harrassed by gossip concerning men falsely rumored to be in love with her,
@@ -20021,9 +20021,9 @@ Blank" 58c
 -- HER obj
 every man is in love with her 65
 
-(4) B, in order to escape annoying m.anifestations of love, resorts to simulation 71b
+(4) B, in order to escape annoying manifestations of love, resorts to simulation 71b
 
-(4) B pretends that she is engaged to be m.arried in order to be free of certain
+(4) B pretends that she is engaged to be married in order to be free of certain
 annoying experiences S3
 
 (4) B, in order to carry out an enterprise considered necessary, offers to sell herself
@@ -20406,7 +20406,7 @@ and it is denied 1417
 
 B seeks to escape from mysterious dangers 1446b
 
-(1) B receives a photograph; and on the back of it is written- '-You are in great
+(1) B receives a photograph; and on the back of it is written: 'You are in great
 danger! Beware!" 1364a
 
 -- HER obj
@@ -20595,7 +20595,7 @@ B, B-4 and X
 
 Helpfulness
 
-B, in charge of a booth at a charity ba/.aar, seeks to prevent B-4 from buying a
+B, in charge of a booth at a charity bazaar, seeks to prevent B-4 from buying a
 certain object, X, on which she seems to have set her heart 849
 
 
@@ -20658,7 +20658,7 @@ but B cannot persuade M-B against it 785
 
 Deliverance
 
-B's roother, M-B, is in straitened circumstances and estranged from B 886
+B's mother, M-B, is in straitened circumstances and estranged from B 886
 
 (10) B's mother, M-B, inherits a large sum of money unexpectedly, and becomes
 reconciled with B, from whom she was estranged 886
@@ -20904,7 +20904,7 @@ to the scene of her crime for trial and punishment 3b
 
 (4) A and B, both single, craftily agree to ban love in their associations 9a
 
-(4) A and B, entering .nto a business partnership, ban love with every legal device 9b
+(4) A and B, entering into a business partnership, ban love with every legal device 9b
 
 (4) B, middle-aged, and A, a youth, are in love with each other lib 37
 
@@ -21071,7 +21071,7 @@ A loves B, and is compelled to stand helplessly by while B undertakes a dangerou
 enterprise 133
 
 A, and the woman he loves, B, are lost in the woods; and it is evident that they
-will have to remain in the woods all night ISia
+will have to remain in the woods all night 134a
 
 B, in love with A, has worn A's engagement ring for years 141
 
@@ -21091,7 +21091,7 @@ B loses her watch (or a locket) and has her lovers search for it. The picture of
 
 A, the lover B favors, is in the watch 165
 
---TYPE propsed -> proposed
+--TYPO propsed -> proposed
 B wore a certain ornament when her false lover, A, proposed to her. She has an
 odd conviction that the same misfortune will befall any other woman who wears
 the ornament 173
@@ -21124,7 +21124,7 @@ a wife, who immediately claims A as her husband 50
 health declines and she worries herself into her grave 51a
 
 (1) A confesses to B that he once committed a transgression, and the result of the
-confession proves disastrous olb
+confession proves disastrous 51b
 
 (1) A, a fugitive from justice, hiding in the bush, through error shoots and kills B,
 his sweetheart, when he hears some one approaching his hiding place 52a
@@ -21599,7 +21599,7 @@ that their marriage would prove a hindrance to him 254
 
 -- page 258
 
-(8) B sacrifices happiness when, faithful to an obligation, she refuses rnarriage with
+(8) B sacrifices happiness when, faithful to an obligation, she refuses marriage with
 A, the man she loves. Her sacrifice, in time, brings the consolation of
 spiritual joy for a hard duty nobly done 268
 
@@ -22019,7 +22019,7 @@ transgression that will work untold hardship to the public 517
 
 A learns that his wife, B, is in terrible danger 519a
 
-A, if he leaves his post of duty to save his wife, B, who is in terrible aanser, will
+A, if he leaves his post of duty to save his wife, B, who is in terrible danger, will
 sacrifice lives and property he is in duty bound to safeguard 519a
 
 A, over the phone, receives an agonized call from his wife, B, for help. B is in
@@ -22163,7 +22163,7 @@ to A's irreligious nature 579a
 
 A's wife, B, i3 racially, morally and mentally A's inferior 579b
 
-B desires the love and consideration of her husband, A, which she delieves she
+B desires the love and consideration of her husband, A, which she believes she
 has lost 581
 
 B, if discovered doing something she has in mind, will find herself at odds with
@@ -22200,7 +22200,7 @@ ages becomes the cause of quarrels and, finally, of estrangement 373
 wealthy 377b
 
 (1) A, marrying a widow, B, discovers that he has "caught a tartar" and has wedded
-a domestic tyrfant 378
+a domestic tyrant 378
 
 (1) A suffers the loss of happiness in carrying out honorably a distasteful obligation
 to divorce his wife, B 379
@@ -22249,7 +22249,7 @@ and honorable expedient of living apart undivorced 457
 (1) B, the bride, seeks to escape annoying experiences when A, the groom, leaving
 the train to send a telegram, is left behind 458a
 
-(1) A and B, married, find themselves cast away among a strange, half -barbarian
+(1) A and B, married, find themselves cast away among a strange, half-barbarian
 people 458b
 
 (1) A is estranged from his wife, B, whom he dearly loves 460
@@ -22335,7 +22335,7 @@ B, all by secret enterprise 465
 
 (2) B so reorganizes and manages A's affairs that he becomes prosperous 500b
 
-(2) B loyally helps her huband, A, recoup his financial losses 505
+(2) B loyally helps her husband, A, recoup his financial losses 505
 
 (2) B becomes reconciled with her husband, A, when a suspicion is proved to be
 false 506b
@@ -22464,7 +22464,7 @@ out an iniquitous project. His wife, B, seeks in vain to persuade him against it
 wife, upholds him in his determination 524b
 
 (4) A, married to B, attempts to carry out an infamous project in spite of family
-obligati9ns 525
+obligations 525
 
 (4) B, wishing to be free of her husband, A, writes anonymous "poison pen" letters
 regarding herself, and sends them to A 564b
@@ -22617,7 +22617,7 @@ fortune in jewels in the safe 666
 B, unless she reveals a personal delinquency, will cause an innocent man, A, to
 suffer for transgression 667
 
-A, a fugitive from justice, seeks to resue B from her misfortunes 673
+A, a fugitive from justice, seeks to rescue B from her misfortunes 673
 
 B rebels against A's method of appropriating as his own the brilliant
 achievements which B accomplishes at his command 679
@@ -22800,7 +22800,7 @@ punishment 986
 
 -- page 269
 
-(4) A, against his wish and inclination becomes thie guardian of a beautiful woman,
+(4) A, against his wish and inclination becomes the guardian of a beautiful woman,
 B 1002
 
 (14) B, a criminal who has undergone a character change and become an honest
@@ -22871,7 +22871,7 @@ weave an intricate series of lines which constitute a concealed map of great imp
 
 Craftiness
 
-A is a grafter wno torces B to help him in his grafting enterprises 1220b
+A is a grafter wno forces B to help him in his grafting enterprises 1220b
 
 A compels B to wander about the streets in rags, forlorn and weeping, with the
 idea of securing money from guileless strangers 1220b
@@ -23047,7 +23047,7 @@ Love's Rejection
 A's friends, A-2, A-2, believe that B, whom A is about to marry, is a woman
 of immoral character and that A should be restrained 220
 
-A discovers that his friend, A-2, is cruelly fickle in his love aflfair with B 294a
+A discovers that his friend, A-2, is cruelly fickle in his love affair with B 294a
 
 A, discovering that his friend, A-2, is cruelly fickle in his love affair with B, takes
 him to task for it 294a
@@ -23203,7 +23203,7 @@ B and A-3 80b
 
 -- page 273
 
-(8) A, in order *-o insure the happiness of B, whom he loves, and who, he thinks, loves
+(8) A, in order to insure the happiness of B, whom he loves, and who, he thinks, loves
 his rival, A-3, flees secretly so it may appear that he, and not A-3, committed
 a certain transgression 80a
 
@@ -23373,7 +23373,7 @@ A unhappily married to B, falls m love with B-3, a girl much younger than himsel
 B, wife of brutal and tyrannical A, has a loyal friend in A-3. A-3 seeks to help
 B escape from A 558
 
-A, the Drutal and tyrannical husband of B, is a huge man and as powerful as he
+A, the brutal and tyrannical husband of B, is a huge man and as powerful as he
 is brutal; and A-3, who would save B from A, is a coward 558
 
 A, husband of B, receives anonymous communications regarding B and A-3 561
@@ -23809,7 +23809,7 @@ from A 170
 Love's Rejection
 
 (1) A makes a gift, X, to B, the woman he wishes to marry; and X is a gift of value
-which it is proved has Jaeen stolen 333
+which it is proved has been stolen 333
 
 
 Marriage
@@ -24015,7 +24015,7 @@ Simulation
 
 A is mistaken by B for her son 1196
 
-A, mistaken by a dying woman, B, for her son, £N, altruistically fosters the
+A, mistaken by a dying woman, B, for her son, SN, altruistically fosters the
 delusion in order to give B a few last moments of earthly comfort 1196
 
 
@@ -24534,7 +24534,7 @@ Love's Misadventures
 
 Love's Rejection
 
-A is left a tortune by a deceased relative provided he will marry BX. a woman
+A is left a fortune by a deceased relative provided he will marry BX. a woman
 he does not know 298b
 
 A is appealed to for aid by BX, a woman he does not know 298c
@@ -24964,7 +24964,7 @@ A, B and BX
 
 Love's Beginnings
 
-(2) A falls inl ove with B, and renounces wealth which he was to inherit by marrying BX 19a
+(2) A falls in love with B, and renounces wealth which he was to inherit by marrying BX 19a
 
 
 
@@ -24973,7 +24973,7 @@ A, BX and X
 
 Mystery
 
-A strugles with a masked woman road agent, BX, and twists from her wrist a
+A struggles with a masked woman road agent, BX, and twists from her wrist a
 peculiar bracelet, X 1431
 
 (13) A, proceeding about his business and caught in a crowd, is confronted suddenly
@@ -25423,7 +25423,7 @@ Married Life
 the presence of both B and A-3, tells about a man, AX, who broke up a home by
 eloping with a friend's wife and then abandoning her. A-2 has recognized A-3
 and, in order to save B, tells this story about him, hiding A-3's identity under a
-fictitious name. But it is enough, A-3 sneaks away and B nevers sees him again
+fictitious name. But it is enough, A-3 sneaks away and B never sees him again
 536
 
 
@@ -25657,7 +25657,7 @@ A, B-4 and CH
 
 Personal Limitations
 
-(1) A volunteers to care f9r an infant, CH, for a woman stranger, B-4, but A finds
+(1) A volunteers to care for an infant, CH, for a woman stranger, B-4, but A finds
 himself with CH on his hands when B-4 fails to return 1057a
 
 (4) A, young and unmarried, assumes temporary charge of an infant, CH, for a woman

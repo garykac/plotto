@@ -8,7 +8,7 @@ import re
 import subprocess
 import sys
 
-WRITE_DICT = False
+WRITE_DICT = True
 
 def error(msg):
 	print 'Error: %s' % (msg)
@@ -555,7 +555,8 @@ class Parser():
 			return line
 		# Preprocess "ladies'" so we can convert to "gentlemen's".
 		line = line.replace("ladies'", "ladies_poss");
-		words = re.split('([ .,:;\'"])', line)
+		# Note: — is emdash
+		words = re.split('([ .,:;—\'"])', line)
 		for w in words:
 			#if self.id == '1289':
 			#	print self.subid, w
@@ -598,8 +599,8 @@ class Parser():
 			return
 		# Print entire line for word.
 		# Useful for tracking down short typo words.
-		#if word == 'le':
-		#	print self.id, line
+		if word == 'ut':
+			print self.id, line
 
 		if not word in self.dict:
 			self.dict[word] = 0
