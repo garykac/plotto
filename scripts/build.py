@@ -246,6 +246,7 @@ class Parser():
 					self.in_conflict_section = True
 				if self.page == '190':
 					self.in_conflict_section = False
+					self.id = ''
 
 			m = re.match(r'-- HER (.*)', line)
 			if m:
