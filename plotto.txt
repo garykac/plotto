@@ -923,7 +923,7 @@ the C Clause numbers in the Classification by Symbols.
 (2) Emerges happily from a serious entanglement.
 (3) Foils a guilty plotter and defeats a subtle plot.
 (4) Undertakes a role that leads straight to catastrophe.
-(5) Emerges from a trying ordeal with soreiy garnered wisdom.
+(5) Emerges from a trying ordeal with sorely garnered wisdom.
 (6) Makes the supreme sacrifice in carrying out an undertaking.
 (7) Reverses certain opinions when their fallacy is revealed.
 (8) Achieves a spiritual victory
@@ -2254,7 +2254,7 @@ POST: (808a) (822)
 Conflict{100}
 
 PRE: (275) (276) (299) (1298)
-A, in love witt B, is determined to see B, although the determination will surely
+A, in love with B, is determined to see B, although the determination will surely
 involve him in misfortune unless he resorts to crafty enterprise
 POST: (1209a) (70)
 
@@ -3698,7 +3698,7 @@ POST: (109) (917) (246b)
 Conflict{260}
 
 (a) PRE: (59 ch A to A-3) (280a)
-A loves B.lsut is rejected for a rival, A-3, who, known to A but unknown to B, is
+A loves B, but is rejected for a rival, A-3, who, known to A but unknown to B, is
 a transgressor
 POST: (236) (265a) (266)
 
@@ -4440,7 +4440,7 @@ POST: (1195) (1201) (568a ch "married to" to "sweetheart of")
 Conflict{339}
 
 PRE: (233) (719a) (750) (917)
-B, supposing A, the man she loves, to be dead, vields to the wishes of her parents,
+B, supposing A, the man she loves, to be dead, yields to the wishes of her parents,
 F-B and M-B, and consents to a marriage with A-3
 POST: (334a) (336a)
 
@@ -4913,7 +4913,7 @@ Conflict{381}
 
 PRE: (359) (367a)
 A finds a note (561) (562) (582 tr B & A), somewhat ambiguously worded, which
-leads him to a wronp conclusion regarding the conduct of his wife, B * A is fired to
+leads him to a wrong conclusion regarding the conduct of his wife, B * A is fired to
 seek revenge **
 POST: (396) (420) (464)
 
@@ -5281,7 +5281,7 @@ POST: (371) (392) (425; 1290b ch A to SN-A & F-A to A)
 Conflict{423}
 
 (a) PRE: (418 -*) (426 -*) (430) (400)
-A and B, man and wife, each secretly leaves hom.e on the same day * A believes he
+A and B, man and wife, each secretly leaves home on the same day * A believes he
 has deserted B, and B believes she has deserted A **
 POST: (394) (487) (500a)
 
@@ -5399,7 +5399,7 @@ POST: (378 ch A to A-3) (385 ch A to A-3) (403 ch A to A-3)
 Conflict{435}
 
 (a) PRE: (402 ch A to A-3) (451)
-A marries B, a woman who, ixnknown to A, is already married to A-3, a husband
+A marries B, a woman who, unknown to A, is already married to A-3, a husband
 who is living and undivorced * A-2, a friend of A's, sends A-3 to A, B's second
 husband, and exposure of deceitful B follows **
 POST: (743b; 921) (738)
@@ -5471,7 +5471,7 @@ Conflict{443}
 PRE: (386 -*) (408)
 B's husband, A, leaves for town, as he declares, to meet a friend, A-2 * A's friend,
 A-2, sends a letter to A; it arrives during A's absence, and B opens it ** A-2, friend
-of A, is in a foreign countrv; and B conceals the letter from A-2 and, the next time A
+of A, is in a foreign country; and B conceals the letter from A-2 and, the next time A
 leaves home "to meet A-2," B trails him ***
 POST: (394) (486a; 552a tr A & B; 404 tr A & A-3)
 
@@ -5621,7 +5621,7 @@ POST: (445a -*; 396 -*) (583c) (589)
 
 (b) PRE: (423b-2) (687 add B) (691 add B)
 A and B, married, find themselves cast away among a strange, half-barbarian
-people * A, finding the beauty of his wife, B, a source of danger to hirrself. seeks
+people * A, finding the beauty of his wife, B, a source of danger to himself, seeks
 to avoid the danger by a stratagem **
 POST: (436) (688 -*; 307 or 197 ch B to B-3 or 973)
 
@@ -5721,7 +5721,7 @@ B{14} Falling into Misfortune through the Wiles of a Crafty Schemer
 Conflict{471}
 
 PRE: (450 tr A & A-3) (451 tr A & A-3)
-A, after his marriage to B, discovers that B, who ..ad professed to be single, was
+A, after his marriage to B, discovers that B, who had professed to be single, was
 a married woman and neither divorced nor widowed
 POST: (473) (480) (489)
 
@@ -9576,7 +9576,7 @@ coast
 POST: (686) (690)
 
 (c) PRE: (244) (331) (714)
-A, a prisoner, bound, heloless and facing death, is rescued by resourceful B
+A, a prisoner, bound, helpless and facing death, is rescued by resourceful B
 POST: (347a) (901)
 
 Conflict{879}
@@ -9904,7 +9904,7 @@ POST: (847) (963) (1087)
 Conflict{915}
 
 PRE: (623) (1186) (1282)
-A flees to a foreign country to escape ttic consequences
+A flees to a foreign country to escape the consequences
 of a transgression * A, a fugitive in a foreign land, becomes so homesick for his
 own country that he has to return **
 POST: (237) (635) (635; 708) (864) (1199) (1209a)
@@ -10402,7 +10402,7 @@ POST: (1058) (1065) (1075a)
 Conflict{967}
 
 PRE: (770a) (917) (919b) (864) (797) (763) (918a)
-A has been mysteriously absent from his home foi long years * A, for many years
+A has been mysteriously absent from his home for long years * A, for many years
 mysteriously absent from his home, seeks a happy renewal of old ties by returning
 suddenly and unheralded to his native place **
 POST: (869) (923) (1199)
@@ -11232,7 +11232,7 @@ Conflict{1060}
 
 PRE: (768) (1134 -*) (1418 -*)
 A, a young man of mediocre abilities, is happy in considering himself a very superior
-person * A attempts audacious enterorises, but his confidence has a way of
+person * A attempts audacious enterprises, but his confidence has a way of
 leaving him "flat" before the enterprises are carried through to completion **
 POST: (769) (1134 *-**) (1187)
 
@@ -11894,7 +11894,7 @@ Conflict{1137}
 
 (a) PRE: (890 ch A-4 to A) (1389b)
 B, in a small boat, has lost her oars and is drifting out to sea in a fog * B, in great
-dkngei, seeks to apprise A, at a distance, of her danger by occult methods—methods
+danger, seeks to apprise A, at a distance, of her danger by occult methods—methods
 with which they have often experimented ** B, ocean bathing, is caught in
 the undertow and is being swept out to sea ***
 POST: (179a, c) (1433c) (1451c)
@@ -15703,7 +15703,7 @@ storm 706a, b, c
 
 A, after a mysterious absence of many years, returns to his old home town 708
 
-A, returning as aa Unknown to his native place, discovers that no one recognizes
+A, returning as an Unknown to his native place, discovers that no one recognizes
 him 708
 
 A is expected by a large crowd of people to appear and carry out an obligation
@@ -16003,7 +16003,7 @@ A, an agnostic, is caught in a terrific storm 884b
 A, a barbarian, is compelled to deal with a civilization which he once knew but
 now has forgotten 887b
 
-A undergpes a strange experience among people hypnotically deluded 888
+A undergoes a strange experience among people hypnotically deluded 888
 
 (1) A is heavily in debt and facing bankruptcy 874
 
@@ -16100,7 +16100,7 @@ experience 928a
 
 A is a writer who plans to work up a pet idea into a story 932
 
-A, a writer, before he begias work on a story, wishes to make sure that the tale
+A, a writer, before he begins work on a story, wishes to make sure that the tale
 he has in mind will be interesting to the general public. He plans to settle the
 question by secret enterprise 932
 
@@ -16270,7 +16270,7 @@ overcome his ideals, as blessings in disguise 944
 that sends him away on an altruistic undertaking—all by the way of proving
 that there is "good in the worst of us" 955
 
-(8-i2) A discards low ideals for high ideals 963
+(8-12) A discards low ideals for high ideals 963
 
 (8) A, a white man battling against the superstitious frenzy of a half-savage tribe
 stricken with the plague, upholds the highest ideals of the white man's civilization 973
@@ -17195,7 +17195,7 @@ he even contemplates failure 1356
 rubber suit, inflates it, and secretly by night drops overboard from a steamer on
 the high seas 1367b
 
-(4) A, as a rnethod of reprisal against his country, seeks to sell important government
+(4) A, as a method of reprisal against his country, seeks to sell important government
 information to a foreign country 1372a
 
 (4) A, as a method of reprisal against his native land, turns traitor in time of war
@@ -19628,7 +19628,7 @@ A, A-2, A-3 and X
 
 Revenge
 
-(1) A sends an inferftal machine, X, to his enemy, A-3, and it falls into the hands
+(1) A sends an infernal machine, X, to his enemy, A-3, and it falls into the hands
 of A's friend, A-2 1319a
 
 
@@ -20961,7 +20961,7 @@ character in order to prove that he is not so perfect as he seems Ic
 (10) A and B, engaging in an enterprise, mutually covenant and agree to ban love;
 but love enters into their little scheme in spite of their platonic notions 9a
 
-(14) B hires A as foreman on her ranoh, and he promises to keep his place and not
+(14) B hires A as foreman on her ranch, and he promises to keep his place and not
 make love to her; but B falls in love with him, and is presently glad to learn
 that A's sole purpose in taking the job of foreman was to win her love 9c
 
@@ -21463,7 +21463,7 @@ B loves A, but A, apparently, does not return her love 327a
 B believed that her lover, A, was what he seemed to be, poor and humble; but
 he reveals himself as a man of wealth and station, incognito 336b
 
-(1) A suffers remose for telling B that he was married when he was not 207
+(1) A suffers remorse for telling B that he was married when he was not 207
 
 (1) A did not think that he loved B, but later finds that he does 207
 
@@ -21582,7 +21582,7 @@ A 262a
 (7) B, finding her supposed ideal lover, discovers that he has "feet of clay" like
 all the others 226
 
-(7) A, discovering that he is not a fugitive from justice r.s he had supposed, returns
+(7) A, discovering that he is not a fugitive from justice as he had supposed, returns
 to his native country, secretly abandoning B, for whom he had declared his love
 while thinking himself a transgressor 237
 
@@ -21773,7 +21773,7 @@ A and B, married and devotedly in love with each other, are hasty and intolerant
 
 B mourns over the mistaken belief that she has lost A's love 370
 
-A is suspected of haying murdered his wife, B 371
+A is suspected of having murdered his wife, B 371
 
 A and B, devotedly in love with each other, through failure to understand each
 other's ideals, develop an incompatability which results in frequent quarrels 372
@@ -22296,7 +22296,7 @@ as to which of them caused the estrangement—and the estrangement continues
 
 (1) A finds his marriage to B a bar to his contentment 508
 
-(1) A is unhappy in his rnarried life with B 510
+(1) A is unhappy in his married life with B 510
 
 (1) A is unable to find a job and support his wife, B 522
 
@@ -22404,8 +22404,8 @@ marriage, he had stolen from her 422a
 
 (4) A, married to B and desiring his freedom, resorts to craftiness 426
 
-(4) A, rnarried to B, is impelled by an unusual motive to drop out of sight, lose his
-personplity and go adventuring in the underworld 429a
+(4) A, married to B, is impelled by an unusual motive to drop out of sight, lose his
+personality and go adventuring in the underworld 429a
 
 (4) A and B, married and devotedly in love with each other, are impelled by an
 unusual motive to drop out of sight, leave the world they know and search for
@@ -22441,7 +22441,7 @@ a close secret 447
 
 (4) A marries B, a woman he does not love 488b
 
-(4) A seeks to divoce B, thinking to find happiness in a new love 489
+(4) A seeks to divorce B, thinking to find happiness in a new love 489
 
 (4) A and B, man and wife, keep themselves in poverty by spending all their money
 for rich furnishings to put in the mansion they are going to build when they
@@ -23916,7 +23916,7 @@ B's father. F-B, a religious fanatic, sends B away from home because she falls
 in love with A, who is not of their religious belief 223
 
 B is unable to marry A because her father, F-B, in using B for his subject in a
-scientific experiment, has instilled a poison into hei blood 227
+scientific experiment, has instilled a poison into her blood 227
 
 B, revealing the fact that she is in love with A, of a family at war with her own,
 is denied further intercourse with A by her father, F-B 240
