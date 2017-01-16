@@ -363,14 +363,14 @@ class Parser():
 				assert(not self.in_conflict)
 				self.in_conflict = True
 				self.text = []
-				subid = m.group('subid')
-				if not subid:
-					subid = ''
-				self.links[self.id].append(subid)
+				self.subid = m.group('subid')
+				if not self.subid:
+					self.subid = ''
+				self.links[self.id].append(self.subid)
 
 				links = m.group('links')
 				hlinks = self.parse_links(links)
-				self.write_conflict_subheader(subid, hlinks)
+				self.write_conflict_subheader(self.subid, hlinks)
 				return
 
 			m = re.match(r'^POST: (?P<links>.*)$', line)
@@ -380,6 +380,7 @@ class Parser():
 				links = m.group('links')
 				hlinks = self.parse_links(links)
 				self.write_conflict_body(hlinks)
+				self.subid = ''
 				return
 
 			if not self.in_conflict:
