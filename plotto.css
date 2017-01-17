@@ -181,3 +181,15 @@
 	background-color: #e0e0e0;
 	text-decoration: none;
 }
+
+.bodytext .clink {
+	font-size: 13pt;
+	color: #000000;
+	background-color: #f0f0f0;
+}
+
+.bodytext .clink:hover {
+	color: #000000;
+	background-color: #e0e0e0;
+	text-decoration: none;
+}
