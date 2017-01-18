@@ -14,14 +14,15 @@ def error(msg):
 	print 'Error: %s' % (msg)
 	sys.exit(1)
 
-# These terms are bidirectional unless marked with an '*'.
-# 'her' requires disambiguation, so there is no default substitution.
+# These terms are bidirectional unless marked with an '*'. In this case, then '*'ed
+# term is not replaced with the other term (although the other term will be replaced with
+# the '*'ed term).
+# 'her' always requires disambiguation, so there is no default substitution.
 #   her: objective (him) vs. possessive (his)
-# 'husband' defaults to spouse
-# 'mistress' defaults to lover
 genderedTerms = [
 	['adventurer', 'adventuress'],
 	['brother', 'sister'],
+	['brothers', 'sisters'],
 	['boy', 'girl'],
 	['clergyman', 'clergywoman'],
 	['cowboy', 'cowgirl'],
@@ -32,19 +33,22 @@ genderedTerms = [
 	['foreman', 'forewoman'],
 	['frontiersman', 'frontierswoman'],
 	['gentleman', 'lady'],
-	# Handle ladies' -> gentlemen's (ladies' is preprocessed into ladies_poss)
+	# Handle gentlemen's <- ladies' (ladies' is preprocessed into ladies_poss)
 	["*gentlemen's", "ladies_poss"],
 	['gentlemen', 'ladies'],
 	['grandfather', 'grandmother'],
 	['he', 'she'],
 	['highwayman', 'highwaywoman'],
 	# him -> her
+	# See comment at top for her -> his/him
 	['him', '*her'],
 	['himself', 'herself'],
 	# wife <-> husband
 	# husband: spouse (wife) vs. to manage
+	# husband converts by default to 'wife', needs annotation to remain unchanged (=to manage)
 	['husband', 'wife'],
 	# his -> her
+	# See comment at top for her -> his/him
 	['his', '*her'],
 	['male', 'female'],
 	['man', 'woman'],
@@ -54,8 +58,10 @@ genderedTerms = [
 	['manservant', 'maid'],
 	['men', 'women'],
 	['misogynist', 'misandrist'],
-	# lover is ungendered
+	# lover <- mistress
+	# 'lover' is ungendered and is not converted into 'mistress'
 	# mistress: head of household (master) vs. lover
+	# 'mistress' converts by default to 'lover', needs annotation for 'master'
 	['*lover', 'mistress'],
 	['nephew', 'niece'],
 	['paternal', 'maternal'],
@@ -63,6 +69,11 @@ genderedTerms = [
 	['son', 'daughter'],
 	['stepfather', 'stepmother'],
 	['uncle', 'aunt'],
+	# unmarried <- maiden
+	# 'unmarried' is ungendered and is left unchanged
+	# This mapping works because 'maiden' is only used as an adj, as in 'maiden aunt'
+	# and 'maiden sisters'. The noun form of 'maiden' is not used.
+	['*unmarried', 'maiden'],
 	['widower', 'widow'],
 	# cad: female equivalent?
 ]
@@ -599,8 +610,8 @@ class Parser():
 			return
 		# Print entire line for word.
 		# Useful for tracking down short typo words.
-		if word == 'ut':
-			print self.id, line
+		#if word == 'hom':
+		#	print self.id, line
 
 		if not word in self.dict:
 			self.dict[word] = 0
