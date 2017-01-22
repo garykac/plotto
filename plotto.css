@@ -170,6 +170,12 @@
 	text-decoration: none;
 }
 
+.desc .clinkgroup {
+	margin: 0 3px;
+	border-radius: 10px;
+	background-color: #f0f0f0;
+}
+
 .desc .clink:hover {
 	color: #000000;
 	background-color: #e0e0e0;
