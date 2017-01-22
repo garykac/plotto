@@ -422,6 +422,13 @@ class Parser():
 		self.outfile.write('</head>\n')
 		self.outfile.write('<body>\n')
 
+		self.outfile.write('<script>\n')
+		self.outfile.write('url = window.location.href.split("?");\n')
+		self.outfile.write('if (url.length != 1 && url[1] == "random") {\n')
+		self.outfile.write('\twindow.location.assign(url[0] + "#" + Math.floor(Math.random() * 1462 + 1));\n')
+		self.outfile.write('}\n')
+		self.outfile.write('</script>\n')
+
 		self.write_navbar()
 
 		self.outfile.write('<div class="container">\n')
