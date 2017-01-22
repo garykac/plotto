@@ -856,7 +856,7 @@ the C Clause numbers in the Classification by Symbols.
 (2) Falling in love at a time when certain obligations forbid love,
 (3) Seeking to demonstrate the power of love by a test of courage.
 (4) Being impelled by inordinate fancy to exercise mistaken judgment in a love affair
-(5) Becoming involved in a hopeless love affair, and seeking t9 make the best of a disheartening situation,
+(5) Becoming involved in a hopeless love affair, and seeking to make the best of a disheartening situation,
 (6) Challenging, in a quest of love, the relentless truth that "East is East, and West is West, and never the twain shall meet,"
 (7) Becoming involved in a love affair that encounters unforeseen obstacles,
 (8) Confronting a situation in which wealth is made conditional upon a certain course of action in a love affair,
@@ -1436,7 +1436,7 @@ POST: (568a ch A to A-8) (568b ch A to A-8 & A-3 to A)
 Conflict{18}
 
 PRE: (462 ch B to B-3) (3a) (4a)
-A falls m love with B; but A already has a wife, B-3. whom he has never loved, a
+A falls in love with B; but A already has a wife, B-3. whom he has never loved, a
 wife whom he considers it his duty to care for
 POST: (417) (557 ch B to B-3) (368a tr B & B-3)
 
@@ -1806,7 +1806,7 @@ POST: (1269 ch A to B & A-2 to A) (249)
 Conflict{52}
 
 (a) PRE: (1209a) (1298) (694)
-A, a fugitive from justice, hiding in the bush, tnrough error shoots and kills B, his
+A, a fugitive from justice, hiding in the bush, through error shoots and kills B, his
 sweetheart, when he hears some one approaching his hiding place
 POST: (746 ch B to A) (787) (802b ch A to A-6)
 
@@ -2240,7 +2240,7 @@ POST: (236) (267) (351a)
 Conflict{98}
 
 PRE: (1185) (1247)
-A is one of the "idle rich", who craftily retains his high place in society m spite
+A is one of the "idle rich", who craftily retains his high place in society in spite
 of the fact that he has secretly betrayed a young woman B
 POST: (1325) (1326 ch A to A-8) (1328) (1349) (1262)
 
@@ -2275,7 +2275,7 @@ POST: (14b) (24a, b, c, d, e) (25)
 Conflict{102}
 
 PRE: (32) (325)
-B is falsely suspected ot being in love with various men. She decides to free
+B is falsely suspected of being in love with various men. She decides to free
 herself of the suspicion by a stratagem
 POST: (86) (952 ch A to B) (1204)
 
@@ -2868,7 +2868,7 @@ Conflict{169}
 
 PRE: (26a, b)
 A falls in with his friend, A-2, who is on his way to meet B, a girl he has never
-seen but to whom he is betrothed * A and A-2 m.eet with a tragic adventure and
+seen but to whom he is betrothed * A and A-2 meet with a tragic adventure and
 A-2 is killed **
 POST: (603b, c, d) (168)
 
@@ -2952,7 +2952,7 @@ POST: (300) (311) (322a) (360a)
 Conflict{178}
 
 PRE: (29) (31) (24a, b, e)
-B promises to m.eet A, her lover, at her home and introduce him to her parents.
+B promises to meet A, her lover, at her home and introduce him to her parents.
 A, arriving in advance of B, is mistaken for A-7, a man who is expected to call
 and apply for the position of butler
 POST: (70; 352a) (702 ch A to F-B; 1164 ch A to F-B & A-8 to A)
@@ -3383,7 +3383,7 @@ POST: (41a, b) (49) (62) (85a, b) (153) (215a) (225) (228)
 
 (b) PRE: (14a, b, c) (15a)
 A, in love with B, secretly discovers B in the arms of A-4 * A, secretly discovering
-his sweetheart, B, in the arms ot A-4, leaves in anger, unaware that A-4 is B's
+his sweetheart, B, in the arms of A-4, leaves in anger, unaware that A-4 is B's
 brother (708 -* ch A to BR-B) just returned after a long, mysterious absence **
 POST: (172) (681a; 705; 879)
 
@@ -3612,7 +3612,7 @@ POST: (367b) (635) (859) (1163c)
 Conflict{250}
 
 PRE: (10b) (28b)
-B is in love with m, but A avoids women, believing them all tempters of Satan
+B is in love with A, but A avoids women, believing them all tempters of Satan
 POST: (45a, b) (55) (71a) (101a) (363a)
 
 Conflict{251}
@@ -7454,7 +7454,7 @@ B{13} Seeking by Craftiness to Escape Misfortune
 Conflict{650}
 
 PRE: (687) (689) (690) (691)
-A, a white rnan cast away among bloodthirsty savages, has his life spared because
+A, a white man cast away among bloodthirsty savages, has his life spared because
 he is a ventriloquist and supposed to be a god
 POST: (714) (244) (878a)
 
@@ -7829,7 +7829,7 @@ POST: (682) (686)
 Conflict{691}
 
 PRE: (1379) (1388) (1394)
-A, an explorer, loses his way m a trackless wilderness
+A, an explorer, loses his way in a trackless wilderness
 POST: (650) (689) (1426b)
 
 Conflict{692}
@@ -12056,7 +12056,7 @@ POST: (767 ch B to B-2) (1144)
 Conflict{1153}
 
 PRE: (335) (413) (739) (850a tr A & B) (1099) (1119) (1121)
-B fails m an undertaking dear to her heart * B, failing in an undertaking dear
+B fails in an undertaking dear to her heart * B, failing in an undertaking dear
 to her heart, seeks to make others think she has succeeded **
 POST: (364b) (1203)
 
@@ -12104,7 +12104,7 @@ Conflict{1159}
 
 PRE: (1033) (1220b)
 B pretends she has been injured by an automobile in order to collect damages
-from the owner oi the car, A-4
+from the owner of the car, A-4
 POST: (801 ch A to A-4) (1192) (1192; 224)
 
 -- page 150
@@ -12225,8 +12225,8 @@ Conflict{1171}
 
 PRE: (623 ch A to F-B) (773 ch A to F-B & B to B-5) (822)
 B's father, F-B, is suspected of a certain crime * B, in order to save her father, F-B,
-who .s suspected of a certain crime, confesses that she is the culprit ** A, B's best
-friend, m order to save B, who is suspected of a certain crime, declares that he
+who is suspected of a certain crime, confesses that she is the culprit ** A, B's best
+friend, in order to save B, who is suspected of a certain crime, declares that he
 alone is guilty ***
 POST: (635) (1291 ch A to A-5)
 
@@ -12393,7 +12393,7 @@ POST: (1053) (1147) (1161) (1196) (1199)
 Conflict{1191}
 
 PRE: (1129a) (1132)
-A, a crooked gambler, seeks to fleece a stranger, A-4, (1079 ch A to A-4) out oi
+A, a crooked gambler, seeks to fleece a stranger, A-4, (1079 ch A to A-4) out of
 his money * A, a crooked gambler, pretends to be a friend of A-4, a stranger, in
 order to lure him into a card game **
 POST: (1255a ch A to A-4 & A-3 to A) (1276 ch A to A-4 & A-5 to A)
@@ -13532,7 +13532,7 @@ POST: (725 ch A-5 to A-9) (596 ch A-5 to A-9) (854)
 Conflict{1304}
 
 PRE: (1079) (1085 ch A-2 to B)
-A and A-2 are placer mining m partnership * A, under cover of night, takes all
+A and A-2 are placer mining in partnership * A, under cover of night, takes all
 the wealth belonging to both himself and A-2 and decamps with it **
 POST: (488b) (701) (1048) (1160)
 
@@ -15691,7 +15691,7 @@ that has been left to him, for he knows he will be arrested 699a
 
 A, driven to bay by pursuers, takes refuge in an old house 699b
 
-A is a rnan who believes that poverty is the true source of contentment 700
+A is a man who believes that poverty is the true source of contentment 700
 
 A is a minister of the gospel 703
 
@@ -15717,7 +15717,7 @@ because of an outbreak of a contagious disease 711a
 
 A, engaged in an important enterprise, becomes involved in an automobile accident 711b
 
-A is removed in an unconscious condition frorn the scene of an accident 711b
+A is removed in an unconscious condition from the scene of an accident 711b
 
 A, seeking to carry out an important enterprise, meets with obstacles that defeat his plans 711c
 
@@ -16489,7 +16489,7 @@ for a dangerous piece of work 1081
 
 A proceeds by secret enterprise to find a man of courage 1081
 
-A is a rnan who finds cowardice an obstacle to enterprise 1082a
+A is a man who finds cowardice an obstacle to enterprise 1082a
 
 A lives in a strange lost community which is ruled by a.-, idol of Fear 1082b
 
@@ -16591,7 +16591,7 @@ although he invariably suffers loss 1079
 utmost in forwarding his undertakings 1088
 
 (1) A's obligations, which prevented him from realizing a cherished ambition, pass,
-but the habit of excusing himself frorn enterprise on account of the obligations
+but the habit of excusing himself from enterprise on account of the obligations
 remains, and his cherished enterprise is never undertaken 1097a
 
 (1) A's guilty conscience handicaps him in the field of enterprise 1110
@@ -16924,7 +16924,7 @@ A, a minister of the gospel, errs secretly on his human side and commits a moral
 transgression 1306
 
 (4) A commits a transgression when he sells a piece of woodland, part of an inherited
-estate 120 Ic
+estate 1291c
 
 (8) A, committing a transgression and escaping unsuspected, is so tortured by
 conscience that he has to give himself up and confess 1291a
@@ -16979,7 +16979,7 @@ clergyman and the other by a man of reckless nature and "shady" reputation 1336
 
 A is a transgressor posing as an honest man 1339
 
-A, a rnan of wealth and influence, holds his place in society by closely guarding
+A, a man of wealth and influence, holds his place in society by closely guarding
 a tragic secret 1346
 
 A represents guilt-masquerading-as-innocence 1349
@@ -19248,7 +19248,7 @@ A has recovered a stolen object, X, and is on his way to return it to its owner
 
 Mistaken Judgment
 
-A finds an object ot mystery, X, seemingly of great value 798
+A finds an object of mystery, X, seemingly of great value 798
 
 (4) A finds and keeps an incriminating document, X, with the intention of
 discovering the author of it at a later time 771b
@@ -20727,9 +20727,9 @@ A and B
 
 Love's Beginnings
 
-A, poor, is in love with wealthy and aristocratic B la
+A, poor, is in love with wealthy and aristocratic B 1a
 
-A, of humble birth, falls in love with aristocratic B lb
+A, of humble birth, falls in love with aristocratic B 1b
 
 A, elderly, is in love with youthful B 1d
 
@@ -20880,10 +20880,10 @@ suspicions are aroused 20b
 
 (1) A has an experience with B which causes him to become a woman hater 22b
 
-(4) A, poor, in love with wealthy B, pretends to be a man of wealth la
+(4) A, poor, in love with wealthy B, pretends to be a man of wealth 1a
 
 (4) A, of humble birth, in love with aristocratic B, pretends to be a man of high social
-standing lb
+standing 1b
 
 (4) A, elderly, in love with youthful B, seeks to forward his love affair by simulating
 youth Id
@@ -22764,7 +22764,7 @@ himself from an upper window and, his arm broken, secures aid and rescues B
 
 (2) A, a prisoner, bound, helpless and facing death, is rescued by resourceful B 878c
 
-(2) B, while carrying out an enterprise, is rescued frorn imminent danger by A 885a
+(2) B, while carrying out an enterprise, is rescued from imminent danger by A 885a
 
 (2) A, unable to rescue himself from danger incurred in saving B, is in turn rescued
 by B 885a
@@ -22973,7 +22973,7 @@ B 1386b
 
 (9) A, spurred into putting forth an unusual effort by B, succeeds in winning a fortune 1354b
 
-(13) A receives a mysterious communication from B, sent frorn a distant place where
+(13) A receives a mysterious communication from B, sent from a distant place where
 B is residing. It is evidently an important communication but difficult to decipher 1395
 
 (13) B meets A in a foreign country; and then, returning to her own country, B meets
@@ -23071,7 +23071,7 @@ in love, pretends to be in love with B, A-2's sweetheart 294b
 
 Marriage
 
-A's gift, returned by B on account of a lover's quarrel, is sent back t9 B, unknown
+A's gift, returned by B on account of a lover's quarrel, is sent back to B, unknown
 to A, by A-2, a friend of both B and A; and attached to the gift is a note
 requesting B to keep it until A calls for it in person 349
 
@@ -23368,7 +23368,7 @@ A mistakenly supposes that his wife, B, has eloped with A-3 538
 
 A believes that his wife, B, is in love with A-3 553
 
-A unhappily married to B, falls m love with B-3, a girl much younger than himself 555b
+A unhappily married to B, falls in love with B-3, a girl much younger than himself 555b
 
 B, wife of brutal and tyrannical A, has a loyal friend in A-3. A-3 seeks to help
 B escape from A 558
@@ -24723,7 +24723,7 @@ and obtain a spiritual victory over her evil nature 279
 Marriage
 
 B, of an inferior race, rescues A, of a superior race, and falls in love with him. A
-is engaged to marry B-3, a girl ot his own people 346
+is engaged to marry B-3, a girl of his own people 346
 
 A, unhappily married to B and in love with B-3, is too high-minded to seek a
 divorce 368e
