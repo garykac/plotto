@@ -565,8 +565,8 @@ but we will content ourselves with
 -- FORMAT_LINKS:prelinks indent
     (127a) (656)
 -- FORMAT_BEGIN:desc indent
-    A’s character weakness is betting; * and he seems unable to conquer the failing
-    although he invariably suffers loss **
+    A’s character weakness is betting; and he seems unable to conquer the failing
+    although he invariably suffers loss
 -- FORMAT_END
 -- FORMAT_LINKS:postlinks indent
     (367a) (524a) (902)
@@ -7290,7 +7290,7 @@ Conflict{630}
 PRE: (1226) (1214; 1227a -**)
 A seeks to defeat a grafter, A-5, at the grafter’s own game * A, seeking to defeat
 the schemes of a grafter, A-5, is betrayed by a confederate, A-2, whom A asks to
-help him ** Through A-2, A’s confederate in an enterprise, A suflEers loss ***
+help him ** Through A-2, A’s confederate in an enterprise, A suffers loss ***
 POST: (1268) (1269 tr A & A-2)
 
 Conflict{631}
@@ -11392,7 +11392,7 @@ Conflict{1079}
 
 PRE: (127a) (656)
 A’s character weakness is betting; and he seems unable to conquer the failing
-although he invariably suflEers loss
+although he invariably suffers loss
 POST: (367a) (524a) (902)
 
 Conflict{1080}
