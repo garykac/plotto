@@ -235,7 +235,7 @@ The Conflicts in Love and Courtship are re-grouped as follows:
 All the sub-groups are classified, for convenience of reference, under the middle.
 or "B," Clauses of the Masterplots; and these form the only subdivisions of the
 -- page 4
-main group, "Married Life." Conflicts of the third group. "Enterprise." fall into
+main group, "Married Life." Conflicts of the third group, "Enterprise," fall into
 the following general classifications:
 -- FORMAT_END
 
@@ -1588,7 +1588,7 @@ POST: (307) (147)
 Conflict{29}
 
 PRE: (38) (916) (925 -*) (926)
-B knows nothing of A, having fallen in love with him at "first sight'
+B knows nothing of A, having fallen in love with him at "first sight"
 POST: (31) (223) (226)
 
 Conflict{30}
@@ -1877,7 +1877,7 @@ newspaper
 POST: (298a ch A to AX; 4a ch A to AX) (1187 ch A to AX)
 
 (c) PRE: (62) (83)
-B, single, pretends that she is a married woman and assumes the name'cf "Mrs.
+B, single, pretends that she is a married woman and assumes the name of "Mrs.
 Blank"
 POST: (1242a) (947) (946)
 
@@ -4585,7 +4585,7 @@ POST: (449) (451)
 Conflict{353}
 
 PRE: (169) (139)
-A is supposed by B"s parents, F-B and M-B, to be A-2, to whom B is betrothed *
+A is supposed by B's parents, F-B and M-B, to be A-2, to whom B is betrothed *
 A elopes with B and marries her; A then returns B to F-B and M-B, tells them
 that A-2, to whom B was betrothed, is dead, and asks and receives the parental
 blessing **
