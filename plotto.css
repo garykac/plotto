@@ -1,6 +1,5 @@
 .container {
-	width: 750px;
-	max-width: none !important;
+	max-width: 750px;
 	font-family: 'Old Standard TT', serif;
 }
 
