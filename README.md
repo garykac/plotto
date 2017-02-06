@@ -20,9 +20,9 @@ It is important to note that the conflicts described in Plotto are not intended 
 
 ## Plotto and Modern Times
 
-Plotto was published in the late 20's and was written over the course of the preceding decades. During this period of history the Titanic sunk, we learned how to fly, there was a world war, and women gained the right to vote in the US. Notably missing from this period of time are things that we often take for granted in the modern world: many conveniences afforded by advances in technology and, significantly, the notiona of civil and equal rights.
+Plotto was published in the late 20's and was written over the course of the preceding decades. During this period of history the Titanic sunk, we learned how to fly, there was a world war, and women gained the right to vote in the US. Notably missing from this period are things that we often take for granted in the modern world: many conveniences afforded by advances in technology and, significantly, the notions of civil and equal rights.
 
-The outdated ideas on race can sometimes lead to some jarring experiences:
+The outdated ideas on race can sometimes lead to some jarring experiences when browsing Plotto:
 
 * [650](http://garykac.github.io/plotto/plotto-mf.html#650) "a white man cast away among bloodthirsty savages",
 * [332](http://garykac.github.io/plotto/plotto-mf.html#332) "B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom she is in love"
@@ -61,7 +61,7 @@ In addition, there is also:
 > Ashleywilde, Inc; Malibu, California  
 > 978-0962747601 (paperback, 1995)  
 
-which is clearly a bowdlerized version of the Cook's work, but makes only a passing reference to Plotto ("The authors wish to acknowledge William Wallace Cook's Plotto" in small type on the copyright page).
+which is a blatantly bowdlerized version of the Cook's work, that makes only a passing reference to Plotto ("The authors wish to acknowledge William Wallace Cook's Plotto" in small type on the copyright page).
 
 ## Articles about Plotto:
 
