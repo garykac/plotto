@@ -29,19 +29,24 @@ Plotto provides an [index of conflicts grouped by the "B" clause](http://garykac
 Most of the work with Plotto will be spent fleshing out the details of the initial B conflict. Either by working backward (toward the "A" clause) or forward (toward the "C" clause).
 
 Each conflict has a set of _before_ and _after_ suggestions that can be used to expand upon the base conflict. For example, conflict 542 has 2 **lead-up** suggestions (405 and 420) and 4 **carry-on** suggestions (377a, 386, 391 and 555a,b):
-![542](img/542.png)
+
+<img src="img/542.png" width="628" height="162" style="display: block;margin: auto;">
 
 Sometimes multiple suggestions are joined with a `;` to make a **compound** suggestion, as shown here for 571 which has a compound carry-on suggestion of 572 followed by 402.
-![571](img/571.png)
+
+<img src="img/571.png" width="628" height="162" style="display: block;margin: auto;">
 
 The text for some conflicts is divided into sections using one or more `*`s. Conflict 538 is divded into 3 sections delimited by `*`, `**` and `***`. 
-![538](img/538.png)
+
+<img src="img/538.png" width="628" height="162" style="display: block;margin: auto;">
 
 Links to conflicts may refer to one or more of the sections. Conflict 401 proposes the first section of 538 (from the start up to `*`) as a lead-up suggestion, and the last 2 sections (between the `*` and `***`) as possible carry-on suggestions.
-![401](img/401.png)
+
+<img src="img/401.png" width="628" height="162" style="display: block;margin: auto;">
 
 Lead-up and carry-on suggestions may need to change the actors in the linked conflict to match the actors in the current conflict. For example, in conflict 1039 the carry-on suggestions are 1035 (but change A-2 to A-4) and 1311 (but change A-3 to A4).
-![1039](img/1039.png)
+
+<img src="img/1039.png" width="628" height="162" style="display: block;margin: auto;">
 
 The following is a list of modifiers that might be found in the suggestion links:
 
