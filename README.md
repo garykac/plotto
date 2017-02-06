@@ -7,7 +7,7 @@ Published 1928
 This project's goal is to take the raw **Plotto** text and convert it into a
 format that can be easily parsed and hyperlinked.
 
-Electronic copies of this book (in a variety of formats) can be found at archive.org:
+Electronic copies of this book (in a variety of formats) can be found in the Internet Archive:
 https://archive.org/details/plottonewmethodo00cook
 
 ## Getting Started
@@ -73,3 +73,7 @@ which is a blatantly bowdlerized version of the Cook's work, that makes only a p
 
 * ['Plotto': An Algebra Book For Fiction Writing](http://www.npr.org/2012/02/19/146941343/plotto-an-algebra-book-for-fiction-writing)
 * [Plotto and Randomized Plot Generation](http://www.story-games.com/forums/discussion/15897/plotto-and-randomized-plot-generation)
+
+## Donate
+
+If you find this project useful, please consider donating to [Internet Archive at archive.org](https://archive.org/donate/). The Internet Archive hosts digital copies of millions of books (including Plotto) that you can access and download for free. The digital version of Plotto used to start this project was downloaded from the Internet Archive.
