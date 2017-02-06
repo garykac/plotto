@@ -14,7 +14,7 @@ https://archive.org/details/plottonewmethodo00cook
 
 The quickest way to get a feel of what Plotto offers is to simply jump to a [random plot conflict](http://garykac.github.io/plotto/plotto-mf.html?random) and then begin exploring.
 
-A detailed description can be found in [How to Use Plotto](how-to.md).
+A detailed description of how to use Plotto can be found in the (aptly named) [How to Use Plotto](how-to.md) document.
 
 It is important to note that the conflicts described in Plotto are not intended to be taken literally and applied verbatim. Rather, they are suggestions that you should adapt to fit the story that you want to tell.
 
