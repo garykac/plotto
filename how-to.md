@@ -30,23 +30,23 @@ Most of the work with Plotto will be spent fleshing out the details of the initi
 
 Each conflict has a set of _before_ and _after_ suggestions that can be used to expand upon the base conflict. For example, conflict 542 has 2 **lead-up** suggestions (405 and 420) and 4 **carry-on** suggestions (377a, 386, 391 and 555a,b):
 
-<div text-align="center"><img src="img/542.png" width="628" height="162"></div>
+<p align="center"><img src="img/542.png" width="630" height="163"></p>
 
 Sometimes multiple suggestions are joined with a `;` to make a **compound** suggestion, as shown here for 571 which has a compound carry-on suggestion of 572 followed by 402.
 
-<img src="img/571.png" width="628" height="162" style="display: block;margin: auto;">
+<p align="center"><img src="img/571.png" width="628" height="163"></p>
 
 The text for some conflicts is divided into sections using one or more `*`s. Conflict 538 is divded into 3 sections delimited by `*`, `**` and `***`. 
 
-<img src="img/538.png" width="628" height="162" style="display: block;margin: auto;">
+<p align="center"><img src="img/538.png" width="628" height="162"></p>
 
 Links to conflicts may refer to one or more of the sections. Conflict 401 proposes the first section of 538 (from the start up to `*`) as a lead-up suggestion, and the last 2 sections (between the `*` and `***`) as possible carry-on suggestions.
 
-<img src="img/401.png" width="628" height="162" style="display: block;margin: auto;">
+<p align="center"><img src="img/401.png" width="629" height="169"></p>
 
 Lead-up and carry-on suggestions may need to change the actors in the linked conflict to match the actors in the current conflict. For example, in conflict 1039 the carry-on suggestions are 1035 (but change A-2 to A-4) and 1311 (but change A-3 to A4).
 
-<img src="img/1039.png" width="628" height="162" style="display: block;margin: auto;">
+<p align="center"><img src="img/1039.png" width="629" height="155"></p>
 
 The following is a list of modifiers that might be found in the suggestion links:
 
