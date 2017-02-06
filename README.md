@@ -12,29 +12,15 @@ https://archive.org/details/plottonewmethodo00cook
 
 ## Getting Started
 
-The quickest way to get a feel of what Plotto offers is to jump to a [random plot conflict](http://garykac.github.io/plotto/plotto-mf.html?random) and then start exploring.
+The quickest way to get a feel of what Plotto offers is to simply jump to a [random plot conflict](http://garykac.github.io/plotto/plotto-mf.html?random) and then begin exploring.
 
-## How to Use Plotto
+A detailed description can be found in [How to Use Plotto](how-to.md).
 
-A, B, C
-
-Most of the work with Plotto will be spent fleshing out the details of the B conflict.
-
-Each conflict has a set of "before" and "after" suggestions that can be used to expand upon the base conflict. For example, conflict 542 has 2 **lead-up** suggestions (405 and 420) and 4 **carry-on** suggestions (377a, 386, 391 and 555a,b):
-![542](img/542.png)
-
-Sometimes multiple suggestions are joined with a `;` to make a **compound** suggestion, as shown here for 571 which has a compound carry-on suggestion of 572 followed by 402.
-![571](img/571.png)
-
-The text for some conflicts is divided into sections using one or more `*`s. Conflict 538 is divded into 3 sections delimited by `*`, `**` and `***`. 
-![538](img/538.png)
-
-Links to conflicts may refer to one or more of the sections. Conflict 401 proposes the first section of 538 (from the start up to `*`) as a lead-up suggestion, and the last 2 sections (between the `*` and `***`) as possible carry-on suggestions.
-![401](img/401.png)
+It is important to note that the conflicts described in Plotto are not intended to be taken literally and applied verbatim. Rather, they are suggestions that you should adapt to fit the story that you want to tell.
 
 ## Plotto and Modern Times
 
-Plotto was published in the late 20's and was written over the course of the preceding decades. During this period of history the Titanic sunk, we learned how to fly, there was a world war, and women gained the right to vote in the US. Notably missing from this period of time are things that we often take for granted in the modern world: many conveniences afforded by advances in technology and, significantly, the notion of civil rights.
+Plotto was published in the late 20's and was written over the course of the preceding decades. During this period of history the Titanic sunk, we learned how to fly, there was a world war, and women gained the right to vote in the US. Notably missing from this period of time are things that we often take for granted in the modern world: many conveniences afforded by advances in technology and, significantly, the notiona of civil and equal rights.
 
 The outdated ideas on race can sometimes lead to some jarring experiences:
 
@@ -42,9 +28,11 @@ The outdated ideas on race can sometimes lead to some jarring experiences:
 * [332](http://garykac.github.io/plotto/plotto-mf.html#332) "B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom she is in love"
 * [718](http://garykac.github.io/plotto/plotto-mf.html#718) "A, believed by all to be a white man, knows there is negro blood in his veins"
 
-The implicit sexism in Plotto is more subtle, but the structure of the books permits an interesting experiment. Since the "A" protagonist is male and the "B" protagonist is female, we can swap the two roles and see if any of the resulting text sounds "odd".
+The implicit sexism in Plotto is more subtle, but the rigid structure of the books permits an interesting experiment. Since the "A" protagonist is male and the "B" protagonist is female, we can swap the two roles and see if any of the resulting text sounds a bit "odd".
 
-To experiment with this, you can use the (gender-swapped version of Plotto)[http://garykac.github.io/plotto/plotto-fm.html]. The content is exactly the same as the original, except that "A" and "B" are swapped, along with any gendered terms ("him/her", "husband/wife", ...) in the text.
+To experiment with this, you can use the [gender-swapped version of Plotto](http://garykac.github.io/plotto/plotto-fm.html). The content is exactly the same as the original, except that "A" and "B" are swapped, along with any gendered terms ("him/her", "husband/wife", ...) in the text.
+
+You can also choose the gender-swapped version from the `AB` dropdown menu at the top of the page.
 
 ## Plotto in Print
 
