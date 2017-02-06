@@ -8,7 +8,7 @@ import re
 import subprocess
 import sys
 
-WRITE_DICT = True
+WRITE_DICT = False
 
 def error(msg):
 	print 'Error: %s' % (msg)
