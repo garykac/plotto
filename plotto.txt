@@ -828,6 +828,7 @@ the C Clause numbers in the Classification by Symbols.
 
 
 -- FORMAT:subtitle
+-- ID:a-clauses
 “A” Clauses
 
 -- FORMAT_LINES:bodylist
@@ -849,6 +850,7 @@ the C Clause numbers in the Classification by Symbols.
 
 
 -- FORMAT:subtitle
+-- ID:b-clauses
 “B” Clauses
 
 -- FORMAT_LINES:bodylist
@@ -916,6 +918,7 @@ the C Clause numbers in the Classification by Symbols.
 (62) Becoming involved in any sort of complication,
 
 -- FORMAT:subtitle
+-- ID:c-clauses
 “C” Clauses
 
 -- FORMAT_LINES:bodylist
@@ -940,6 +943,7 @@ the C Clause numbers in the Classification by Symbols.
 -- page 16
 
 -- FORMAT:subtitle
+-- ID:index-b-clause-conflicts
 Index of Conflicts Grouped Under the “B” Clauses
 
 -- FORMAT_LINES:bodylist
@@ -1011,6 +1015,7 @@ Index of Conflicts Grouped Under the “B” Clauses
 -- page 17
 
 -- FORMAT:subtitle
+-- ID:character-symbols
 THE PLOTTO CHARACTER SYMBOLS
 
 -- FORMAT_BEGIN:bodytext

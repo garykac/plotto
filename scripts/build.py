@@ -117,6 +117,8 @@ class Parser():
 		self.format_next_line = None
 		self.format_links = None
 		self.blank_line = False
+		
+		self.next_id = None
 
 		# Dict with count of all words found in doc.
 		self.dict = {}
@@ -273,6 +275,11 @@ class Parser():
 			if line == '-- MISTRESS master':
 				self.mistress_info = 'master'
 
+			m = re.match(r'^-- ID:(.*)', line)
+			if m:
+				self.next_id = m.group(1)
+				return
+
 			m = re.match(r'^-- FORMAT_LINES:(.*)', line)
 			if m:
 				# Put blank div between multiple FORMAT_LINES chunks.
@@ -334,8 +341,12 @@ class Parser():
 			return
 
 		if self.format_next_line:
-			self.outfile.write('<div class="{0}">{1}</div>\n'.format(self.format_next_line, line))
+			id = ''
+			if self.next_id:
+				id = ' id="{0}"'.format(self.next_id)
+			self.outfile.write('<div{2} class="{0}">{1}</div>\n'.format(self.format_next_line, line, id))
 			self.format_next_line = None
+			self.next_id = None
 			return
 
 		if self.format_links:
