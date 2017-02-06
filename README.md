@@ -10,6 +10,12 @@ format that can be easily parsed and hyperlinked.
 Electronic copies of this book (in a variety of formats) can be found in the [Internet Archive](https://archive.org/):
 https://archive.org/details/plottonewmethodo00cook
 
+## What is Plotto?
+
+Plotto is an "algebra" for stories that an author (or storyteller) can use to help create works of fiction.
+
+It is a collection of 1,462 generic plot conflicts that can be chained together into a "masterplot" that forms the core plot structure for the story.
+
 ## Getting Started
 
 The quickest way to get a feel of what Plotto offers is to simply jump to a [random plot conflict](http://garykac.github.io/plotto/plotto-mf.html?random) and then begin exploring.
