@@ -30,7 +30,7 @@ Most of the work with Plotto will be spent fleshing out the details of the initi
 
 Each conflict has a set of _before_ and _after_ suggestions that can be used to expand upon the base conflict. For example, conflict 542 has 2 **lead-up** suggestions (405 and 420) and 4 **carry-on** suggestions (377a, 386, 391 and 555a,b):
 
-<img src="img/542.png" width="628" height="162" style="display: block;margin: auto;">
+<div text-align="center"><img src="img/542.png" width="628" height="162"></div>
 
 Sometimes multiple suggestions are joined with a `;` to make a **compound** suggestion, as shown here for 571 which has a compound carry-on suggestion of 572 followed by 402.
 
