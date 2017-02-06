@@ -22,7 +22,13 @@ It is important to note that the conflicts described in Plotto are not intended 
 
 Plotto was published in the late 20's and was written over the course of the preceding decades. During this period of history the Titanic sunk, we learned how to fly, there was a world war, and women gained the right to vote in the US. Notably missing from this period are things that we often take for granted in the modern world: many conveniences afforded by advances in technology and, significantly, the notions of civil and equal rights.
 
-The outdated ideas on race can sometimes lead to some jarring experiences when browsing Plotto:
+While Plotto's disconnect from the modern world can be entertaining at times, as in the examples of "dare-devil" activity that include (from [1356](http://garykac.github.io/plotto/plotto-mf.html#1356)):
+
+* a “trick” bicycle rider with a “loop the loop” specialty
+* an aviator whose specialty is airplane stunts
+* a “human fly” who climbs the walls of tall buildings
+
+the outdated ideas on race can sometimes lead to jarring experiences:
 
 * [650](http://garykac.github.io/plotto/plotto-mf.html#650) "a white man cast away among bloodthirsty savages",
 * [332](http://garykac.github.io/plotto/plotto-mf.html#332) "B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom she is in love"
