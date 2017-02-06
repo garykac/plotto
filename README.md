@@ -1,9 +1,7 @@
 # Plotto
 
-Plotto - A new method of plot suggestion for writers of creative fiction
-
-by William Wallace Cook, 1867-1933
-
+Plotto - A new method of plot suggestion for writers of creative fiction  
+by William Wallace Cook, 1867-1933  
 Published 1928
 
 This project's goal is to take the raw Plotto text and convert it into a
@@ -18,7 +16,21 @@ The quickest way to get a feel of what Plotto offers is to jump to a [random plo
 
 ## How to Use Plotto
 
-TODO
+A, B, C
+
+Most of the work with Plotto will be spent fleshing out the details of the B conflict.
+
+Each conflict has a set of "before" and "after" suggestions that can be used to expand upon the base conflict. For example, conflict 542 has 2 **lead-up** suggestions (405 and 420) and 4 **carry-on** suggestions (377a, 386, 391 and 555a,b):
+![542](img/542.png)
+
+Sometimes multiple suggestions are joined with a `;` to make a **compound** suggestion, as shown here for 571 which has a compound carry-on suggestion of 572 followed by 402.
+![571](img/571.png)
+
+The text for some conflicts is divided into sections using one or more `*`s. Conflict 538 is divded into 3 sections delimited by `*`, `**` and `***`. 
+![538](img/538.png)
+
+Links to conflicts may refer to one or more of the sections. Conflict 401 proposes the first section of 538 (from the start up to `*`) as a lead-up suggestion, and the last 2 sections (between the `*` and `***`) as possible carry-on suggestions.
+![401](img/401.png)
 
 ## Plotto and Modern Times
 
