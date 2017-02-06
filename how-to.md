@@ -59,7 +59,7 @@ Multiple modifiers may be applied to the same suggestion using `&`.
 
 ## The Characters
 
-To simplify descriptions, Plotto always uses the letter `A` for the make protagonist and `B` for the female protagonist.
+To simplify descriptions, Plotto always uses the letter `A` for the male protagonist and `B` for the female protagonist.
 
 In addition, various other characters are given abbreviations based on their relationship with `A` or `B`, for example:
 
