@@ -258,6 +258,7 @@ class Parser():
 
 				if self.page == '18':
 					self.in_conflict_section = True
+					self.outfile.write('</div>\n')  # End the 'frontmatter' section
 				if self.page == '190':
 					self.in_conflict_section = False
 					self.id = ''
@@ -446,6 +447,7 @@ class Parser():
 		self.write_navbar()
 
 		self.outfile.write('<div class="container">\n')
+		self.outfile.write('<div class="frontmatter">\n')
 
 	def write_html_footer(self):
 		self.outfile.write('</div>\n')

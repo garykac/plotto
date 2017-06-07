@@ -40,7 +40,7 @@ including the Scandinavian.
 
 -- page iii
 
--- FORMAT_BEGIN:frontmatter
+-- FORMAT_BEGIN:dedication
 The Soul, with its human faculties which put it in
 immediate touch with the Universe, is a Divine Instrument,
 an Aeolian Harp which is not played upon
@@ -52,7 +52,7 @@ of the human faculties, interprets in Creative Art.
 To this high interpretation, through fictional narrative,
 -- FORMAT_END
 
--- FORMAT:frontmatter
+-- FORMAT:dedication
 Plotto is dedicated.
 
 -- HR
