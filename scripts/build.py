@@ -99,6 +99,7 @@ class Parser():
 
 		self.page = 0
 		self.in_conflict_section = False
+		self.in_conflict_div = False
 		self.in_conflict = False
 
 		self.group = ''
@@ -386,6 +387,8 @@ class Parser():
 			if m:
 				self.id = m.group(1)
 				self.links[self.id] = []
+				if self.in_conflict_div:
+					self.write_conflict_footer()
 				self.write_conflict_header()
 				return
 
@@ -484,7 +487,13 @@ class Parser():
 		self.outfile.write('\n<div class="bclause">({0}) {1}</div>\n'.format(id, name))
 
 	def write_conflict_header(self):
-		self.outfile.write('\n<div class="conflictid" id="{0}">{1}</div>\n'.format(self.id, self.id))
+		self.outfile.write('\n<div class="conflict" id="{0}">\n'.format(self.id))
+		self.in_conflict_div = True
+		self.outfile.write('\n<div class="conflictid"">{0}</div>\n'.format(self.id))
+
+	def write_conflict_footer(self):
+		self.outfile.write('\n</div>\n')
+		self.in_conflict_div = False
 
 	def write_conflict_subheader(self, subid, links):
 		prefix = ''
@@ -614,6 +623,8 @@ class Parser():
 			if self.A == 'f' and self.B == 'm':
 				line = self.preprocess_line(line)
 			self.process_line(line)
+		if self.in_conflict_div:
+			self.write_conflict_footer()
 		self.write_html_footer()
 
 		outfile.close()
