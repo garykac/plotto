@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os.path
 import re
 import subprocess
@@ -28,7 +31,7 @@ class Parser():
 				'(D|F|GF|M|NW|P|SN|SR|U)-A|'
 				'(D|F|GF|M|SM|SN|SR)-B|'
 				'CH|CN|D|FA|FB|GCH|NW|SN|SR|SX|U|X|'
-				'".*?"'
+				'“.*?”'
 				')')
 
 		# Sequence: (123; 234)
@@ -82,7 +85,7 @@ class Parser():
 		link = m.group('extra')
 
 		# transpose & eliminate
-		m = re.match(r'^( tr %s & %s and eliminate ".*")?(?P<extra>.*)$' % (char, char), link)
+		m = re.match(r'^( tr %s & %s and eliminate “.*”)?(?P<extra>.*)$' % (char, char), link)
 		if not m:
 			return False
 		link = m.group('extra')
@@ -106,7 +109,7 @@ class Parser():
 		link = m.group('extra')
 
 		# change & eliminate
-		m = re.match(r'^( ch %s to %s & eliminate ".*")?(?P<extra>.*)$' % (char, char), link)
+		m = re.match(r'^( ch %s to %s & eliminate “.*”)?(?P<extra>.*)$' % (char, char), link)
 		if not m:
 			return False
 		link = m.group('extra')
@@ -136,7 +139,7 @@ class Parser():
 		link = m.group('extra')
 
 		# add
-		m = re.match(r'^(, (".*"|(with|son|daughter|mother).*))?$', link)
+		m = re.match(r'^(, (“.*”|(with|son|daughter|mother).*))?$', link)
 		if not m:
 			return False
 		link = ''
@@ -214,7 +217,7 @@ class Parser():
 			line2 = m.group(1)
 			while len(line2) != 0:
 				# Q&D regex to catch obviously incorrect chars.
-				m = re.match(r'^\(([a-zA-Z\d "\'&\*,;-]*)\) ?(.*)$', line2)
+				m = re.match(r'^\(([a-zA-Z\d “”’&\*,;-]*)\) ?(.*)$', line2)
 				if m:
 					line2 = m.group(2)
 					if not self.validate_link(m.group(1)):
