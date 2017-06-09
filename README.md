@@ -40,6 +40,8 @@ the outdated ideas on race can sometimes lead to jarring experiences:
 * [332](http://garykac.github.io/plotto/plotto-mf.html#332) "B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom she is in love"
 * [718](http://garykac.github.io/plotto/plotto-mf.html#718) "A, believed by all to be a white man, knows there is negro blood in his veins"
 
+_(Note: The examples given above are the relatively safe - there are (unfortunately) far worse examples to be found in the text)._
+
 The implicit sexism in Plotto is more subtle, but the rigid structure of the books permits an interesting experiment. Since the "A" protagonist is male and the "B" protagonist is female, we can swap the two roles and see if any of the resulting text sounds a bit "odd".
 
 To experiment with this, you can use the [gender-swapped version of Plotto](http://garykac.github.io/plotto/plotto-fm.html). The content is exactly the same as the original, except that "A" and "B" are swapped, along with any gendered terms ("him/her", "husband/wife", ...) in the text.
@@ -82,4 +84,4 @@ which is a blatantly bowdlerized version of the Cook's work, that makes only a p
 
 ## Donate
 
-If you find this project useful, please consider [donating to the Internet Archive at archive.org](https://archive.org/donate/). The [Internet Archive](https://archive.org/) hosts digital copies of millions of books (including Plotto) that you can access and download for free. The digital version of Plotto used to start this project was downloaded from the [Internet Archive](https://archive.org/).
+If you find this project useful, consider [donating to the Internet Archive at archive.org](https://archive.org/donate/). The [Internet Archive](https://archive.org/) hosts digital copies of millions of books (including Plotto) that you can access and download for free. The digital version of Plotto used to start this project was downloaded from the [Internet Archive](https://archive.org/).
