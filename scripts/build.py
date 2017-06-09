@@ -432,15 +432,9 @@ class Parser():
 		self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
 		self.outfile.write('\t<link rel="stylesheet" type="text/css" href="plotto.css"/>\n')
 		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
+		self.outfile.write('\t<script type="text/javascript" src="js/random.js" ></script>\n')
 		self.outfile.write('</head>\n')
 		self.outfile.write('<body>\n')
-
-		self.outfile.write('<script>\n')
-		self.outfile.write('url = window.location.href.split("?");\n')
-		self.outfile.write('if (url.length != 1 && url[1] == "random") {\n')
-		self.outfile.write('\twindow.location.assign(url[0] + "#" + Math.floor(Math.random() * 1462 + 1));\n')
-		self.outfile.write('}\n')
-		self.outfile.write('</script>\n')
 
 		self.write_navbar()
 
