@@ -11,3 +11,6 @@ css=plotto.css
 
 # True to swap the default gender assumptions for A and B.
 gender_swap=False
+
+# True to automatically include Bootstrap CSS and JS files.
+include_bootstrap=True

@@ -121,6 +121,7 @@ class Parser():
 
 		self.js_files = []
 		self.css_files = []
+		self.enable_bootstrap = True
 		
 		# Dict with count of all words found in doc.
 		self.dict = {}
@@ -195,7 +196,10 @@ class Parser():
 			self.css_files = [css]
 		else:
 			self.css_files = css
-		
+
+	def enableBootstrap(self, enable):
+		self.enableBootstrap = enable
+			
 	def parse_links(self, links):
 		hyperlinks = ''
 		while len(links) != 0:
@@ -444,7 +448,8 @@ class Parser():
 		self.outfile.write('\t<meta http-equiv="X-UA-Compatible" content="IE=edge">\n')
 		self.outfile.write('\t<meta name="viewport" content="width=device-width, initial-scale=1">\n')
 		self.outfile.write('\t<title>Plotto</title></head>\n')
-		self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
+		if self.enable_bootstrap:
+			self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
 		for css in self.css_files:
 			self.outfile.write('\t<link rel="stylesheet" type="text/css" href="css/%s"/>\n' % css)
 		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
@@ -460,8 +465,9 @@ class Parser():
 
 	def write_html_footer(self):
 		self.outfile.write('</div>\n')
-		self.outfile.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>\n')
-		self.outfile.write('<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>\n')
+		if self.enable_bootstrap:
+			self.outfile.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>\n')
+			self.outfile.write('<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>\n')
 		self.outfile.write('</body>\n')
 		self.outfile.write('</html>\n')
 
@@ -730,6 +736,7 @@ def main():
 		config['gender_swap'] = False
 		config['javascript'] = 'random.js'
 		config['css'] = 'plotto.css'
+		config['include_bootstrap'] = True
 	#print config
 		
 	# The raw input file (with the Plotto text).
@@ -744,6 +751,7 @@ def main():
 	parser.setAB(gender)
 	parser.setJavascript(config['javascript'])
 	parser.setCss(config['css'])
+	parser.enableBootstrap(config['include_bootstrap'])
 	parser.process(infilename, config['output_file'])
 	if write_dict:
 		parser.write_dict()
