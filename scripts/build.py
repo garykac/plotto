@@ -120,6 +120,7 @@ class Parser():
 		self.next_id = None
 
 		self.js_files = []
+		self.css_files = []
 		
 		# Dict with count of all words found in doc.
 		self.dict = {}
@@ -188,6 +189,12 @@ class Parser():
 			self.js_files = [js]
 		else:
 			self.js_files = js
+		
+	def setCss(self, css):
+		if isinstance(css, basestring):
+			self.css_files = [css]
+		else:
+			self.css_files = css
 		
 	def parse_links(self, links):
 		hyperlinks = ''
@@ -438,7 +445,8 @@ class Parser():
 		self.outfile.write('\t<meta name="viewport" content="width=device-width, initial-scale=1">\n')
 		self.outfile.write('\t<title>Plotto</title></head>\n')
 		self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
-		self.outfile.write('\t<link rel="stylesheet" type="text/css" href="plotto.css"/>\n')
+		for css in self.css_files:
+			self.outfile.write('\t<link rel="stylesheet" type="text/css" href="css/%s"/>\n' % css)
 		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
 		for js in self.js_files:
 			self.outfile.write('\t<script type="text/javascript" src="js/%s" ></script>\n' % js)
@@ -721,6 +729,7 @@ def main():
 		config['output_file'] = '../plotto.html'
 		config['gender_swap'] = False
 		config['javascript'] = 'random.js'
+		config['css'] = 'plotto.css'
 	#print config
 		
 	# The raw input file (with the Plotto text).
@@ -734,6 +743,7 @@ def main():
 	parser = Parser()
 	parser.setAB(gender)
 	parser.setJavascript(config['javascript'])
+	parser.setCss(config['css'])
 	parser.process(infilename, config['output_file'])
 	if write_dict:
 		parser.write_dict()

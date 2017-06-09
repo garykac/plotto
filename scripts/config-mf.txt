@@ -6,5 +6,8 @@ output_file=../plotto-mf.html
 # List of js files to include, separated by ','s with no extra spaces.
 javascript=random.js
 
+# List of CSS files to include, separated by ','s with no extra spaces.
+css=plotto.css
+
 # True to swap the default gender assumptions for A and B.
 gender_swap=False
