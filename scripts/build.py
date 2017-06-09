@@ -3,12 +3,10 @@
 
 # Run this script from within the scripts/ directory.
 
+import getopt
 import os.path
 import re
-import subprocess
 import sys
-
-WRITE_DICT = False
 
 def error(msg):
 	print 'Error: %s' % (msg)
@@ -659,16 +657,75 @@ class Parser():
 			outfile.write('%d %s\n' % (self.dict[word], word))
 
 		outfile.close()
-	
-def main():
-	infilename = '../plotto.txt'
 
-	for version in ['mf', 'fm']:
-		parser = Parser()
-		parser.setAB(version)
-		parser.process(infilename, '../plotto-{0}.html'.format(version))
-		if WRITE_DICT:
-			parser.write_dict()
+def usage():
+	print 'Usage: %s <options>' % sys.argv[0]
+	print 'where <options> are:'
+	print '  --config <config-file-name>'
+	print '  --dict'  # write word frequency dict
+	print '  --verbose'  # verbose debug output
+	
+def load_config(file):
+	config = {}
+	try:
+		config_file = open(file, 'r')
+	except IOError as e:
+		error('Unable to open config file "%s": %s' % (file, e))
+	
+	for line in config_file:
+		line = line.strip()
+		(k,v) = line.split('=')
+		if v == 'True':
+			config[k] = True
+		elif v == 'False':
+			config[k] = False
+		else:
+			config[k] = v
+		
+	config_file.close()
+	return config
+
+def main():
+	try:
+		opts, args = getopt.getopt(sys.argv[1:],
+			'c:dv',
+			['config=', 'dict', 'verbose'])
+	except getopt.GetoptError:
+		usage()
+		exit()
+
+	config_file = None
+	write_dict = False
+	verbose = False
+	
+	for opt, arg in opts:
+		if opt in ('-c', '--config'):
+			config_file = arg
+		elif opt in ('-d', '--dict'):
+			write_dict = True
+		elif opt in ('-v', '--verbose'):
+			verbose = True
+
+	if config_file:
+		config = load_config(config_file)
+	else:
+		config = {}
+		config['output_file'] = '../plotto.html'
+		config['gender_swap'] = False
+	
+	# The raw input file (with the Plotto text).
+	infilename = '../plotto.txt'
+	gender = 'mf'
+	if config['gender_swap']:
+		gender = 'fm'
+
+	print 'Building', config['output_file'], '...'
+	
+	parser = Parser()
+	parser.setAB(gender)
+	parser.process(infilename, config['output_file'])
+	if write_dict:
+		parser.write_dict()
 	
 if __name__ == '__main__':
 	main()
