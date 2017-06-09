@@ -1,2 +1,3 @@
+# Configuration file for A=male, B=female version of Plotto
 output_file=../plotto-mf.html
 gender_swap=False

@@ -668,6 +668,8 @@ def load_config(file):
 	
 	for line in config_file:
 		line = line.strip()
+		if line[0] == '#':
+			continue
 		(k,v) = line.split('=')
 		if v == 'True':
 			config[k] = True
