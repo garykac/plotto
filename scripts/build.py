@@ -119,6 +119,8 @@ class Parser():
 		
 		self.next_id = None
 
+		self.js_files = []
+		
 		# Dict with count of all words found in doc.
 		self.dict = {}
 		
@@ -181,6 +183,12 @@ class Parser():
 		self.A = ab[0]
 		self.B = ab[1]
 
+	def setJavascript(self, js):
+		if isinstance(js, basestring):
+			self.js_files = [js]
+		else:
+			self.js_files = js
+		
 	def parse_links(self, links):
 		hyperlinks = ''
 		while len(links) != 0:
@@ -432,7 +440,8 @@ class Parser():
 		self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
 		self.outfile.write('\t<link rel="stylesheet" type="text/css" href="plotto.css"/>\n')
 		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
-		self.outfile.write('\t<script type="text/javascript" src="js/random.js" ></script>\n')
+		for js in self.js_files:
+			self.outfile.write('\t<script type="text/javascript" src="js/%s" ></script>\n' % js)
 		self.outfile.write('</head>\n')
 		self.outfile.write('<body>\n')
 
@@ -668,13 +677,15 @@ def load_config(file):
 	
 	for line in config_file:
 		line = line.strip()
-		if line[0] == '#':
+		if line == '' or line[0] == '#':
 			continue
 		(k,v) = line.split('=')
 		if v == 'True':
 			config[k] = True
 		elif v == 'False':
 			config[k] = False
+		elif ',' in v:
+			config[k] = v.split(',')
 		else:
 			config[k] = v
 		
@@ -705,10 +716,13 @@ def main():
 	if config_file:
 		config = load_config(config_file)
 	else:
+		# Default configuration
 		config = {}
 		config['output_file'] = '../plotto.html'
 		config['gender_swap'] = False
-	
+		config['javascript'] = 'random.js'
+	#print config
+		
 	# The raw input file (with the Plotto text).
 	infilename = '../plotto.txt'
 	gender = 'mf'
@@ -719,6 +733,7 @@ def main():
 	
 	parser = Parser()
 	parser.setAB(gender)
+	parser.setJavascript(config['javascript'])
 	parser.process(infilename, config['output_file'])
 	if write_dict:
 		parser.write_dict()

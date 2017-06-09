@@ -1,3 +1,10 @@
-# Configuration file for A=female, B=male version of Plotto
+### Configuration file for A=female, B=male version of Plotto
+
+# Target output file.
 output_file=../plotto-fm.html
+
+# List of js files to include, separated by ','s with no extra spaces.
+javascript=random.js
+
+# True to swap the default gender assumptions for A and B.
 gender_swap=True
