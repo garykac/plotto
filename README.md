@@ -59,7 +59,7 @@ Physical copies of the original books are rare:
 But it has been reprinted a few times recently:
 
 > [**Plotto: The Master Book of All Plots**](https://www.amazon.com/Plotto-Master-Book-All-Plots/dp/1941040551)  
-> by William Wallace Cook, foreword by Paul Collins  
+> by William Wallace Cook, foreword by Paul Collins  
 > Tin House Books; Portland, Oregon  
 > 978-1935639183 (hardback, 2011) 978-1941040553 (paperback, 2016)  
 
