@@ -3464,7 +3464,7 @@ POST: (182b) (1330) (1351) (1363)
 
 Conflict{232}
 
-PRE: (21b, c, d, e)
+PRE: (24b, c, d, e)
 A is an aristocrat; and B, the woman he loves, is a “daughter of the people” and
 hates the aristocracy * A, an aristocrat, in love with a working girl, B, pretends to
 be a toiler **
