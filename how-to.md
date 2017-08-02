@@ -36,7 +36,7 @@ Sometimes multiple suggestions are joined with a `;` to make a **compound** sugg
 
 <p align="center"><img src="img/571.png" width="628" height="163"></p>
 
-The text for some conflicts is divided into sections using one or more `*`s. Conflict 538 is divded into 3 sections delimited by `*`, `**` and `***`. 
+The text for some conflicts is divided into sections using one or more `*`s. Conflict 538 is divided into 3 sections delimited by `*`, `**` and `***`. 
 
 <p align="center"><img src="img/538.png" width="628" height="162"></p>
 
