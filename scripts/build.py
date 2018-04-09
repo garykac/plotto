@@ -255,6 +255,7 @@ class Parser():
 		id = m.group(1)
 		subid = m.group(2)
 
+		orig_link = orig_link.replace("&", "&amp;")
 		return '<a href="#{0}" class="clink">{1}</a>'.format(id, orig_link)
 
 	# Process an entire line from the file.
@@ -348,7 +349,7 @@ class Parser():
 		if self.format_paragraph:
 			if line == '':
 				if not self.blank_line:
-					self.outfile.write('</div><div class="{0}">\n'.format(self.format_paragraph))
+					self.outfile.write('</div>\n<div class="{0}">\n'.format(self.format_paragraph))
 					self.blank_line = True
 			else:
 				self.outfile.write('{0}\n'.format(self.add_tags(line)))
@@ -444,15 +445,15 @@ class Parser():
 		self.outfile.write('<!DOCTYPE html>\n')
 		self.outfile.write('<html lang="en">\n')
 		self.outfile.write('<head>\n')
-		self.outfile.write('\t<meta charset="utf-8">\n')
-		self.outfile.write('\t<meta http-equiv="X-UA-Compatible" content="IE=edge">\n')
-		self.outfile.write('\t<meta name="viewport" content="width=device-width, initial-scale=1">\n')
+		self.outfile.write('\t<meta charset="utf-8" />\n')
+		self.outfile.write('\t<meta http-equiv="X-UA-Compatible" content="IE=edge" />\n')
+		self.outfile.write('\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n')
 		self.outfile.write('\t<title>Plotto</title>\n')
 		if self.enable_bootstrap:
-			self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">\n')
+			self.outfile.write('\t<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />\n')
 		for css in self.css_files:
-			self.outfile.write('\t<link rel="stylesheet" type="text/css" href="css/%s"/>\n' % css)
-		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
+			self.outfile.write('\t<link rel="stylesheet" type="text/css" href="css/%s" />\n' % css)
+		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css" />\n')
 		for js in self.js_files:
 			self.outfile.write('\t<script src="js/%s" ></script>\n' % js)
 		self.outfile.write('</head>\n')
@@ -481,11 +482,11 @@ class Parser():
 		self.outfile.write('\t\t<div class="collapse navbar-collapse" id="navbar-right">\n')
 		self.outfile.write('\t\t<ul class="nav navbar-nav navbar-right">\n')
 		self.outfile.write('\t\t<li class="dropdown">\n')
-		self.outfile.write('\t\t  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AB <span class="caret"></span></a>\n')
-		self.outfile.write('\t\t  <ul class="dropdown-menu">\n')
-		self.outfile.write('\t\t	<li><a href="plotto-mf.html">A=male, B=female</a></li>\n')
-		self.outfile.write('\t\t	<li><a href="plotto-fm.html">A=female, B=male</a></li>\n')
-		self.outfile.write('\t\t  </ul>\n')
+		self.outfile.write('\t\t\t<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">AB <span class="caret"></span></a>\n')
+		self.outfile.write('\t\t\t<ul class="dropdown-menu">\n')
+		self.outfile.write('\t\t\t\t<li><a href="plotto-mf.html">A=male, B=female</a></li>\n')
+		self.outfile.write('\t\t\t\t<li><a href="plotto-fm.html">A=female, B=male</a></li>\n')
+		self.outfile.write('\t\t\t</ul>\n')
 		self.outfile.write('\t\t</li>\n')
 		self.outfile.write('\t\t</ul>\n')
 		self.outfile.write('\t\t</div>\n')
