@@ -454,7 +454,7 @@ class Parser():
 			self.outfile.write('\t<link rel="stylesheet" type="text/css" href="css/%s"/>\n' % css)
 		self.outfile.write('\t<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700" rel="stylesheet" type="text/css">\n')
 		for js in self.js_files:
-			self.outfile.write('\t<script type="text/javascript" src="js/%s" ></script>\n' % js)
+			self.outfile.write('\t<script src="js/%s" ></script>\n' % js)
 		self.outfile.write('</head>\n')
 		self.outfile.write('<body>\n')
 
