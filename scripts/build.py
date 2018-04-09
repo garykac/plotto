@@ -506,7 +506,7 @@ class Parser():
 	def write_conflict_header(self):
 		self.outfile.write('\n<div class="conflict" id="{0}">\n'.format(self.id))
 		self.in_conflict_div = True
-		self.outfile.write('\n<div class="conflictid"">{0}</div>\n'.format(self.id))
+		self.outfile.write('\n<div class="conflictid">{0}</div>\n'.format(self.id))
 
 	def write_conflict_footer(self):
 		self.outfile.write('\n</div>\n')
