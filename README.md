@@ -1,6 +1,6 @@
 # Plotto
 
-**Plotto - A new method of plot suggestion for writers of creative fiction**  
+[**Plotto - A new method of plot suggestion for writers of creative fiction**](http://garykac.github.io/plotto/plotto-mf.html)  
 by William Wallace Cook, 1867-1933  
 Published 1928
 
