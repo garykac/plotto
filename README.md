@@ -1,6 +1,6 @@
 # Plotto
 
-[**Plotto - A new method of plot suggestion for writers of creative fiction**](http://garykac.github.io/plotto/plotto-mf.html)  
+[**Plotto - A new method of plot suggestion for writers of creative fiction**](https://garykac.github.io/plotto/plotto-mf.html)  
 by William Wallace Cook, 1867-1933  
 Published 1928
 
@@ -18,7 +18,7 @@ It is a collection of 1,462 generic plot conflicts that can be chained together 
 
 ## Getting Started
 
-The quickest way to get a feel of what Plotto offers is to simply jump to a [random plot conflict](http://garykac.github.io/plotto/plotto-mf.html?random) and then begin exploring.
+The quickest way to get a feel of what Plotto offers is to simply jump to a [random plot conflict](https://garykac.github.io/plotto/plotto-mf.html?random) and then begin exploring.
 
 A detailed description of how to use Plotto can be found in the (aptly named) [How to Use Plotto](how-to.md) document.
 
@@ -28,7 +28,7 @@ It is important to note that the conflicts described in Plotto are not intended 
 
 Plotto was published in the late 20's and was written over the course of the preceding decades. During this period of history the Titanic sunk, we learned how to fly, there was a world war, and women gained the right to vote in the US. Notably missing from this period are things that we often take for granted in the modern world: many conveniences afforded by advances in technology and, significantly, the notions of civil and equal rights.
 
-While Plotto's disconnect from the modern world can be entertaining at times, as in the examples of "dare-devil" activity that include (from [1356](http://garykac.github.io/plotto/plotto-mf.html#1356)):
+While Plotto's disconnect from the modern world can be entertaining at times, as in the examples of "dare-devil" activity that include (from [1356](https://garykac.github.io/plotto/plotto-mf.html#1356)):
 
 * a “trick” bicycle rider with a “loop the loop” specialty
 * an aviator whose specialty is airplane stunts
@@ -36,9 +36,9 @@ While Plotto's disconnect from the modern world can be entertaining at times, as
 
 the outdated ideas on race can sometimes lead to jarring experiences:
 
-* [650](http://garykac.github.io/plotto/plotto-mf.html#650) "a white man cast away among bloodthirsty savages",
-* [332](http://garykac.github.io/plotto/plotto-mf.html#332) "B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom she is in love"
-* [718](http://garykac.github.io/plotto/plotto-mf.html#718) "A, believed by all to be a white man, knows there is negro blood in his veins"
+* [650](https://garykac.github.io/plotto/plotto-mf.html#650) "a white man cast away among bloodthirsty savages",
+* [332](https://garykac.github.io/plotto/plotto-mf.html#332) "B, of alien blood and inferior race, seeks to marry A, the Caucasian with whom she is in love"
+* [718](https://garykac.github.io/plotto/plotto-mf.html#718) "A, believed by all to be a white man, knows there is negro blood in his veins"
 
 _(Note: The examples given above are the relatively safe - there are (unfortunately) far worse examples to be found in the text)._
 
@@ -79,7 +79,7 @@ which is a blatantly bowdlerized version of the Cook's work, that makes only a p
 
 ## Articles about Plotto:
 
-* ['Plotto': An Algebra Book For Fiction Writing](http://www.npr.org/2012/02/19/146941343/plotto-an-algebra-book-for-fiction-writing)
+* ['Plotto': An Algebra Book For Fiction Writing](https://www.npr.org/2012/02/19/146941343/plotto-an-algebra-book-for-fiction-writing)
 * [Plotto and Randomized Plot Generation](http://www.story-games.com/forums/discussion/15897/plotto-and-randomized-plot-generation)
 
 ## Donate
