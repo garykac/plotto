@@ -10,11 +10,11 @@ In Plotto, each Masterplot consists of an "A", "B" and "C" clause.
 * The B Clause originates and carries on the action.
 * The C Clause carries on and terminates the action.
 
-Generally, you will select one of the [15 "A" clauses](http://garykac.github.io/plotto/plotto-mf.html#a-clauses) to define the starting position for the protagonist, for example, "A Person of Ideals".
+Generally, you will select one of the [15 "A" clauses](https://garykac.github.io/plotto/plotto-mf.html#a-clauses) to define the starting position for the protagonist, for example, "A Person of Ideals".
 
-Then you select one of the [62 "B" clauses](http://garykac.github.io/plotto/plotto-mf.html#b-clauses) to identify the main action of the story. For example, "Being impelled by an unusual motive to engage in crafty enterprise".
+Then you select one of the [62 "B" clauses](https://garykac.github.io/plotto/plotto-mf.html#b-clauses) to identify the main action of the story. For example, "Being impelled by an unusual motive to engage in crafty enterprise".
 
-And finally, one of the [15 "C" clauses](http://garykac.github.io/plotto/plotto-mf.html#c-clauses) is selected to specify the ending, for example, "Emerges from a trying ordeal with sorely garnered wisdom".
+And finally, one of the [15 "C" clauses](https://garykac.github.io/plotto/plotto-mf.html#c-clauses) is selected to specify the ending, for example, "Emerges from a trying ordeal with sorely garnered wisdom".
 
 Once this basic A/B/C framework is complete, the "B" clause can now be expanded by identifying the initial B conflict.
 
@@ -22,7 +22,7 @@ Once this basic A/B/C framework is complete, the "B" clause can now be expanded 
 
 Once the B clause has been chosen, a suitable conflict can be found that fits that clause.
 
-Plotto provides an [index of conflicts grouped by the "B" clause](http://garykac.github.io/plotto/plotto-mf.html#index-b-clause-conflicts) that can be used as a starting point.
+Plotto provides an [index of conflicts grouped by the "B" clause](https://garykac.github.io/plotto/plotto-mf.html#index-b-clause-conflicts) that can be used as a starting point.
 
 ## Expanding B Conflicts
 
@@ -72,4 +72,4 @@ In addition, various other characters are given abbreviations based on their rel
 * BR-B, brother of B
 * SR-B, sister of B
 
-A full list of these abbreviations can be found in the [The Plotto Character Symbols](http://garykac.github.io/plotto/plotto-mf.html#character-symbols).
+A full list of these abbreviations can be found in the [The Plotto Character Symbols](https://garykac.github.io/plotto/plotto-mf.html#character-symbols).
