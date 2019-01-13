@@ -44,7 +44,7 @@ _(Note: The examples given above are the relatively safe - there are (unfortunat
 
 The implicit sexism in Plotto is more subtle, but the rigid structure of the books permits an interesting experiment. Since the "A" protagonist is male and the "B" protagonist is female, we can swap the two roles and see if any of the resulting text sounds a bit "odd".
 
-To experiment with this, you can use the [gender-swapped version of Plotto](http://garykac.github.io/plotto/plotto-fm.html). The content is exactly the same as the original, except that "A" and "B" are swapped, along with any gendered terms ("him/her", "husband/wife", ...) in the text.
+To experiment with this, you can use the [gender-swapped version of Plotto](https://garykac.github.io/plotto/plotto-fm.html). The content is exactly the same as the original, except that "A" and "B" are swapped, along with any gendered terms ("him/her", "husband/wife", ...) in the text.
 
 You can also choose the gender-swapped version from the `AB` dropdown menu at the top of the page.
 
